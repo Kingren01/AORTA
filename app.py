@@ -1615,425 +1615,86 @@ def get_llm_config() -> tuple[str, str, str, str]:
 def inject_custom_css():
     st.markdown("""
         <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
-
-        /* ── Global reset & dark base ── */
-        html, body, [class*="css"] {
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+        
+        /* Typography */
+        html, body, [class*="css"]  {
             font-family: 'Inter', system-ui, sans-serif !important;
-            background-color: #0F172A !important;
-            color: #F8FAFC !important;
         }
-
-        /* App background */
-        .stApp {
-            background-color: #0F172A !important;
-        }
-        [data-testid="stAppViewContainer"] {
-            background-color: #0F172A !important;
-        }
-        [data-testid="stHeader"] {
-            background-color: #0A0F1E !important;
-            border-bottom: 1px solid #1E3A5F !important;
-        }
-
-        /* ── Sidebar ── */
-        [data-testid="stSidebar"] {
-            background-color: #1E293B !important;
-            border-right: 1px solid #334155 !important;
-        }
-        [data-testid="stSidebar"] * {
-            color: #E2E8F0 !important;
-        }
-        [data-testid="stSidebar"] h1,
-        [data-testid="stSidebar"] h2,
-        [data-testid="stSidebar"] h3 {
-            color: #F8FAFC !important;
-            font-weight: 600 !important;
-            letter-spacing: 0.02em !important;
-        }
-        [data-testid="stSidebarNav"] {
-            background-color: #1E293B !important;
-        }
-
-        /* ── Typography ── */
         h1, h2, h3, h4, h5, h6 {
             font-family: 'Inter', system-ui, sans-serif !important;
             font-weight: 600 !important;
-            color: #F8FAFC !important;
+            color: #0F172A !important;
         }
-        p, span, li {
-            color: #CBD5E1 !important;
+        p, span, div {
+            font-weight: 400;
         }
-
-        /* ── Layout ── */
+        
+        /* Layout and spacing */
         .block-container {
-            padding-top: 28px !important;
+            padding-top: 32px !important;
             padding-bottom: 32px !important;
-            padding-left: 28px !important;
-            padding-right: 28px !important;
-            max-width: 1280px;
+            padding-left: 24px !important;
+            padding-right: 24px !important;
+            max-width: 1200px;
         }
-        hr, [data-testid="stDivider"] {
-            margin-top: 12px !important;
-            margin-bottom: 12px !important;
-            border-color: #334155 !important;
+        hr {
+            margin-top: 16px;
+            margin-bottom: 16px;
+            border-color: #E2E8F0;
         }
-
-        /* ── Buttons ── */
-        .stButton > button {
-            background-color: transparent !important;
-            border: 1px solid #334155 !important;
+        
+        /* Components: Buttons */
+        .stButton button {
             border-radius: 6px !important;
-            color: #CBD5E1 !important;
+            border: 1px solid #CBD5E1 !important;
+            box-shadow: none !important;
             font-weight: 500 !important;
-            font-size: 13px !important;
-            padding: 0 16px !important;
             height: 36px !important;
-            transition: all 0.15s ease !important;
+            padding: 0 16px !important;
         }
-        .stButton > button:hover {
-            border-color: #06B6D4 !important;
-            color: #06B6D4 !important;
-            background-color: rgba(6,182,212,0.08) !important;
-        }
-        .stButton > button[kind="primary"] {
-            background-color: #06B6D4 !important;
-            border-color: #06B6D4 !important;
-            color: #0F172A !important;
-            font-weight: 600 !important;
-        }
-        .stButton > button[kind="primary"]:hover {
-            background-color: #0891B2 !important;
-            border-color: #0891B2 !important;
+        .stButton button:hover {
+            border-color: #94A3B8 !important;
+            background-color: #F8FAFC !important;
             color: #0F172A !important;
         }
-
-        /* ── Inputs ── */
-        .stTextInput input,
-        .stTextArea textarea,
-        .stNumberInput input {
-            background-color: #0F172A !important;
-            border: 1px solid #334155 !important;
+        /* Primary button override */
+        .stButton button[data-baseweb="button"]:has(div[data-testid="stMarkdownContainer"]:empty) {
+            /* Streamlit specific hack for primary if needed, but primary is handled by theme config */
+        }
+        
+        /* Inputs & text areas */
+        .stTextInput input, .stTextArea textarea, .stSelectbox div[data-baseweb="select"] {
             border-radius: 6px !important;
-            color: #F8FAFC !important;
-            font-family: 'JetBrains Mono', monospace !important;
-            font-size: 13px !important;
+            border: 1px solid #CBD5E1 !important;
+            box-shadow: none !important;
+            padding: 8px 12px !important;
         }
-        .stTextInput input:focus,
-        .stTextArea textarea:focus {
-            border-color: #06B6D4 !important;
-            box-shadow: 0 0 0 2px rgba(6,182,212,0.15) !important;
+        
+        /* Sidebar styling */
+        [data-testid="stSidebar"] {
+            border-right: 1px solid #E2E8F0;
         }
-        .stTextInput input::placeholder,
-        .stTextArea textarea::placeholder {
-            color: #475569 !important;
-        }
-        .stTextInput label,
-        .stTextArea label,
-        .stNumberInput label,
-        .stSelectbox label,
-        .stRadio label {
-            color: #94A3B8 !important;
-            font-size: 12px !important;
+        
+        /* Expander */
+        .streamlit-expanderHeader {
+            border-radius: 6px !important;
             font-weight: 500 !important;
-            letter-spacing: 0.06em !important;
-            text-transform: uppercase !important;
         }
-
-        /* ── Selectbox ── */
-        .stSelectbox [data-baseweb="select"] > div,
-        .stSelectbox [data-baseweb="select"] > div:hover {
-            background-color: #1E293B !important;
-            border: 1px solid #334155 !important;
-            border-radius: 6px !important;
-        }
-        .stSelectbox [data-baseweb="select"] span {
-            color: #E2E8F0 !important;
-        }
-
-        /* ── Radio ── */
-        .stRadio > div {
-            gap: 6px !important;
-        }
-        .stRadio [data-testid="stMarkdownContainer"] p {
-            color: #CBD5E1 !important;
-            font-size: 13px !important;
-        }
-
-        /* ── Checkboxes ── */
-        .stCheckbox [data-testid="stMarkdownContainer"] p {
-            color: #CBD5E1 !important;
-        }
-
-        /* ── File uploader ── */
-        [data-testid="stFileUploader"] {
-            background-color: #1E293B !important;
-            border: 1px dashed #334155 !important;
-            border-radius: 8px !important;
-        }
-
-        /* ── Dataframes ── */
+        
+        /* Dataframes */
         .stDataFrame {
-            border: 1px solid #334155 !important;
-            border-radius: 8px !important;
-            overflow: hidden !important;
-        }
-        .stDataFrame [data-testid="stDataFrameResizable"] {
-            background-color: #1E293B !important;
-        }
-
-        /* ── Info / success / warning boxes ── */
-        .stAlert {
-            background-color: #1E293B !important;
-            border-radius: 8px !important;
-        }
-        [data-testid="stNotification"] {
-            background-color: #1E293B !important;
-            border-left: 3px solid #06B6D4 !important;
-        }
-        .stInfo {
-            background-color: rgba(6,182,212,0.08) !important;
-            border: 1px solid rgba(6,182,212,0.25) !important;
-            border-radius: 8px !important;
-            color: #A5F3FC !important;
-        }
-        .stSuccess {
-            background-color: rgba(16,185,129,0.08) !important;
-            border: 1px solid rgba(16,185,129,0.25) !important;
-            border-radius: 8px !important;
-        }
-        .stWarning {
-            background-color: rgba(245,158,11,0.08) !important;
-            border: 1px solid rgba(245,158,11,0.25) !important;
-            border-radius: 8px !important;
-        }
-        .stError {
-            background-color: rgba(239,68,68,0.08) !important;
-            border: 1px solid rgba(239,68,68,0.25) !important;
-            border-radius: 8px !important;
-        }
-
-        /* ── Expanders ── */
-        .streamlit-expanderHeader,
-        [data-testid="stExpander"] summary {
-            background-color: #1E293B !important;
-            border: 1px solid #334155 !important;
+            border: 1px solid #E2E8F0 !important;
             border-radius: 6px !important;
-            color: #CBD5E1 !important;
-            font-weight: 500 !important;
-            font-size: 13px !important;
+            overflow: hidden;
         }
-        [data-testid="stExpander"] > div > div {
-            background-color: #162032 !important;
-            border: 1px solid #334155 !important;
-            border-top: none !important;
-            border-radius: 0 0 6px 6px !important;
-        }
-
-        /* ── Code blocks ── */
-        .stCodeBlock, code, pre {
-            background-color: #0A0F1E !important;
-            border: 1px solid #1E3A5F !important;
-            border-radius: 6px !important;
-            font-family: 'JetBrains Mono', monospace !important;
-            color: #A5F3FC !important;
-        }
-
-        /* ── Chat messages ── */
-        [data-testid="stChatMessage"] {
-            background-color: #1E293B !important;
-            border: 1px solid #334155 !important;
-            border-radius: 8px !important;
-            margin-bottom: 8px !important;
-        }
-        [data-testid="stChatInputContainer"] {
-            background-color: #1E293B !important;
-            border: 1px solid #334155 !important;
-            border-radius: 8px !important;
-        }
-        [data-testid="stChatInputContainer"]:focus-within {
-            border-color: #06B6D4 !important;
-        }
-        [data-testid="stChatInput"] {
-            background-color: transparent !important;
-            color: #F8FAFC !important;
-        }
-
-        /* ── Progress bar ── */
-        .stProgress > div > div {
-            background-color: #06B6D4 !important;
-        }
-
-        /* ── Tabs ── */
-        .stTabs [data-baseweb="tab-list"] {
-            background-color: transparent !important;
-            border-bottom: 1px solid #334155 !important;
-        }
-        .stTabs [data-baseweb="tab"] {
-            background-color: transparent !important;
-            color: #94A3B8 !important;
-            border-bottom: 2px solid transparent !important;
-            font-size: 13px !important;
-            font-weight: 500 !important;
-        }
-        .stTabs [aria-selected="true"] {
-            color: #06B6D4 !important;
-            border-bottom-color: #06B6D4 !important;
-        }
-
-        /* ── Scrollbar ── */
-        ::-webkit-scrollbar { width: 6px; height: 6px; }
-        ::-webkit-scrollbar-track { background: #0F172A; }
-        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
-        ::-webkit-scrollbar-thumb:hover { background: #475569; }
-
-        /* ── Mono data values ── */
-        .mono { font-family: 'JetBrains Mono', monospace !important; font-size: 12px !important; color: #A5F3FC !important; }
-
-        /* ── Caption ── */
-        .stCaption, [data-testid="stCaptionContainer"] {
-            color: #64748B !important;
-            font-size: 11px !important;
-        }
-
-        /* ── Spinner ── */
-        .stSpinner > div {
-            border-top-color: #06B6D4 !important;
-        }
-
-        /* ── Section subheaders ── */
-        .section-header {
-            font-size: 11px !important;
-            font-weight: 600 !important;
-            letter-spacing: 0.1em !important;
-            text-transform: uppercase !important;
-            color: #475569 !important;
-            margin-bottom: 12px !important;
-            padding-bottom: 6px !important;
-            border-bottom: 1px solid #1E3A5F !important;
-        }
-
-        /* ── App title ── */
-        .app-title {
-            font-size: 28px !important;
-            font-weight: 700 !important;
-            color: #F8FAFC !important;
-            letter-spacing: 0.08em !important;
-            margin-bottom: 0 !important;
-        }
-        .app-subtitle {
-            font-size: 12px !important;
-            font-weight: 500 !important;
-            color: #06B6D4 !important;
-            letter-spacing: 0.12em !important;
-            text-transform: uppercase !important;
-            margin-top: 2px !important;
+        
+        /* Remove extra paddings and declutter */
+        div.stMarkdown {
+            margin-bottom: 8px;
         }
         </style>
     """, unsafe_allow_html=True)
-
-
-def show_login_page() -> None:
-    """Render the Clinical Dark login screen. Sets st.session_state.logged_in on success."""
-    st.markdown("""
-        <style>
-        /* Hide sidebar and toolbar on login screen */
-        [data-testid="stSidebar"] { display: none !important; }
-        [data-testid="stHeader"]  { display: none !important; }
-        .stApp { background-color: #0A0F1E !important; }
-
-        /* Login card */
-        .login-card {
-            max-width: 420px;
-            margin: 0 auto;
-            padding: 48px 40px 40px;
-            background: #1E293B;
-            border: 1px solid #334155;
-            border-radius: 12px;
-            box-shadow: 0 0 40px rgba(6,182,212,0.08), 0 24px 64px rgba(0,0,0,0.5);
-        }
-        .login-logo {
-            width: 56px; height: 56px;
-            background: rgba(6,182,212,0.1);
-            border: 1px solid rgba(6,182,212,0.3);
-            border-radius: 12px;
-            display: flex; align-items: center; justify-content: center;
-            margin: 0 auto 20px;
-        }
-        .login-title {
-            font-size: 32px !important;
-            font-weight: 700 !important;
-            letter-spacing: 0.1em !important;
-            color: #F8FAFC !important;
-            text-align: center !important;
-            margin-bottom: 4px !important;
-        }
-        .login-subtitle {
-            font-size: 11px !important;
-            font-weight: 500 !important;
-            letter-spacing: 0.12em !important;
-            color: #06B6D4 !important;
-            text-align: center !important;
-            text-transform: uppercase !important;
-            margin-bottom: 32px !important;
-        }
-        .login-divider {
-            border: none;
-            border-top: 1px solid #334155;
-            margin: 24px 0;
-        }
-        </style>
-    """, unsafe_allow_html=True)
-
-    # Grid background effect via a full-height container
-    st.markdown("""
-        <div style="position:fixed;inset:0;background:#0A0F1E;
-             background-image: linear-gradient(rgba(6,182,212,0.04) 1px, transparent 1px),
-                               linear-gradient(90deg, rgba(6,182,212,0.04) 1px, transparent 1px);
-             background-size: 40px 40px;z-index:0;"></div>
-    """, unsafe_allow_html=True)
-
-    # Center the card
-    _, col, _ = st.columns([1, 1.4, 1])
-    with col:
-        st.markdown("<div style='height:10vh'></div>", unsafe_allow_html=True)
-        st.markdown("""
-            <div class="login-card">
-              <div class="login-logo">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
-                     xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 3L3 7.5V16.5L12 21L21 16.5V7.5L12 3Z"
-                        stroke="#06B6D4" stroke-width="1.5" stroke-linejoin="round"/>
-                  <path d="M12 3V21M3 7.5L21 16.5M21 7.5L3 16.5"
-                        stroke="#06B6D4" stroke-width="1.5" stroke-opacity="0.5"/>
-                </svg>
-              </div>
-              <div class="login-title">AORTA</div>
-              <div class="login-subtitle">Assay Ontology &amp; Retrieval Translation App</div>
-            </div>
-        """, unsafe_allow_html=True)
-
-        # Place form fields directly in Streamlit (they overlay the card visually)
-        st.markdown("<div style='margin-top:-260px;padding:0 40px 0 40px;'>", unsafe_allow_html=True)
-        st.markdown("<div style='height:200px'></div>", unsafe_allow_html=True)
-
-        username = st.text_input("RESEARCHER ID", placeholder="researcher@institution.edu", key="login_user")
-        password = st.text_input("ACCESS KEY", type="password", placeholder="••••••••••••", key="login_pass")
-
-        st.markdown("<div style='height:4px'></div>", unsafe_allow_html=True)
-
-        login_clicked = st.button("AUTHENTICATE", use_container_width=True, type="primary", key="login_btn")
-
-        st.markdown("</div>", unsafe_allow_html=True)
-
-        if login_clicked:
-            expected_user = os.environ.get("APP_USERNAME", "admin")
-            expected_pass = os.environ.get("APP_PASSWORD", "aorta2024")
-            if username == expected_user and password == expected_pass:
-                st.session_state.logged_in = True
-                st.rerun()
-            else:
-                st.error("Invalid credentials. Check your Researcher ID and Access Key.")
     
 def generate_cypher_script(graph_json: dict[str, Any]) -> str:
     """Convert JSON graph representation to a Neo4j Cypher script."""
@@ -2069,24 +1730,13 @@ def main() -> None:
     st.set_page_config(
         page_title="AORTA",
         layout="wide",
-        initial_sidebar_state="expanded",
     )
+    
 
     inject_custom_css()
 
-    # ── Login gate ──
-    if "logged_in" not in st.session_state:
-        st.session_state.logged_in = False
-    if not st.session_state.logged_in:
-        show_login_page()
-        st.stop()
-
-    st.markdown(
-        '<p class="app-title">AORTA</p>'
-        '<p class="app-subtitle">Assay Ontology &amp; Retrieval Translation App</p>',
-        unsafe_allow_html=True,
-    )
-    st.markdown("<div style='height:8px'></div>", unsafe_allow_html=True)
+    st.title("AORTA")
+    st.markdown("#### Assay Ontology & Retrieval Translation Architect")
 
     # ── Load BAO reference (cached) ──
     bao_labels = load_bao_labels()
@@ -2119,18 +1769,10 @@ def main() -> None:
 
     # ── Sidebar ──
     with st.sidebar:
-        st.markdown(
-            '<p style="font-size:18px;font-weight:700;letter-spacing:0.1em;color:#F8FAFC;margin-bottom:2px">AORTA</p>'
-            '<p style="font-size:10px;font-weight:500;letter-spacing:0.12em;color:#06B6D4;text-transform:uppercase;margin-bottom:16px">Knowledge Graph</p>',
-            unsafe_allow_html=True,
-        )
-
-        if st.button("⏏ Sign Out", key="logout_btn"):
-            st.session_state.logged_in = False
-            st.rerun()
-
-        st.markdown("<hr style='border-color:#334155;margin:12px 0'>", unsafe_allow_html=True)
-        st.markdown('<p class="section-header">Chat History</p>', unsafe_allow_html=True)
+        if os.path.exists("logo.png"):
+            st.image("logo.png", use_container_width=True)
+            
+        st.header("Chat History")
         conversations = chat_storage.list_conversations()
         
         # New chat button
