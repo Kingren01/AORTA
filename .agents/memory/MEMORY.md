@@ -1,0 +1,1 @@
+- [AORTA login system](aorta-login.md) — simple session-state login gate; credentials via APP_USERNAME/APP_PASSWORD env vars, default admin/aorta2024

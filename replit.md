@@ -32,6 +32,18 @@ Set these in Replit Secrets (already configured):
 
 Managed via `requirements.txt`: `streamlit`, `rdflib`, `pyvis`, `PyMuPDF`, `sentence-transformers`, `faiss-cpu`, `pandas`, `openpyxl`.
 
+## Login
+
+The app is protected by a login screen. Default credentials:
+- **Researcher ID:** `admin`
+- **Access Key:** `aorta2024`
+
+Override by setting `APP_USERNAME` and `APP_PASSWORD` in Replit Secrets.
+
+## UI Theme
+
+Clinical Dark — deep slate (`#0F172A`) with electric cyan (`#06B6D4`) accents, JetBrains Mono for data values, Inter for prose.
+
 ## User preferences
 
 _None recorded yet._
