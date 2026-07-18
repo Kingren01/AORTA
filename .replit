@@ -55,4 +55,5 @@ localPort = 8000
 externalPort = 8000
 
 [deployment]
-deploymentTarget = "cloudrun"
+deploymentTarget = "autoscale"
+run = ["streamlit", "run", "app.py", "--server.port=5000", "--server.address=0.0.0.0"]
