@@ -1,0 +1,1397 @@
+US009884093B2 
+ ( 12 ) United States Patent 
+ Alsina - Fernandez et al . ( 10 ) Patent No . : US 9 , 884 , 093 B2 ( 45 ) Date of Patent : Feb . 6 , 2018 
+ ( 54 ) GLUCAGON RECEPTOR AGONISTS 
+ @ ( 71 ) Applicant : Eli Lilly and Company , Indianapolis , 
+ IN ( US ) 
+ @ ( 72 ) 2014 / 0206607 A1 7 / 2014 DiMarchi et al . 2014 / 0221281 A1 8 / 2014 Haack et al . 2015 / 0051141 A9 2 / 2015 Shandler et al . 2015 / 0111817 A1 4 / 2015 Riber et al . 2015 / 0111826 A1 4 / 2015 Riber et al . 2015 / 0182594 Al 7 / 2015 Lau et al . 2015 / 0252091 A1 9 / 2015 Bloom 2015 / 0274801 A1 10 / 2015 Lau et al . 
+ 2015 / 0368311 Al 12 / 2015 Haack et al . 
+ 2016 / 0199438 AL 7 / 2016 Bokvist et al . 2016 / 0257729 AL 9 / 2016 Just et al . 
+ 2017 / 0008944 A11 / 2017 Bossart et al . Inventors : Jorge Alsina - Fernandez , Indianapolis , IN ( US ) ; Tamer Coskun , Indianapolis , IN ( US ) 
+ @ ( 73 ) Assignee : Eli Lilly and Company , Indianapolis , 
+ IN ( US ) 
+ FOREIGN PATENT DOCUMENTS ( * ) Notice : Subject to any disclaimer , the term of this patent is extended or adjusted under 35 U . S . C . 154 ( b ) by 0 days . 
+ ( 21 ) Appl . No . : 15 / 293 , 316 
+ ( 22 ) Filed : Oct . 14 , 2016 WO WO WO wo WO WO WO WO WO WO 
+ WO Wo ( 65 ) Prior Publication Data 
+ US 2017 / 0114115 A1 Apr . 27 , 2017 
+ wo Related U . S . Application Data 
+ ( 60 ) Provisional application No . 62 / 246 , 199 , filed on Oct . 26 , 2015 . 05000892 A2 
+ 09099763 A1 10071807 A1 2010070252 11075393 A2 11087671 A1 
+ 11087672 A1 
+ 11119657 A 
+ 13004983 Al 
+ 13164483 Al 13192130 A1 14170496 Al 15067715 A2 
+ 15067716 A 
+ 15094875 A1 15094876 A1 15094878 A1 2015086731 2015155141 16043533 Al 16108586 A1 16108617 A1 16166289 Al 16198604 Al 17003191 Al 1 / 2005 
+ 8 / 2009 6 / 2010 
+ 6 / 2010 
+ 6 / 2011 
+ 7 / 2011 
+ 7 / 2011 
+ 9 / 2011 1 / 2013 11 / 2013 12 / 2013 10 / 2014 5 / 2015 5 / 2015 6 / 2015 6 / 2015 
+ 6 / 2015 
+ 6 / 2015 10 / 2015 3 / 2016 7 / 2016 7 / 2016 10 / 2016 12 / 2016 1 / 2017 WO 
+ WO wo WO WO ( 51 ) Int . CI . A61K 38 / 26 ( 2006 . 01 ) 
+ CO7K 14 / 605 ( 2006 . 01 ) 
+ A6IK 45 / 06 ( 2006 . 01 ) 
+ COZK 14 / 00 ( 2006 . 01 ) ( 52 ) U . S . CI . CPC . . . . . . . . . . . . . A61K 38 / 26 ( 2013 . 01 ) ; A61K 45 / 06 ( 2013 . 01 ) ; COZK 14 / 001 ( 2013 . 01 ) ; COOK 
+ 14 / 605 ( 2013 . 01 ) 
+ ( 58 ) Field of Classification Search None See application file for complete search history . WO WO WO 
+ WO 
+ WO WO 
+ WO 
+ OTHER PUBLICATIONS apa 
+ ( 56 ) References Cited Tan , T . M , et al . , " Coadministration of Glucagon - Like Peptide - 1 
+ During Glucagon Infusion in Humans Results in Increased Energy 
+ Expenditure and Amelioration of Hyperglycemia , " Diabetes , 62 ( 4 ) Apr . 2013 , pp . 1131 - 1138 . Finan , B . , et al . , " A Rationally Designed Monomeric Peptide Triagonist Corrects Obesity and Diabetes in Rodents , ” Nat . Med . 
+ Jan . 2015 ; 21 ( 1 ) : 27 - 36 . Cegla , J . , et al . , “ Coinfusion of Low - Dose GLP - 1 and Glucagon in 
+ Man Results in a Reduction in Food Intake , ” Diabetes , 2014 ; vol . 63 , pp . 3711 - 3720 . U . S . PATENT DOCUMENTS 
+ Primary Examiner — Christina Bradley 
+ ( 74 ) Attorney , Agent , or Firm — Matthew T . Lord 
+ ( 57 ) 7 , 452 , 966 B2 11 / 2008 Glaesner et al . 8 , 450 , 270 B2 5 / 2013 DiMarchi et al . 8 , 507 , 428 B2 8 / 2013 DiMarchi et al . 8 , 546 , 327 B2 10 / 2013 DiMarchi et al . 8 , 669 , 228 B2 3 / 2014 DiMarchi et al . 8 , 703 , 701 B2 4 / 2014 DiMarchi 8 , 900 , 593 B2 12 / 2014 Day et al . 8 , 975 , 223 B2 3 / 2015 Vignati et al . 9 , 072 , 794 B2 7 / 2015 Woo et al . 2011 / 0166062 A1 7 / 2011 DiMarchi et al . 2012 / 0172295 A1 7 / 2012 DiMarchi et al . 2012 / 0178670 A1 7 / 2012 Riber et al . 2012 / 0329708 A1 12 / 2012 DiMarchi et al . 2013 / 0116172 AL 5 / 2013 DiMarchi et al . 2014 / 0011733 AL 1 / 2014 Fosgerau et al . 
+ 2014 / 0011738 Al 1 / 2014 DiMarchi 2014 / 0031278 A1 1 / 2014 Lau et al . 2014 / 0100156 A14 / 2014 Haack et al . ABSTRACT 
+ The present invention relates to compounds with an extended duration of action at the glucagon receptor as compared to native glucagon . Specifically provided are glucagon receptor agonists with modifications to the struc ture of native glucagon introduced to selectively agonize the glucagon receptor over an extended period of time . 
+ 15 Claims , No Drawings 
+US 9 , 884 , 093 B2 
+ 1 . 10olutide GLUCAGON RECEPTOR AGONISTS activating glucagon receptors on hepatocytes , causing the 
+ liver to release glucose stored in the form of glycogen The present invention relates to compounds with an through a process called glycogenolysis . As glycogen stores extended duration of action at the glucagon receptor as become depleted , glucagon stimulates the liver to synthesize compared to native glucagon . Specifically provided are 5 additional glucose by gluconeogenesis . This glucose is 
+ glucagon receptor agonists with modifications to the struc - released into the bloodstream , preventing the development ture of native glucagon introduced to selectively agonize the of hypoglycemia . Administration of glucagon is an estab glucagon receptor over an extended period of time . The lished therapy for treating acute hypoglycemia , and emer glucagon receptor agonists may be useful either in combi gency glucagon administration can restore normal glucose nation with other therapeutic agents for treating disorders 10 levels within minutes of administration . Certain glucagon such as type 2 diabetes mellitus ( T2DM ) and / or obesity , or analogs have been described as exhibiting improved solu as monotherapies for treating a variety of disorders , such as bility and stability . See , e . g . , WO2015094875 ; obesity , non - alcoholic fatty liver disease ( NAFLD ) , non WO2015094876 ; WO2015094878 . alcoholic steatohepatitis ( NASH ) , dyslipidemia , metabolic syndrome , hyperinsulinemia and / or nighttime hypoglyce - 15 Other peptides derived from pre - proglucagon include 
+ mia , as well as fatty liver syndrome in dairy cows . GLP - 1 , glucagon - like - peptide - 2 ( GLP - 2 ) , and oxyntomodu 
+ Over the past several decades , the prevalence of diabetes lin ( OXM ) . GLP - 1 is a 36 amino acid peptide , the major 
+ has continued to rise . T2DM is the most common form of biologically active fragment of which ( GLP - 17 - 36 ) is pro diabetes accounting for approximately 90 % of all diabetes . duced as a 30 - amino acid , C - terminal amidated peptide that 
+ T2DM is characterized by high blood glucose levels caused 20 corresponds with amino acids 98 to 127 of pre - proglucagon , 
+ by insulin resistance . The current standard of care for T2DM having the following amino acid sequence : HAEGTFTSD 
+ includes diet and exercise , and treatment with oral medica VSSYLEGQAAKEFIAWLVKGR ( SEQ ID NO : 2 ) . tions , and injectable glucose lowering drugs , including Whereas glucagon stimulates the release of glucose to incretin - based therapies , such as glucagon - like - peptide - 1 prevent hypoglycemia , GLP - 1 ( SEQ ID NO : 2 ) stimulates 
+ ( GLP - 1 ) receptor agonists and dipeptidyl peptidase IV 25 insulin synthesis and secretion and has been shown to 
+ ( DPP - IV ) inhibitors . When treatment with oral medications prevent hyperglycemia in diabetics . A variety of GLP - 1 and incretin - based therapies are insufficient , treatment with analogs are currently available , including exenatide , lira insulin is considered . Patients whose disease has progressed glutide , albiglutide and dulaglutide . to the point that insulin therapy is required are generally OXM is a 37 amino acid peptide composed of the started on a single daily injection of a long - acting , basal 30 complete 29 amino acid sequence of glucagon with an 
+ insulin , although mealtime injections of rapid - acting insu octapeptide carboxy terminal extension ( amino acids 82 to 
+ lins may be included , as necessary , in some cases . 89 of pre - proglucagon and termed “ intervening peptide 1 " or 
+ Despite the availability of these therapies , blood glucose IP - 1 ) , having the following amino acid sequence : HSQGT 
+ levels in many patients with T2DM still remain inadequately FTSDYSKYLDSRRAQDFVQWLMNTKRNRNNIA ( SEO 
+ controlled . Uncontrolled diabetes leads to several conditions 35 ID NO : 3 ) . OXM activates both the glucagon and GLP - 1 that impact morbidity and mortality of patients . One of the receptors , with a slightly higher potency for the glucagon 
+ main risk factors for T2DM is obesity . The majority of receptor over the GLP - 1 receptor . Analogs of OXM having T2DM patients ( ~ 90 % ) are overweight or obese . It is dual glucagon receptor and GLP - 1 receptor activity have 
+ documented that a decrease in body adiposity will lead to , will lead to been described . See , e . g . , WO2011087672 ; 
+ improvement in obesity - associated co - morbidities including 40 W02011087671 . hyperglycemia and cardiovascular events . Therefore , thera Although not derived from pre - proglucagon , glucose pies effective in glucose control and weight reduction are dependent insulinotropic polypeptide ( GIP ) is another pep 
+ needed for better disease management . tide that plays a physiological role in glucose homeostasis 
+ In addition , the prevalence and awareness of nonalcoholic by stimulating insulin secretion from pancreatic beta cells in fatty liver disease ( NAFLD ) which refers to a cluster of 45 the presence of glucose . GIP is a 42 amino acid peptide liver disorders associated with the accumulation of fat in the having the following amino acid sequence : liver , and nonalcoholic steatohepatitis ( NASH ) — which is a severe form of NALFD characterized by histological find ( SEO ID NO : 4 ) ings such as inflammation , hepatocyte injury and fibrosis , YAEGTFISDYSIAMDKIHQQDFVNWLLAQKGKKNDWKHNITO . have also continued to rise . NASH is the most common liver 50 
+ disease in western countries , and affects between 3 - 5 % of Certain analogs of GIP have been described as exhibiting adults in the United States . Treatment typically includes both GIP and GLP - 1 receptor activity . See , e . g . , prescribed changes in diet and exercise , and may involve WO2015067715 ; W02011119657 ; WO2013164483 . bariatric surgery , pioglitazones , statins , omega 3 and vitamin In addition , similar to the dual activity of OXM described E therapy ( in the case of non - diabetic NASH patients ) to 55 above , certain glucagon analogs have been described as reduce liver fat , but there are no therapeutic agents approved having co - agonist activity both at the glucagon receptor and 
+ to address the inflammation and / or fibrosis associated with one or more of the GLP - 1 or GIP receptors . For example , NASH . Therefore additional therapies are needed . WO2011075393 and WO 2012177444 , purport to describe Several peptides which are available and / or in develop - glucagon analogs having activity at both the glucagon and ment as therapeutic agents , including glucagon , are derived 60 GLP - 1 receptors . Similarly , WO2013192130 purports to from pre - proglucagon , which is a polypeptide that is pro - describe glucagon analogs also having activity at the GIP 
+ cessed in tissue to form several structurally related peptides . receptor . Further , WO2015067716 purports to describe ana Glucagon is a 29 - amino acid peptide that corresponds with logs having triple agonist activity at each of the glucagon , amino acids 53 to 81 of pre - proglucagon , having the fol - GLP - 1 and GIP receptors . lowing amino acid sequence : HSQGTFTSDYSKYLDSR - 65 Despite the variety of peptides and proteins proposed as RAQDFVQWLMNT ( SEQ ID NO : 1 ) . Glucagon helps T2DM and / or obesity therapies , therapies that are currently maintain the level of glucose in the blood by binding to and available and / or in development have limitations . In par 
+US 9 , 884 , 093 B2 
+ ticular , while the dual or triple agonists described above may Accordingly , an embodiment of the present invention be stated to provide the glucose - lowering properties of a provides a glucagon receptor agonist comprising Formula I : GLP - 1 receptor and / or GIP receptor agonist along with the metabolic benefits of a glucagon receptor agonist , the activ Formula Il ity levels of such peptides at each of the various receptors 5 YX QGTFX SDYSKYLDX3KKAX EFVXSWLLEX / X7 they agonize are fixed , making it difficult to achieve an ideal receptor activation balance to obtain , in vivo , high efficacy wherein with minimal side effects . And therapies which do not X , is Aib ; involve glucagon receptor agonism lack the potential meta X2 is T or L ; 10 bolic benefits of such a mechanism of action . X2 is Aib ; While concomitant administration of glucagon may be X4 is K which is chemically modified through conjugation theoretically capable of attenuating such limitations , cur to the epsilon - amino group of the K side - chain with rently available glucagon products are impractical for use in ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) a - C0 — such applications . In particular , the plasma half - life of 15 ( CH2 ) - CO H , wherein a is 1 or 2 and b is 14 to 24 ; glucagon is less than an hour , making it impractical for X , is E or A ; 
+ chronic use , particularly in embodiments involving combi X , is T or E ; nations with other therapies that are available and / or in X , is either absent , or is a peptide selected from the group development , as many such therapies are dosed as infre consisting of GPSSGAPPPS and GPSSG ; 
+ quently as once a day , and some are proposed for dosing as 20 and the C - terminal amino acid is optionally amidated 
+ infrequently as once - weekly . In addition , wild type glucagon ( SEQ ID NO : 5 ) ; 
+ also has some activity at the GLP - 1 receptor , which may or a pharmaceutically acceptable salt thereof . 
+ complicate efforts to draw an appropriate balance of gluca Another embodiment of the present invention provides a 
+ gon versus GLP - 1 receptor activity in combination therapies glucagon receptor agonist comprising a formula consisting 
+ wherein the other compound has its down GLP - 1 receptor 25 . Of Formula 1 : 
+ activity . Moreover , the solubility and chemical and physical stability characteristics of currently available glucagon [ Formula I ] products are also inappropriate for chronic use in such YX QGTFX2SDYSKYLDX3KKAX4EFVX5WLLEXX7 applications , and would not allow for co - formulation with other therapeutic agents . 30 wherein 
+ Thus , there is a need for glucagon receptor agonists which X , is Aib ; 
+ have extended duration of action allowing for dosing as X , is T or L ; infrequently as once a day , thrice - weekly , twice - weekly or X2 is Aib ; 
+ once a week . There is also a need for glucagon receptor X4 is K which is chemically modified through conjugation 
+ agonists which have potent activity at the glucagon receptor , 35 to the epsilon - amino group of the K side - chain with and high selectivity for activity at the glucagon receptor ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxyl - acetyl ) 2 - ( yGlu ) , - CO 
+ versus the GLP - 1 receptor . There is also a need for glucagon ( CH2 ) . CO , H , wherein a is 1 or 2 and b is 14 to 24 ; 
+ receptor agonists with suitable characteristics to be co X , is E or A ; 
+ formulated with other therapeutic agents . There is also a X , is T or E ; need for glucagon receptor agonists with solubility and 40 X , is either absent , or is a peptide selected from the group 
+ stability characteristics allowing for long term storage and consisting of GPSSGAPPPS and GPSSG : 
+ and the C - terminal amino acid is optionally amidated 
+ The glucagon receptor agonists of the present invention ( SEQ ID NO : 5 ) ; 
+ seek to meet these needs . Accordingly , the present invention or a pharmaceutically acceptable salt thereof . 
+ provides glucagon receptor agonists with an extended dura - 45 Another embodiment of the present invention provides a tion of action , allowing for dosing as infrequently as once a glucagon receptor agonist consisting of Formula 1 : 
+ day , thrice - weekly , twice - weekly or once a week . The pres 
+ ent invention provides glucagon receptor agonists with [ Formula I ] optimal and selective activity at the glucagon receptor as YX QGTFX SDYSKYLDX2KKAX4EFVXGWLLEXGX7 compared , for example , to the GLP - 1 and / or GIP receptors . 50 The present invention provides glucagon receptor agonists wherein 
+ which have physical and chemical characteristics suitable X , is Aib ; for chronic use and co - formulation with other treatments . X , is T or L ; The present invention provides glucagon receptor agonists X2 is Aib ; which , when used in combination with other diabetes treat - 55 X4 is K which is chemically modified through conjugation ments , result in enhanced glucose control , metabolic ben to the epsilon - amino group of the K side - chain with efits , such as body weight lowering , and / or lipid benefits , ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) a - C0 — such as PCSK9 lowering , when used in combination with ( CH2 ) . CO2H , wherein a is 1 or 2 and b is 14 to 24 ; other diabetes treatments . In particular , combinations of X , is E or A ; glucagon receptor agonists of the present invention with 60 Xo is T or E ; GLP - 1R agonists or GIP - GLP - 1 co - agonists have beneficial X , is either absent , or is a peptide selected from the group synergistic effects on measures such as weight loss and body consisting of GPSSGAPPPS and GPSSG ; composition . The present invention also seeks to provide and the C - terminal amino acid is optionally amidated 
+ effective treatments for other disorders when used as a ( SEQ ID NO : 5 ) ; monotherapy and / or in combination with other therapies , 65 or a pharmaceutically acceptable salt thereof . including obesity , NAFLD , NASH , dyslipidemia , metabolic In certain embodiments , the glucagon receptor agonist has disorder , hyperinsulinemia and / or nighttime hypoglycemia . the structure of Formula I wherein X , is T . In certain use . 
+US 9 , 884 , 093 B2 
+ embodiments , the glucagon receptor agonist has the struc In certain embodiments , the activity of the glucagon 
+ ture of Formula I wherein X , is L . receptor agonist at the glucagon receptor is at least 100 - fold 
+ In certain embodiments , the glucagon receptor agonist has higher than the activity of the glucagon receptor agonist at 
+ the structure of any of the above embodiments wherein X the GLP - 1 receptor . is E . In certain embodiments , the glucagon receptor agonist 5 Another embodiment of the present invention provides a 
+ has the structure of any of the above embodiments wherein method of treating a disease selected from the group con 
+ X , is A . sisting of T2DM , obesity , fatty liver disease , NASH , dys In certain embodiments , the glucagon receptor agonist has lipidemia , metabolic syndrome , hyperinsulinemia and night 
+ the structure of any of the above embodiments wherein X time hypoglycemia , comprising administering to a patient in 
+ is T . In certain embodiments , the glucagon receptor agonist 10 need thereof , an effective amount of a glucagon receptor 
+ has the structure of any of the above embodiments wherein agonist of the present invention . 
+ X , is E . Another embodiment of the present invention provides a 
+ In certain embodiments , the glucagon receptor agonist has method of treating a disease selected from the group con 
+ the structure of any of the above embodiments wherein X , sisting of T2DM , obesity , fatty liver disease , NASH , dys is GPSSGAPPPS . In certain embodiments , the glucagon 15 lipidemia , metabolic syndrome , hyperinsulinemia and night receptor agonist has the structure of any of the above time hypoglycemia , comprising administering to a patient in embodiments wherein X , is GPSSG . In certain embodi - need thereof , an effective amount of a glucagon receptor ments , the glucagon receptor agonist has the structure of any agonist of the present invention in combination with an 
+ of the above embodiments wherein X , is absent . effective amount of one or more additional therapeutic 
+ In certain embodiments , the glucagon receptor agonist has 20 agents . In certain embodiments the disease is T2DM . In 
+ the structure of any of the above embodiments wherein b is certain embodiments the disease is obesity . In certain 16 to 20 . In certain embodiments , the glucagon receptor embodiments the disease is fatty liver disease . In certain 
+ agonist has the structure of any of the above embodiments embodiments the one or more additional therapeutic agents 
+ wherein b is 16 to 18 . In certain embodiments , the glucagon are selected from the group consisting of GLP - 1R agonists , receptor agonist has the structure of any of the above 25 GIP - GLP - 1 co - agonists , insulin receptor agonists , oxynto 
+ embodiments wherein b is 16 . In certain embodiments , the modulins , metformin , thiazolidinediones , sulfonylureas , glucagon receptor agonist has the structure of any of the dipeptidyl peptidase - 4 ( “ DPP - 4 ” ) inhibitors , and sodium 
+ above embodiments wherein bis 18 . glucose co - transporter 2 ( " SGLT2 " ) inhibitors . In certain 
+ In certain embodiments , the glucagon receptor agonist has embodiments the additional therapeutic agent is a GLP - 1R 
+ the structure of Formula I wherein : X , is T ; a is 2 ; b is 16 ; 30 agonist . In certain embodiments the GLP - 1R agonist is 
+ X , is E ; X , is T ; and X , is GPSSGAPPPS ; and wherein the dulaglutide . In certain embodiments the additional therapeu 
+ C - terminal amino acid is amidated as a C - terminal primary tic agent is a GIP - GLP - 1 co - agonist . In certain embodiments 
+ amide ( SEQ ID NO : 6 ) . the GIP - GLP - 1 co - agonist has the structure of SEQ ID NO : In certain embodiments , the glucagon receptor agonist has 15 . In certain embodiments the additional therapeutic agent the structure of Formula I wherein : X , is T ; a is 2 ; b is 18 ; 35 is an insulin receptor agonist . X , is E ; Xo is T ; X , is GPSSGAPPPS ; and wherein the In certain embodiments , the glucagon receptor agonist has C - terminal amino acid is amidated as a C - terminal primary synergistic effects on weight loss and body composition amide ( SEQ ID NO : 7 ) . when used in combination with an additional therapeutic In certain embodiments , the glucagon receptor agonist has agent , such as a GLP - 1R agonist or a GIP - GLP - 1 co - agonist . the structure of Formula I wherein : X is L ; a is 2 ; b is 16 ; 40 Another embodiment of the present invention provides X , is E ; Xo is T ; and X , is GPSSGAPPPS ; and wherein the use of a glucagon receptor agonist of the present invention C - terminal amino acid is amidated as a C - terminal primary in therapy . Another embodiment of the present invention amide ( SEQ ID NO : 8 ) . provides use of a glucagon receptor agonist of the present 
+ In certain embodiments , the glucagon receptor agonist has invention in treating a disease selected from the group the structure of Formula I wherein : X , is T ; a is 2 ; b is 16 ; 45 consisting of T2DM , obesity , fatty liver disease , NASH , X , is E ; Xo is T ; and X , is GPSSG ; and wherein the dyslipidemia , metabolic syndrome , hyperinsulinemia and C - terminal amino acid is amidated as a C - terminal primary nighttime hypoglycemia . In certain embodiments the disease 
+ amide ( SEQ ID NO : 9 ) . is T2DM . In certain embodiments the disease is obesity . In In certain embodiments , the glucagon receptor agonist has certain embodiments the disease is fatty liver disease . 
+ the structure of Formula I wherein : X , is T ; a is 2 ; b is 18 ; 50 Another embodiment of the present invention provides a X , is E ; Xo is T ; and X , is GPSSG ; and wherein the glucagon receptor agonist of the present invention for use in C - terminal amino acid is amidated as a C - terminal primary simultaneous , separate , or sequential use in combination 
+ amide ( SEQ ID NO : 10 ) . with one or more additional therapeutic agents for use in In certain embodiments , the glucagon receptor agonist has therapy . In certain embodiments the one or more additional the structure of Formula I wherein : X , is T ; a is 1 ; b is 16 ; 55 therapeutic agents are selected from the group consisting of X , is A ; Xo is E ; and X , is absent ( SEQ ID NO : 11 ) . GLP - 1R agonists . GIP - GLP - 1 co - agonists , insulin receptor In certain embodiments , the glucagon receptor agonist has agonists , oxyntomodulins , metformin , thiazolidinediones , 
+ the structure of Formula I wherein : X2 is T ; a is 1 ; b is 18 ; sulfonylureas , DPP - 4 inhibitors , and sodium glucose co X , is A ; X , is E ; and X , is absent ( SEQ ID NO : 12 ) . transporter 2 ( “ SGLT2 " ) inhibitors . In certain embodiments 
+ In certain embodiments , the glucagon receptor agonist has 60 the additional therapeutic agent is a GLP - 1R agonist . In 
+ the structure of Formula I wherein : ? is 2 ; X , is E ; Xo is T ; certain embodiments the GLP - 1R agonist is dulaglutide . In X , is a peptide selected from the group consisting of certain embodiments the additional therapeutic agent is a 
+ GPSSGAPPPS and GPSSG ; and the C - terminal amino acid GIP - GLP - 1 co - agonist . In certain embodiments the GIP 
+ is amidated ( SEQ ID NO : 16 ) . GLP - 1 co - agonist has the structure of SEO ID NO : 15 . In certain embodiments , the glucagon receptor agonist has 65 Another embodiment of the present invention provides the structure of Formula I wherein : X , is T ; a is 1 ; X , is A ; use of a glucagon receptor agonist of the present invention 
+ X , is E ; and X , is absent ( SEQ ID NO : 17 ) . in the manufacture of a medicament for the treatment of 
+US 9 , 884 , 093 B2 
+ T2DM , obesity , fatty liver disease , NASH , dyslipidemia , infrequently as once daily , thrice - weekly , twice - weekly or metabolic syndrome , hyperinsulinemia and nighttime hypo once - weekly . The time action profile of a glucagon receptor glycemia . agonist may be measured using known pharmacokinetic test Another embodiment of the present invention provides a methods . pharmaceutical composition comprising a glucagon receptor 5 The extended time action profiles of the glucagon receptor 
+ agonist of the present invention and a pharmaceutically agonists of the present invention are achieved through the acceptable carrier , diluent , or excipient . In certain embodi - use of a fatty acid moiety conjugated to the epsilon - amino 
+ ments , the pharmaceutical composition further comprises an group of the side chain of the lysine amino acid at position 
+ additional therapeutic agent . In certain embodiments the 20 . The fatty acid is conjugated to the epsilon - amino group 
+ additional therapeutic agent is selected from the group 10 of a lysine side - chain through a linker , which comprises 
+ consisting of GLP - 1R agonists , GIP - GLP - 1 co - agonists , [ 2 - ( 2 - Amino - ethoxy ) - ethoxyl - acetyl ) - ( yGlu ) , wherein a is 
+ insulin receptor agonists , oxyntomodulins , metformin , thi - 1 or 2 . The fatty acid and the gamma - glutamic acid in the 
+ azolidinediones , sulfonylureas , DPP - 4 inhibitors , and linker act as albumin binders , and provide the potential to 
+ SGLT2 inhibitors . In certain embodiments the additional generate long - acting compounds . The fatty acid conjugated therapeutic agent is a GLP - 1R agonist . In certain embodi - 15 to the epsilon - amino group of the side chain of the lysine 
+ ments the GLP - 1R agonist is dulaglutide . In certain embodi - amino acid at position 20 by way of the linker comprises ments the additional therapeutic agent is a GIP - GLP - 1 CO - ( CH ) , CO , H wherein b is 14 to 24 . Thus , the 
+ co - agonist . In certain embodiments the GIP - GLP - 1 co complete linker - fatty acid structure comprises ( 2 - ( 2 agonist has the structure of SEQ ID NO : 15 . In certain Amino - ethoxy ) - ethoxy - acetyl ) 2 - ( yGlu ) , - C0 — ( CH ) , 
+ embodiments the additional therapeutic agent is an insulin 20 CO , wherein a is 1 or 2 and b is 14 to 24 . As shown in the receptor agonist . chemical structures of Examples 1 - 7 below , the first unit of Another embodiment of the present invention provides a [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl is linked to the epsilon method of inducing non - therapeutic weight - loss comprising amino group of the lysine side - chain . The second unit of administration of an effective amount of a glucagon receptor [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl is then attached to the agonist of the present invention . 25 amino - group of the first unit of [ 2 - ( 2 - Aminoethoxy ) Another embodiment of the present invention provides a ethoxy ] - acetyl . Then , the first unit of yGlu is attached to the method of treating fatty liver syndrome in a bovine , com - amino group of the second unit of [ 2 - ( 2 - Amino - ethoxy ) prising administering to a bovine in need thereof , an effec - ethoxy ] - acetyl through the y - carboxyl group of the side 
+ tive amount of a glucagon receptor agonist of the present chain . When a = 2 , the second unit of yGlu is attached to the 
+ invention . 30 a - amino group of the first unit of yGlu through the y - car 
+ Another embodiment of the present invention provides a boxyl group of the side - chain . Finally , the fatty acid is glucagon receptor agonist of the present invention for use in attached to the A - amino group of the first ( when a = 1 ) or the treatment of fatty liver syndrome in a bovine . second ( when a = 2 ) unit of yGlu . When used herein the term " glucagon receptor agonists ” The glucagon receptor agonists of the invention are means compounds comprising the amino acid sequence of 35 preferably formulated as pharmaceutical compositions 
+ native human glucagon ( SEQ ID NO : 1 ) , a glucagon analog , administered by parenteral routes ( e . g . , subcutaneous , intra a glucagon derivative or a glucagon fusion protein , which venous , intraperitoneal , intramuscular , or transdermal ) . bind to and activate the glucagon receptor , and maintain Such pharmaceutical compositions and processes for pre 
+ selective activity at the glucagon receptor relative to the paring same are well known in the art . ( See , e . g . , Reming GLP - 1 receptor , resulting in an increase in serum glucose 40 ton : The Science and Practice of Pharmacy ( D . B . Troy , 
+ levels when administered as a monotherapy . Such binding Editor , 21st Edition . Lippincott , Williams & Wilkins , 2006 ) . 
+ characteristics and pharmacodynamic effects may be mea - The preferred route of administration is subcutaneous . 
+ sured using known in vitro and in vivo methods , such as The glucagon receptor agonists of the present invention 
+ those described in the studies below . A glucagon analog is a may react with any of a number of inorganic and organic 
+ molecule having a modification including one or more 45 acids to form pharmaceutically acceptable acid addition 
+ amino acid substitutions , deletions , inversions , or additions salts . Pharmaceutically acceptable salts and common meth 
+ when compared with the amino acid sequence of native odology for preparing them are well known in the art . ( See , 
+ human glucagon ( SEQ ID NO : 1 ) . A glucagon derivative is e . g . , P . Stahl , et al . Handbook of Pharmaceutical Salts : a molecule having the amino acid sequence of native human Properties , Selection and Use , 2nd Revised Edition ( Wiley glucagon ( SEQ ID NO : 1 ) or of a glucagon analog , but 50 VCH , 2011 ) ) . Pharmaceutically acceptable salts of the pres 
+ additionally having at least one chemical modification of ent invention include trifluoroacetate , hydrochloride , and 
+ one or more of its amino acid side groups , a - carbon atoms , acetate salts . terminal amino group , or terminal carboxylic acid group . A One particular benefit provided by the selectivity of the glucagon fusion protein is a heterologous protein comprising glucagon receptor agonists of the present invention for the glucagon , a glucagon analog or a glucagon derivative and a 55 glucagon receptor over the GLP - 1 receptor is the ability to 
+ second polypeptide , such as an immunoglobulin Fc region . provide flexible treatment options when glucagon receptor 
+ The activities of the glucagon receptor agonists of the agonists of the present invention are administered in com 
+ present invention are also selective for the glucagon receptor bination with additional therapeutic agents , such that the 
+ relative to GLP - 1 receptor . When used herein , the terms ratio of activity at the glucagon receptor to activity at the " selective . . . relative to , " " selectivity ” and “ selective 60 other receptor ( s ) ( e . g . , GLP - 1 , GIP and / or insulin receptor ) . 
+ against " refer to a compound that displays 50 - , 100 - , 200 - , Thus , in certain preferred embodiments , the present inven 
+ 250 - , 500 - or 1000 - fold higher potency for the glucagon tion provides a method of treatment of T2DM in a patient receptor over the GLP - 1 receptor . Such selectivity may be comprising administering to a patient in need of such 
+ measured using known in vitro methods , such as those treatment an effective amount of a glucagon receptor agonist 
+ described in the studies below . 65 of the present invention , or a pharmaceutically acceptable 
+ The glucagon receptor agonists of the present invention salt thereof , in combination with an additional therapeutic have extended time action profiles allowing for dosing as agent . In certain embodiments , the additional therapeutic 
+US 9 , 884 , 093 B2 
+ 10 
+ agent is selected from the group consisting of a GLP - 1R In certain preferred embodiments a is 2 , b is 18 ; X2 is agonist , a GIP - GLP - 1 co - agonist or an insulin receptor 1 - Nal ; and the C - terminal amino acid is amidated as a agonist . C - terminal primary amide . ( SEQ ID NO : 14 ) . In certain When used herein , the term “ additional therapeutic preferred embodiments a is 1 , b is 18 ; X2 is Phe ; and the 
+ 5 C - terminal amino acid is amidated as a C - terminal primary cial therapeutic effects , such as treatments for T2DM and / or amide . ( SEQ ID NO : 15 ) . Such GIP - GLP - 1 co - agonists may obesity , which are currently available and / or in develop be prepared using techniques such as those which may be ment , including for example GLP - 1R agonists , GIP - GLP - 1 co - agonists , insulin receptor agonists , oxyntomodulins , met used to prepare glucagon receptor agonists of the present 
+ formin , thiazolidinediones , sulfonylureas , DPP - 4 inhibitors , invention , as described below in the Peptide Synthesis 
+ and SGLT2 inhibitors . 10 examples . 
+ When used herein , the term “ in combination with ” means When used herein , the term “ insulin receptor agonist ” 
+ administration of the glucagon receptor agonist of the pres - refers to human insulin , or analogs or derivatives thereof , or ent invention either simultaneously , sequentially or in a any other protein which is capable of binding to and acti single combined formulation with the one or more additional vating the insulin receptor . Insulin receptor activity may be therapeutic agents . 5 measured by methods known in the art , including using in When used herein , the term “ GLP - 1R agonist ” refers to a 15 vivo experiments and in vitro assays that measure insulin compound comprising the amino acid sequence of native receptor binding activity or receptor activation . An insulin human GLP - 1 ( SEQ ID NO : 2 ) , a GLP - 1 analog , GLP - 1 derivative or a GLP - 1 fusion protein , which maintains analog is a molecule having a modification including one or 
+ activity at the GLP - 1 receptor . GLP - 1 receptor activity may more amino acid substitutions , deletions , inversions , or 
+ be measured by methods known in the art , including using 20 additions when compared with native human insulin , the 
+ in vivo experiments and in vitro assays that measure GLP - 1 structure of which is well known . An insulin derivative is a 
+ re receptor binding activity or receptor activation . A GLP - 1 molecule having the amino acid sequence of native human 
+ analog is a molecule having a modification including one or insulin , or an analog thereof , but additionally having at least 
+ one chemical modification of one or more of its amino acid more amino acid substitutions , deletions , inversions , or additions when compared with the amino acid sequence of side groups , a - carbon atoms , terminal amino group , or 
+ native human GLP - 1 ( SEQ ID NO : 2 ) . A GLP - 1 derivative P _ 1 derivative 25 terminal carboxylic acid group . An insulin fusion protein is 
+ is a molecule having the amino acid sequence of native a heterologous protein comprising insulin , an insulin analog 
+ human GLP - 1 ( SEQ ID NO : 2 ) or of a GLP - 1 analog , but or an insulin derivative portion and a second polypeptide . 
+ additionally having at least one chemical modification of Although any insulin receptor agonist may be considered for 
+ use in embodiments wherein a glucagon receptor agonist of one or more of its amino acid side groups , a - carbon atoms , terminal amino group , or terminal carboxylic acid group . A 30 group . A 30 the present invention is administered in combination with an 
+ GLP - 1 fusion protein is a heterologous protein comprising insulin receptor agonist , preferred insulin receptor agonists 
+ are those having a basal , or extended , duration of action . GLP - 1 , a GLP - 1 analog or a GLP - 1 derivative and a second polypeptide , such as an immunoglobulin Fc region . GLP - 1R Currently available insulin receptor agonists with basal 
+ agonists currently available and / or in development include activity include insulin glargine , insulin detemir , and insulin degludec , each of which is indicated for once - daily admin exenatide , liraglutide , lixisenatide , albiglutide , dulaglutide 35 istration . and semaglutide . In certain preferred embodiments wherein In certain embodiments , the present invention provides a a glucagon receptor agonist of the present invention is method for treatment of T2DM in a patient comprising administered in combination with a GLP - 1R agonist , the GLP - 1R agonist is dulaglutide . See , e . g . , U . S . Pat . No . administering to a patient in need of such treatment an 
+ 7 , 452 , 966 . effective amount of a glucagon receptor agonist of the 
+ When used herein , the term “ GIP - GLP - 1 co - agonist ” 40 pm 1 co - agonist " 40 present invention , or a pharmaceutically acceptable salt 
+ refers to a compound which has activity at both the GIP and GLP - 1 receptors . GIP receptor and GLP - 1 receptor activity In certain embodiments , the present invention provides a 
+ may be measured by methods known in the art , including method for treatment of obesity in a patient comprising 
+ administering to a patient in need of such treatment an using in vivo experiments and in vitro assays that measure GIP receptor and / or GLP - 1 receptor binding activity or 45 45 effective amount of a glucagon receptor agonist of the 
+ receptor activation . Although no GIP - GLP - 1 co - agonists are present invention , or a pharmaceutically acceptable salt 
+ thereof . currently available as T2DM treatments , multiple GIP ana logs have been described as exhibiting both GIÐ and GLP - 1 In certain embodiments , the present invention provides a 
+ receptor activity , see , e . g . , WO2013164483 , WO method for treatment of fatty liver disease in a patient 
+ 2011119657 . comprising administering to a patient in need of such 
+ In certain preferred embodiments wherein a glucagon 50 treatment an effective amount of a glucagon receptor agonist 
+ receptor agonist of the present invention is administered in of the present invention , or a pharmaceutically acceptable 
+ combination with a GIP - GLP - 1 co - agonist , the GIP - GLP - 1 salt thereof . In certain embodiments , the present invention provides a co - agonist has the following structure : method for treatment of NASH in a patient comprising 55 administering to a patient in need of such treatment an 
+ YX EGTFTSDYSIX LDKIAQX3AX4VQWLIAGGPSSGAPPPS ; effective amount of a glucagon receptor agonist of the present invention , or a pharmaceutically acceptable salt wherein thereof . 
+ X , is Aib ; In other embodiments , the present invention also provides 
+ X , is Aib ; a method of treatment of T2DM in a patient comprising X2 is K which is chemically modified through conjugation administering to a patient in need of such treatment an to the epsilon - amino group of the K side - chain with effective amount of a glucagon receptor agonist of the ( [ 2 - ( 2 - amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) , - CO present invention , or a pharmaceutically acceptable salt 
+ ( CH ) , CO , H wherein a is 1 or 2 and b is 10 to 20 ; thereof , in combination with one or more additional thera X , is Phe or 1 - naphthylalanine ( 1 - Nal ) ; peutic agents , such as GLP - 1R agonists , GIP - GLP - 1 co and the C - terminal amino acid is optionally amidated 65 agonists , insulin receptor agonists , oxyntomodulins , met 
+ ( SEQ ID NO : 13 ) , formin , thiazolidinediones , sulfonylureas , DPP - 4 inhibitors , or a pharmaceutically acceptable salt thereof . and SGLT2 inhibitors . thereof . 
+US 9 , 884 , 093 B2 
+ 12 
+ When used herein , the term " patient in need thereof invention may be prepared by a variety of procedures known refers to a mammal , preferably a human or a bovine , with a in the art . In particular , the process using chemical synthesis disease or condition requiring treatment , including for is illustrated in the Examples below . The specific synthetic example , T2DM , obesity , fatty liver disease , NASH and / or steps for each of the routes described may be combined in metabolic syndrome . 5 different ways to prepare glucagon receptor agonists of the 
+ When used herein , the term " effective amount ” refers to present invention . The reagents and starting materials are the amount or dose of glucagon receptor agonist of the readily available to one of ordinary skill in the art . 
+ present invention , or a pharmaceutically acceptable salt The invention is further illustrated by the following 
+ thereof which , upon single or multiple dose administration examples , which are not to be construed as limiting . to the patient , provides the desired effect in the patient under 10 diagnosis or treatment . An effective amount can be readily PEPTIDE SYNTHESIS 
+ determined by a person of skill in the art through the use of known techniques and by observing results obtained under Example 1 analogous circumstances . In determining the effective 
+ amount for a patient , a number of factors are considered , are considered , 15 Example 1 is a glucagon receptor agonist represented by including , but not limited to : the species of mammal ; its size , the following description : age , and general health ; the specific disease or disorder involved ; the degree of or involvement or the severity of the 
+ disease or disorder ; the response of the individual patient ; YX QGTFX2SDYSKYLDX3KKAX4EFVXgWLLEX , X7 the particular glucagon receptor agonist administered ; the mode of administration ; the bioavailability characteristics of 20 wherein X , is Aib ; X , is T ; X2 is Aib ; X4 is K which is the preparation administered ; the dose regimen selected ; the chemically modified through conjugation to the epsilon use of concomitant medication , and other relevant circum amino group of the K side - chain with ( [ 2 - ( 2 - Amino stances . ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) . - CO ( CH2 ) 6 _ CO , H Certain glucagon receptor agonists of the present inven - wherein a is 2 and b is 16 ; X , is E ; X . is T ; X , is tion are generally effective over a wide dosage range . For 25 GPSSGAPPPS ; and the C - terminal amino acid is amidated example , dosages for once - weekly administration may fall as a C - terminal primary amide ( SEQ ID NO : 6 ) . within the range of about 0 . 01 to about 30 mg per person per Below is a depiction of the structure of Example 1 using week . Glucagon receptor agonists of the present invention the standard single letter amino acid codes with the excep may be dosed daily , thrice - weekly , twice - weekly or once tion of residues Aib2 , Aib16 and K20 , where the structures weekly . Once - weekly administration is preferred . of these amino acid residues have been expanded : 
+ HO . ILOH OH 
+ LOH 
+ HN o 
+ H - Y - NLQGTFTSDYSKYLD - N KKA - N EFVEWLLETGPSSGAPP PS - NH2 
+ As used herein , the term “ treating ” or “ to treat ” includes The peptide of Example 1 is generated by solid - phase restraining , slowing , stopping , or reversing the progression peptide synthesis using a Fmoc / t - Bu strategy carried out on 
+ or severity of an existing symptom or disorder . 60 a Symphony automated peptide synthesizer ( PTI Protein The amino acid sequences of the present invention con Technologies Inc . ) starting from RAPP AM - Rink Amide tain the standard single letter or three letter codes for the resin and with couplings using 6 equivalents of amino acid twenty naturally occurring amino acids . Additionally , “ Aib ” is alpha amino isobutyric acid . The present invention also activated with diisopropylcarbodiimide ( DIC ) and hydroxy 
+ encompasses novel intermediates and processes useful for benzotriazole ( HOBt ) ( 1 : 1 : 1 molar ratio ) in dimethylforma 
+ the synthesis of glucagon receptor agonists of the present 65 mide ( DMF ) for 90 min at 25° C . invention , or a pharmaceutically acceptable salt thereof . The Extended couplings for Pro31 ( 4 h ) , Trp25 ( 4 h ) , Glu24 ( 4 intermediates and glucagon receptor agonists of the present h ) , Va123 ( 10 h ) , Glu21 ( 4 h ) , Aib16 ( 4 h ) , Asp15 ( 4 h ) , Thr7 
+13 US 9 , 884 , 093 B2 
+ 14 
+ ( 4 h ) , Thr5 ( 4 h ) , Gly4 ( 4 h ) , Gln3 ( 4 h ) and Aib2 ( 24 h ) are etonitrile ( containing 0 . 05 % v / v TFA ) gradient on a C18 
+ necessary to improve the quality of the crude peptide . A column , where suitable fractions are pooled and lyophilized , 
+ Fmoc - Lys ( Alloc ) - OH building block is used for Lys20 cou resulting in a TFA salt . 
+ pling ( orthogonal protecting group ) to allow for site specific 5 In a synthesis performed essentially as described above , 
+ attachment of the fatty acid moiety later on in the synthetic the purity of Example 1 is examined by analytical reversed 
+ phase HPLC , and identity is confirmed using LC / MS ( ob process . The N - terminal residue is incorporated as Boc - Tyr served : M + 3H + / 3 = 1713 . 6 ; Calculated M + 3H + / 3 = 1714 . 3 ; ( tBu ) - OH using DIC - HOBt protocols as described above ( 24 observed : M + 4H + / 4 = 1285 . 7 ; Calculated M + 4H4 / h coupling ) . 10 4 = 1285 . 9 ) . After finishing the elongation of the peptide - resin 
+ described above , the Alloc protecting group present in Lys20 
+ is removed using catalytic amounts of Pd ( PPhz ) 4 in the Example 2 
+ presence of PhSiHz as a scavenger . Additional coupling / 15 Example 2 is a glucagon receptor agonist represented by 
+ deprotection cycles using a Fmoc / t - Bu strategy to extend the the following description : 
+ Lys20 side - chain involve Fmoc - NH - PEG - CH2COOH 
+ ( ChemPep Catalog # 280102 ) , Fmoc - Glu ( OH ) - OtBu YX , QGTFX , SDYSKYLDX3KKAXAEFVXGWLLEXX , ( ChemPep Catalog # 100703 ) and HOOC - ( CH2 ) 16 – 20 COOtBu . In all couplings . 3 equivalents of the building wherein : X , is Aib , X , is T ; X , is Aib ; X , is K which is 
+ block are used with PyBOP ( 3 equiv ) and DIEA ( 6 equiv ) in chemically modified through conjugation to the epsilon 
+ DMF for 4 h at 25° C . amino group of the K side - chain with ( [ 2 - ( 2 - Amino ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) a - CO - ( CH2 ) . — CO , H ; a Concomitant cleavage from the resin and side chain 25 is 2 ; b is 18 ; X , is E ; Xo is T ; X , is GPSSGAPPPS ; and protecting group removal are carried out in a solution wherein the C - terminal amino acid is amidated as a C - ter 
+ containing trifluoroacetic acid ( TFA ) : triisopropylsilane : 1 , 2 - minal primary amide ( SEQ ID NO : 7 ) . 
+ ethanedithiol : water : thioanisole 90 : 4 : 2 : 2 : 2 ( v / v ) for 2 h at Below is a depiction of the structure of Example 2 using 
+ 25° C . followed by precipitation with cold ether . Crude 30 the standard single letter amino acid codes with the excep 
+ peptide is purified to > 99 % purity ( 15 - 20 % purified yield ) tion of residues Aib2 , Aib16 and K20 , where the structures by reversed - phase HPLC chromatography with water / ac of these amino acid residues have been expanded : 
+ HO 
+ HN 
+ HN 
+ H - Y - NIQGTFTSDYSKYLD - N KKA - N EFVEWLLETGPSSGAPPP S - NH2 H - Y - > XTQGTETSDYSKYLD - * * * KA - EFVEW 
+15 US 9 , 884 , 093 B2 
+ 16 The peptide according to Example 2 is synthesized simi The peptide according to Example 3 is synthesized simi 
+ larly as described above in Example 1 . HOOC - ( CH2 ) 18 — larly as described above for Example 1 . 
+ COOtBu is incorporated using 3 equivalents of the building In a synthesis performed essentially as described above block with PyBOP ( 3 equiv ) and DIEA ( 6 equiv ) in DMF for for Example 1 , the purity of Example 3 is examined by 
+ 4 h at 25° C . analytical reversed - phase HPLC , and identity is confirmed 
+ In a synthesis performed essentially as described above using LC / MS ( observed : M + 3H + / 3 = 1717 . 4 ; Calculated M + 3H + / 3 = 1718 . 3 ; observed : M + 4H + / 4 = 1288 . 3 ; Calculated for Example 1 , the purity of Example 2 is examined by M + 4H + / 4 = 1289 . 0 ) . analytical reversed - phase HPLC , and identity is confirmed using LC / MS ( observed : M + 3H + / 3 = 1723 . 2 ; Calculated 10 M + 3H + / 3 = 1723 . 6 ; observed : M + 4H + / 4 = 1292 . 9 ; Calculated Example 4 
+ M + 4H + / 4 = 1293 . 0 ) . Example 4 is a glucagon receptor agonist represented by Example 3 15 the following description : 
+ Example 3 is a glucagon receptor agonist represented by 
+ the following description : YX QGTFX , SDYSKYLDX2KKAX EFVXGWLLEX , X7 
+ 20 wherein X , is Aib ; X , is T ; X2 is Aib ; X4 is K which is YX QGTFX2SDYSKYLDX3KKAX EFVX5WLLEXgX7 chemically modified through conjugation to the epsilon 
+ wherein : X , is Aib ; X , is L ; X2 is Aib ; X4 is K which is amino group of the K side - chain with ( [ 2 - ( 2 - Amino chemically modified through conjugation to the epsilon - ethoxy ) - ethoxyl - acetyl ) - ( yGlu ) - CO ( CH , ) , CO , H ; a amino group of the K side - chain with ( [ 2 - ( 2 - Amino ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) a - CO ( CH2 ) . CO2H ; a 25 25 is 2 ; b is 16 ; X , is E ; Xo is T ; and X , is GPSSG ; and the 
+ is 2 ; b is 16 ; X , is E ; X . is T ; and X , is GPSSGAPPPS ; and C - terminal amino acid is amidated as a C - terminal primary 
+ wherein the C - terminal amino acid is amidated as a C a mide ( SEQ ID NO : 9 ) . terminal primary amide ( SEQ ID NO : 8 ) . Below is a depiction of the structure of Example 3 using Below is a depiction of the structure of Example 4 using 
+ the standard single letter amino acid codes with the excep tion of residues Aib2 , Aib16 and K20 , where the structures tion of residues Aib2 , Aib16 and K20 , where the structures 
+ of these amino acid residues have been expanded : of these amino acid residues have been expanded : ondo 
+ ?? LOH OH 
+ NOH HLOH 
+ HN 
+ - Y - N borove como fazer GTFLSDYSKYLD - N KKA - N E F VE W L L E TGP S S G APP P S?NH 
+ 0 
+US 9 , 884 , 093 B2 
+ 17 18 
+ HO . yum inio 
+ LOH 
+ HN 
+ ZI 
+ - Y - NYXQGTETSDYSKYLD - NXKKA N GTFTSDYSKYLD - N KKA - N E F VE W L L E T G P = SG - NH 
+ The peptide according to Example 4 is synthesized simi wherein X , is Aib ; X , is T ; Xz is Aib ; X4 is K which is larly as described above for Example 1 . chemically modified through conjugation to the epsilon In a synthesis performed essentially as described above for Example 1 , the purity of Example 4 is examined by 30 amino group of the K side - chain with ( L2 - ( 2 - Amino analytical reversed - phase HPLC , and identity is confirmed ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) a - C0 — ( CH2 ) . — CO H ; a using LC / MS ( observed : M + 3H + 3 = 1563 . 7 ; Calculated M + 3H + / 3 = 1564 . 4 ; observed : M + 4H + 4 = 1172 . 9 ; Calculated is 2 ; b is 18 ; X , is E ; Xo is T ; and X , is GPSSG ; and the 
+ M + 4H + 14 = 1173 . 6 ) . C - terminal amino acid is amidated as a C - terminal primary 
+ Example 5 35 amide ( SEQ ID NO : 10 ) . Below is a depiction of the structure of Example 5 using Example 5 is a glucagon receptor agonist represented by the standard single letter amino acid codes with the excep the following description : tion of residues Aib2 , Aib16 and K , O , where the structures 
+ YX QGTFX2SDYSKYLDX3KKAX4EFVXGWLLEXgX7 of these amino acid residues have been expanded : 
+ LH LOH OH 
+ LOH 
+ HN 
+ HN 
+ H - Y - N GTFTSDYSKYLD - N KKA - N E F G E W L L E TGP S S G - NH 
+10 US 9 , 884 , 093 B2 
+ 19 20 The peptide according to Example 5 is synthesized simi - ( orthogonal protecting group ) to allow for site specific 
+ larly as described above for Example 1 . attachment of the fatty acid moiety later on in the synthetic In a synthesis performed essentially as described above process ( 4 h coupling time ) . The N - terminal residue is for Examples 1 and 2 , the purity of Example 5 is examined incorporated as Boc - Tyr ( tBu ) - OH using DIC - HOBt proto by analytical reversed - phase HPLC , and identity is con - 5 cols as described above ( 24 h coupling ) . 
+ firmed using LC / MS ( observed : M + 3H + / 3 = 1572 . 9 ; Calcu After finishing the elongation of the peptide - resin 
+ lated M + 3H + / 3 = 1573 . 8 ; observed : M + 4H + / 4 = 1179 . 8 ; Cal described above , the Alloc protecting group present in Lys20 
+ culated M + 4H + / 4 = 1180 . 6 ) . is removed using catalytic amounts of Pd ( PPhz ) 4 in the presence of PhSiH , as a scavenger . Additional coupling 
+ Example 6 deprotection cycles using a Fmoc / t - Bu strategy to extend the 
+ Lys20 side - chain involved Fmoc - NH - PEG2 - CH2COOH 
+ Example 6 is a glucagon receptor agonist represented by ( ChemPep Catalog # 280102 ) , Fmoc - Glu ( OH ) - OtBu 
+ the following description : ( ChemPep Catalog # 100703 ) and HOOC - ( CH2 ) 16 – COOtBu . In all couplings , 3 equivalents of the building block are used with PyBOP ( 3 equiv ) and DIEA ( 6 equiv ) in 15 DMF for 4 h at 25° C . YXLQGTFX , SDYSKYLDX3KKAX EFVX5WLLEX X7 Concomitant cleavage from the resin and side chain wherein X is Aib ; X , is T ; Xz is Aib ; X4 is K which is protecting group removal are carried out in a solution chemically modified through conjugation to the epsilon - containing trifluoroacetic acid ( TFA ) : triisopropylsilane : 1 , 2 
+ amino group of the K side - chain with ( 2 - ( 2 - Amino - ethanedithiol : water : thioanisole 90 : 4 : 2 : 2 : 2 ( v / v ) for 2 h at ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) , - CO ( CH2 ) - CO H ; a 20 25° C . followed by precipitation with cold ether . Crude is 1 ; b is 16 ; X , is A ; X , is E ; and X , is absent ; and the peptide is purified to > 99 % purity ( 15 - 20 % purified yield ) C - terminal amino acid is C - terminal acid ( SEQ ID NO : 11 ) . by reversed - phase HPLC chromatography with water / ac Below is a depiction of the structure of Example 6 using etonitrile ( containing 0 . 05 % v / v TFA ) gradient on a C18 the standard single letter amino acid codes with the excep - column , where suitable fractions are pooled and lyophilized . tion of residues Aib2 , Aib16 and K20 , where the structures 25 In a synthesis performed essentially as described above , of these amino acid residues have been expanded : the purity of Example 6 is examined by analytical reversed 
+ 11 
+ HN TO 
+ HN 
+1 - Y - Leorensbeskyto - V H - Y - NLQGIFTSDYSKYLD - N KKA - N - EF VAWLLE E - OH vawe Ö 
+ The peptide according to Example 6 is generated by phase HPLC , and identity is confirmed using LC / MS ( ob solid - phase peptide synthesis using a Fmoc / t - Bu strategy served : M + 3H + / 3 = 1382 . 7 ; Calculated M + 3H + / 3 = 1383 . 3 ; carried out on a Symphony automated peptide synthesizer 55 observed : M + 4H + / 4 = 1036 . 6 ; Calculated M + 4H + / 
+ ( PTI Protein Technologies Inc . ) starting from Fmoc - L - Glu 4 = 1037 . 7 ) . 
+ ( OtBu ) - Wang resin ( NovaBiochem catalog item # 856008 ; initial loading 0 . 51 mmol / g ) and with couplings using 6 Example 7 
+ equivalents of amino acid activated with diisopropylcarbo 
+ diimide ( DIC ) and hydroxybenzotriazole ( HOBt ) ( 1 : 1 : 1 60 Example 7 is a glucagon receptor agonist represented by 
+ molar ratio ) in dimethylformamide ( DMF ) for 90 min at 25° the following description : 
+ YXQGTFX2SDYSKYLDX3KKAX EFVXGWLLEX X7 Extended couplings for Trp25 ( 4 h ) , Ala24 ( 4 h ) , Val23 ( 10 h ) , Glu21 ( 4 h ) , Aib16 ( 4 h ) , Asp15 ( 4 h ) , Thr7 ( 4 h ) , Thr5 ( 4 h ) , Gin3 ( 4 h ) and Aib2 ( 24 h ) are necessary to 65 improve the quality of the crude peptide . A Fmoc - Lys ( Alloc ) - OH building block is used for Lys20 coupling wherein X is Aib ; X , is T ; X , is Aib ; X4 is K which is chemically modified through conjugation to the epsilon 
+ amino group of the K side - chain with ( [ 2 - ( 2 - Amino 
+US 9 , 884 , 093 B2 
+ 21 ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) , - CO ( CH2 ) . COZH ; a The mouse Gcg receptor binding assay utilizes cloned is 1 ; b is 18 ; X , is A ; Xo is E ; and X , is absent ; and the mouse glucagon receptor ( mGcgR ) ( Burcelin R , Li J , Char C - terminal amino acid is C - terminal acid ( SEQ ID NO : 12 ) . ron M J . Gene 164 ( 2 ) , 305 - 10 ( 1995 ) GenBank : L38613 ) Below is a depiction of the structure of Example 7 using isolated from 293HEK membranes . The mGcgR cDNA is the standard single letter amino acid codes with the excep - 5 subcloned into the expression plasmid pcDNA3 . 1 ( Pro 
+ tion of residues Aib2 , Aib16 and K20 , where the structures mega ) - ZeoR . This plasmid DNA is transfected into 293HEK of these amino acid residues have been expanded : cells and a clonal line selected using 100 ug / mL Zeocin . 
+ HO m LOH ?? 
+ HN 
+ H - Y - NIQGTFTSDYSKYLD - N KKA - N EF VAWLLE E - OH 
+ O 
+ The peptide according to Example 7 is synthesized simi The rat Gcg receptor binding assay utilizes cloned rat larly as described above in Example 6 . HOOC - ( CH2 ) 18 — 35 glucagon receptor ( rGcg - R ) ( Svoboda , M , Ciccarelli , E , COOtBu is incorporated using 3 equivalents of the building Tastenoy , M , Robberecht , P , Christophe , J . A cDNA con block with PyBOP ( 3 equiv ) and DIEA ( 6 equiv ) in DMF for struct allowing the expression of rat hepatic glucagon recep 4 h at 25° C . tors . Biochem . Biophys . Res . Commun . 192 ( 1 ) , 135 - 142 In a synthesis performed essentially as described above in ( 1993 ) , GenBank : L04796 ) in membranes isolated from Example 6 , the purity of Example 7 is examined by ana - 40 293HEK cells transiently expressing rGcg - R . The rGcg - R lytical reversed - phase HPLC , and identity is confirmed cDNA is subcloned into the expression plasmid pcDNA3 . 1 
+ using LC / MS ( observed : M + 3H + / 3 = 1391 . 8 ; Calculated ( Promega ) - ZeoR . This plasmid DNA is transfected into 
+ M + 3H + / 3 = 1392 . 6 ; observed : M + 4H + / 4 = 1044 . 3 ; Calculated 293HEK cells and transiently expressed for 48 hours . 
+ M + 4H + / 4 = 1044 . 7 ) . Crude plasma membranes are prepared using cells from 
+ 45 adherent culture . The cells are lysed on ice in hypotonic In Vitro Function buffer containing 50 mM Tris HC1 , pH 7 . 5 and Roche CompleteTM Protease Inhibitors with EDTA . The cell sus Binding Affinity pension is disrupted using a glass Potter - Elvehjem homog Binding Affinity of peptides of Examples 1 - 7 is deter enizer fitted with a Teflon® pestle for 25 strokes . The mined for recombinant human glucagon receptor ( hGcg - R ) , 50 homogenate is centrifuged at 4° C . at 1100xg for 10 minutes . mouse glucagon receptor ( mGcg - R ) and rat glucagon recep - The supernatant is collected and stored on ice while the tor ( rGcg - R ) . Radioligand competition binding assays using pellet is resuspended in hypotonic buffer and rehomog 
+ scintillation proximity assay ( SPA ) methods and membranes enized . The mixture is centrifuged at 1100xg for 10 minutes . prepared from 293HEK stably transfected cells overexpress The second supernatant is combined with the first superna ing hGcg - R , mGcg - R or rGcg - R are run to determine 55 tant and centrifuged at 35000xg for 1 hour at 4° C . The equilibrium dissociation constants ( K ) for peptides of membrane pellet is resuspended in homogenization buffer Examples 1 - 7 . The experimental protocols and results are containing protease inhibitors , quick frozen in liquid nitro 
+ described below . gen and stored as aliquots in a - 80° C . freezer until use . The human Gcg receptor binding assay utilizes cloned Gcg is radioiodinated by I - 125 - lactoperoxidase procedure hGcg - R ( Lok , S , et . al . , Gene 140 ( 2 ) , 203 - 209 ( 1994 ) ) , 60 and purified by reverse phase HPLC at Perkin - Elmer isolated from 293HEK cells overexpressing the recombinant ( NEX207 ) . The specific activity is 2200 Ci / mmol . K hGcg - R . The hGcg - R cDNA is subcloned into the expres determination is performed by homologous competition or sion plasmid phD ( Trans - activated expression of fully saturation binding analysis . The Ky for human Gog - R is gamma - carboxylated recombinant human protein C , an anti - estimated to be 3 . 92 nM and is used to calculate K , values thrombotic factor . Grinnell , B W , et . al . , Bio / Technology 5 : 65 for all compounds tested in the hGcg - R assay . The K , for 1189 - 1192 ( 1987 ) ) . This plasmid DNA is transfected into mouse Geg - R is estimated to be 3 . 52 nM and is used to 293HEK cells and selected with 200 ug / mL Hygromycin . calculate K , values for all compounds tested in the mGcg - R 
+US 9 , 884 , 093 B2 23 24 
+ assay . The K , for rat Gog - R is estimated to be 21 . 4 nM and gamma - carboxylated recombinant human protein C , an anti is used to calculate K , values for all compounds tested in the thrombotic factor . Grinnell , BW , et . al . , Bio / Technology 5 : rGcg - R assay . 1189 - 1192 ( 1987 ) ) . This plasmid DNA is transfected into The receptor binding assay is carried out using a Scintil - 293HEK cells and cells are selected with 200 ug / mL Hygro lation Proximity Assay ( SPA ) format with wheat germ 5 mycin . agglutinin ( WGA ) beads ( Perkin Elmer ) . The binding buffer The hGLP - 1 - R functional cAMP assay uses 293HEK contains 25 mM 4 - ( 2 - hydroxyethyl ) - 1 - piperazineethanesul - cells expressing cloned hGLP - 1 - R ( Graziano M P , Hey PJ , 
+ fonic acid ( HEPES ) , pH 7 . 4 , 2 . 5 mM CaCl2 , 1 mM MgCl2 , Borkowski D , Chicchi G G , Strader C D , Biochem Biophys 0 . 1 % ( w / v ) bacitracin ( Affymetrix ) , 0 . 003 % ( w / v ) Polyoxy Res Commun . 196 ( 1 ) : 141 - 6 , 1993 ) . The hGLP - 1R DNA is ethylenesorbitan monolaurate ( TWEEN® - 20 ) and Roche 10 subcloned into the expression plasmid phD ( Trans - activated CompleteTM Protease Inhibitors without EDTA . Gcg ( Eli expression of fully gamma - carboxylated recombinant 
+ Lilly and Company ) is dissolved in DMSO at 3 . 48 mg / mL human protein C , an antithrombotic factor . Grinnell , B . W . , ( 1 mM ) and stored frozen at - 20° C . in 100 uL aliquots . The Berg , D . T . , Walls , J . and Yan , S . B . Bio / Technology Gcg aliquot is diluted and used in binding assays within an 5 : 1189 - 1192 , 1987 ) . This plasmid DNA is transfected into 
+ hour . The peptide analogs are dissolved in DMSO and 3 - fold 15 293HEK cells and cells are selected with 200 ug / mL Hygro serially diluted in 100 % DMSO . Next , 5 uL serially diluted mycin . The hGIP - R functional assay uses hGIP - R ( Usdin , T . compound or DMSO is transferred into Corning® 3632 B . , Gruber , C . , Modi , W . and Bonner , T . I . , GenBank : clear bottom assay plates containing 45 uL assay binding AAA84418 . 1 ) cloned into pcDNA3 . 1 ( Promega ) - NeoR 
+ buffer or unlabeled Gcg control ( NSB at 1 uM final ) . Then , plasmid . The hGIP - R - pcDNA3 . 1 / Neo plasmid is transfected 
+ 50 UL hGcg - R ( 1 . 5 ug / well ) , mGcg - R ( 6 . 47 ug / well ) or 20 into Chinese Hamster Ovary cells , CHO - S , for suspension 
+ rGcg - R membranes ( 1 . 5 ug / well ) , 50 uL I - 125 Gcg ( 0 . 15 nM cultures and selected in the presence of 500 ug / mL Geneticin final in reaction ) , and 50 uL of WGA beads ( 150 ug / well ) are ( Invitrogen ) . added , plates sealed and mixed on a plate shaker ( setting 6 ) . Each receptor over - expressing cell line is treated with 
+ for 1 minute . Plates are read with a PerkinElmer Trilux peptide in DMEM ( Dulbecco ' s Modified Eagle Medium , 
+ MicroBeta® scintillation counter after 12 hours of settling 25 Gibco Cat # 31053 ) supplemented with IX GlutaMAXTM time at room temperature . Results are calculated as a percent ( L - alanyl - L - glutamine dipeptide in 0 . 85 % NaCl , Gibco Cat of specific I - 125 - Gcg binding in the presence of compound . # 35050 ) , 0 . 1 % casein ( Sigma Cat # C4765 ) , 250 UM IBMX 
+ The Absolute IC5o concentration of compound is derived by ( 3 - Isobutyl - 1 - methylxanthine ) and 20 mM HEPES [ N - ( 2 non - linear regression of the percent specific binding of Hydroxyethyl ) piperazine - N - ( 2 - ethanesulfonic acid ) , 
+ 1 - 125 - Gcg vs . the concentration of compound added . The 30 HyClone Cat # SH30237 . 01 ] in a 40 uL assay volume . After IC so concentration is converted to K , using the Cheng - a 60 minute incubation at room temperature , the resulting 
+ Prusoff equation ( Cheng , Y . , Prusoff , W . H . , Biochem . increase in intracellular CAMP ( adenosine 3 ' , 5 - cyclic mono 
+ Pharmacol . 22 , 3099 - 3108 , ( 1973 ) ) . phosphate ) is quantitatively determined using the CisBio K ; of peptides of Examples 1 - 7 and human Gcg at the CAMP Dynamic 2 HTRF Assay Kit ( CisBio 62AM4PEC ) . hGcg - R , mGcg - R and rGcg - R are provided below in Table 35 CAMP levels within the cell are detected by adding the CAMP - d2 conjugate in cell lysis buffer ( 20 uL ) followed by 
+ TABLE 1 
+ hGcg - R Ki , 
+ nM = SEM , ( n ) mGcg - R Ki , nM SEM , ( n ) rGcg - R Ki , 
+ nM SEM , ( n ) 
+ | Example 1 
+ Example 2 
+ Example 3 Example 4 Example 5 Example 6 Example 7 
+ Human glucagon 2 . 04 - 1 . 02 ( n = 2 ) 1 . 07 + 0 . 16 ( n = 2 ) 0 . 287 + 0 . 171 ( n = 2 ) 
+ 0 . 738 ( n = 1 ) 1 . 59 ( n = 1 ) 0 . 316 ( n = 1 ) 0 . 673 ( n = 1 ) 
+ 3 . 64 + 0 . 91 ( n = 3 ) 1 . 92 + 0 . 71 ( n = 2 ) 0 . 991 0 . 066 ( n = 2 ) 0 . 174 ( n = 1 ) 0 . 774 ( n = 1 ) 1 . 58 ( n = 1 ) 0 . 123 ( n = 1 ) 0 . 753 ( n = 1 ) 2 . 41 0 . 22 ( n = 3 ) 9 . 78 0 . 22 ( n = 2 ) 5 . 59 + 0 . 24 ( n = 2 ) 
+ 1 . 56 + 0 . 13 ( n 
+ 5 . 86 ( n = 4 . 36 ( n = 0 . 98 ( n = 1 . 38 ( n = 
+ 23 . 3 + 1 . 7 ( n = 
+ These data indicate that glucagon receptor agonists of the the antibody anti - CAMP - Eu3 + - Cryptate , also in cell lysis present invention bind to glucagon receptors with affinity buffer ( 20 ul ) . The resulting competitive assay is incubated 
+ similar to or greater than human glucagon in three different for at least 60 min at room temperature , followed by 
+ species ( human , mouse and rat receptors ) . detection using a PerkinElmer Envision® instrument with 
+ excitation at 320 nm and emission at 665 nm and 620 nm . Functional Activity and Selectivity Envision units ( emission at 665 nm / 620 nm * 10 , 000 ) are Functional activity and selectivity is determined by quan inversely proportional to the amount of cAMP present and titation of intracellular cAMP in HEK293 cells expressing are converted to nM cAMP per well using a cAMP standard human glucagon receptor ( hGcg - R ) , human Glucagon - Like cur 
+ Peptide - 1 receptor ( HULP - R ) or human gastric inhibitory 60 converted to a percent of the maximal response observed peptide ( also known as glucose - dependent insulinotropic with either 10 nM human GLP - 1 ( 7 - 36 ) NH , ( for the hGLP polypeptide receptor , hGIP - R ) . The experimental protocols 1R assay ) , 10 nM human Gcg ( for the hGcg - R assay ) or 10 
+ and results are described below . nM human GIP ( 1 - 42 ) NH , ( for the hGIP - R assay ) . A relative The hGcg - R functional cAMP assay uses 293HEK cells EC50 value and percent top ( Emar ) are derived by non - linear expressing cloned hGcg - R ( Lok , S , et . al . , Gene 140 ( 2 ) , 65 regression analysis using the percent maximal response vs . 203 - 209 ( 1994 ) ) . The hGcg - R cDNA is subcloned into the the concentration of peptide added , fitted to a four - parameter expression plasmid phD ( Trans - activated expression of fully logistic equation . cu 
+US 9 , 884 , 093 B2 
+ 25 26 Functional data for Examples 1 - 7 , human GIP ( 1 - 42 ) NH2 , Q - Exactive mass spectrometer for detection and quantita human GLP - 1 ( 7 - 36 ) NH , and human Gcg are shown in Table tion . 2 below . Means for EC50 are expressed as Geometric Mean Pharmacokinetic Parameters Following a Single means standard error of the mean ( SEM ) with the number 100 nmol / kg Subcutaneous Dose to Male Sprague Dawley of replicates ( n ) indicated in parenthesis . A > ) qualifier 5 Rats are provided in Table 3 below ( n = 3 for Examples 1 , 2 
+ indicates that % efficacy did not reach 50 % and the calcu - and 5 and Tmax and Cmax for Examples 3 and 4 ; n = 2 for lated EC50 is obtained using the highest concentration tested . T1 / 2 , AU CO - inf and CL / F for Examples 3 and 4 ) . 
+ TABLE 2 
+ hGcg - R EC50 
+ nM SEM , ( n ) hGlp - 1R EC50 , nM - SEM , ( n ) hGIP - R EC50 , nM SEM , ( n ) 
+ | | | | 
+ | | | Example 1 Example 2 Example 3 Example 4 Example 5 Example 6 Example 7 
+ Human 0 . 00436 + 0 . 00079 ( n = 4 ) 0 . 0112 = 0 . 0025 ( n = 3 ) 0 . 00340 + 0 . 00010 ( n = 2 ) 
+ 0 . 00278 + 0 . 00010 ( n 
+ 0 . 0160 + 0 . 0038 ( n 
+ 0 . 00413 0 . 00026 ( n = 2 ) 0 . 0166 + 0 . 0004 ( n = 2 ) 0 . 00760 + 0 . 00101 ( n = 7 ) | | | | | LLLLLL 73 . 9 19 . 6 ( n = 2 ) > 100 ( n = 2 ) > 100 ( n = 2 ) 
+ 19 . 0 + 8 . 2 ( n 
+ 27 . 0 + 4 . 5 ( n = 2 ) > 100 ( n = 3 ) > 100 ( n = 3 ) 7 . 70 + 1 . 03 ( n = 2 ) > 500 ( n = 3 ) 
+ > 500 ( n 
+ > 500 ( n 
+ > 500 ( n = 3 ) > 500 ( n = 3 ) > 500 ( n = 3 ) > 500 ( n = 3 ) > 500 ( n = 3 ) Glucagon > 10 ( n = 1 ) 0 . 076 + 0 . 017 ( n = 2 ) > 500 ( n = 3 ) Human 
+ GLP - 1 
+ Human GIP > 10 ( n = 1 ) > 10 ( n = 1 ) 0 . 145 + 0 . 041 ( n = 3 ) 
+ TABLE 3 These data indicate that glucagon receptor agonists of the 25 present invention have similar potency at the glucagon receptor as human glucagon with increased selectivity rela tive to the GLP - 1 receptor and GIP receptor . T12 
+ ( hr ) Tmax 
+ ( hr ) Cmax AUCo - inf CL / F 
+ ( nmole / L ) ( hr * nmole / L ) ( mL / hr / kg ) Compound 
+ 346 21329 4 . 7 
+ 12948 7 . 8 
+ Abbreviations : AUCo - inf = area under the curve from 0 to infinity , CL / F = clearance / Pharmacokinetics 30 Example 1 13 8 425 11692 8 . 8 Example 2 Example 2 22 24 346 21329 Pharmacokinetics in Rats Example 3 Example 3 11 8 394 394 11133 11133 9 . 2 
+ Male Sprague Dawley rats are administered a single Example 4 257 5948 17 . 0 
+ subcutaneous ( 100 nmole / kg ) dose of an example compound 35 Example 5 237 in Tris Buffer ( pH 8 . 0 ) at a volume of 1 mL / kg . Blood is collected from each animal at 1 , 6 , 12 , 24 , 48 , 72 , 96 , 120 , 144 , 168 , 192 , and 240 hours postdose . bioavailability , Tmax = time to maximum concentration , Cmax = maximum plasma concentration , T1 / 2 = half - life , ND = no data . Plasma concentrations of compounds are determined by 40 LC / MS methods . Each method measured the intact peptide These data show that Examples 1 - 5 have an extended 
+ ( peptide plus linked time extension ) . For each assay , the duration of action relative to native human glucagon , which compound and an analog , used as an internal standard ( IS ) , has a T1 / 2 of approximately 30 minutes . 
+ are extracted from 100 % rat or monkey plasma ( 50 ul ) using Pharmacokinetics in Cynomolgus Monkeys methanol and 0 . 1 % formic acid . Two distinct layers are Male Cynomolgus monkeys are administered a single formed upon centrifugation with the compound and the IS intravenous ( 50 nmole / kg ) or subcutaneous ( 50 nmole / kg ) located in the supernatant . A 275 ul aliquot of the superna 
+ tant is transferred to a Thermo Protein Precipitation Plate dose of a test compound in Tris Buffer ( pH 8 . 0 ) at a volume 
+ where a vacuum is applied for collection of the flow through 50 of 0 . 25 mL / kg . Blood is collected from each animal at 0 . 5 
+ into a 96 - well plate . ( IV only ) , 6 , 12 , 24 , 48 , 72 , 96 , 120 , 168 , 192 , 240 , 336 , 480 , 
+ Samples are dried with heated nitrogen gas to remove the 576 , and 672 hours post - dose . Plasma concentrations of 
+ supernatant . A volume of 150 ul of 30 % acetonitrile and 5 % compounds are determined by LC / MS methods generally as 
+ formic acid is added to the wells to reconstitute the samples . 55 described above in the Sprague dawley rat studies . Injected samples ( 20 ul ) are loaded onto a Supelco Analyti cal Discovery BIO Wide Pore C5 - 3 , 5 cmx0 . 1 mm , 3 um Mean ( n = 2 ) pharmacokinetic parameters are provided 
+ column . The column effluent is directed into a Thermo below in table 4 . 
+ TABLE 4 
+ Compound 
+ ( Route / dose ) Coor CL or T1 / 2 Tmax Cmax AUCo - inf CL / F ( hr ) ( hr ) ( nmole / L ) ( hr * nmole / L ) ( mL / hr / kg ) Animal _ ID 
+ Mean Mean 42 NA 1182 37278 1 . 36 Example 1 
+ ( IV 50 nmol / kg ) 
+US 9 , 884 , 093 B2 
+ 28 27 
+ TABLE 4 - continued 
+ Compound 
+ ( Route / dose ) Animal _ ID T12 Tmax ( hr ) ( hr ) 
+ 44 9 Coor CL or Cmax AUCo - inf CL / F ( nmole / L ) ( hr * nmole / L ) ( mL / hr / kg ) 
+ 425 31821 1 . 57 Mean Example 1 
+ ( SC 50 nmol / kg ) Example 2 
+ ( SC 50 nmol / k ) Mean 79 18 377 377 46292 1 . 08 
+ Abbreviations : AUCoint = area under the curve from 0 to infinity , CL = clearance , CL / F = clearance / bioavailability , Tmax = time to maximal concentration , Co = concentration extrapolated to time 0 hour , Cmax = maximal plasma concentration , T / 2 = half - life , NA = not applicable . 
+ 20 
+ 0 
+ 0 . 11 
+ - 1 . 17 These data show that Examples 1 and 2 have an extended ( HMW ) polymer or loss of main peak occurs . Recovery by duration of action relative to native human glucagon , which SEC - HPLC is within 5 % for Examples 1 - 6 . 
+ has a Tv2 of less than an hour . TABLE 5 In Vivo Studies buffer Example 1 Example 2 Example 3 Example 4 Example 6 
+ Continuous Glucose Monitoring in Rats A % HMW Peak 12 - 14 weeks old normal Sprague - Dawley male rats 0 . 13 - 0 . 03 - 0 . 01 SON 0 . 64 - 0 . 03 ( HARLANTM , Indianapolis , Ind . ) are individually housed in C7N - 0 . 06 0 . 16 0 . 26 - 0 . 26 a temperature - controlled ( 24° C . ) facility with 12 hour H6 . 5N - 0 . 02 0 . 06 - 0 . 03 0 . 35 
+ light / dark cycle and free access to food ( TD2014 TEKLAD H7 . 5N 0 . 35 - 0 . 15 - 0 . 09 0 . 44 0 . 14 GLOBAL RODENT DIET® , HARLANTM Labs , India - 25 A % Main Peak 
+ napolis , Ind . ) and water . After 2 weeks acclimation to the CON - 0 . 02 0 . 08 0 . 08 - 3 . 42 - 0 . 98 facility , the rats are implanted with HD - XG transmitters C7N 0 . 26 - 0 . 26 - 0 . 18 - 1 . 19 0 . 36 
+ H6 . 5N - 0 . 39 ( Data Sciences International , St Paul , Minn . ) . - 0 . 58 - 1 . 28 - 2 . 88 
+ H7 . 5N - 1 . 43 - 0 . 87 - 1 . 21 - 0 . 79 - 1 . 68 The transmitter implantation surgery is performed under 
+ 2 % to 3 % isoflurane ( 2 - chloro - 2 - ( difluoromethoxy ) - 1 , 1 , 1 - 30 trifluoroethane ) anesthesia . The glucose sensor of the trans - Solubility of Examples 1 - 2 is also assessed in three mitter is placed in the descending aorta . The temperature additional formulations : T7 ( 10 mM Tris - HC1 , pH 7 ) , T7Tm sensor of the transmitter is placed in the abdominal cavity ( 10 mM Tris - HC1 , 0 . 02 % polysorbate - 20 , 29 mM m - cresol , 
+ with the transmitter body . Seven days after transmitter pH 7 ) , and T7Nm ( 10 mM Tris - HC1 , 100 mM NaCi , 29 mM implantation surgery , all rats are placed on telemetry receiv - 35 m - cresol , pH 7 ) . Compounds are prepared in 17 via dialysis 
+ ers to continuously record blood glucose and core body as described . Samples are formulated at 2 mg / mL in T7 , temperature measurements at 1 minute intervals while the T7Tm or T7Nm then concentrated to 10 mg / mL peptide as rats are moving freely in their home cages . Data acquisition described . Formulations are held for one week at 4° C . and is controlled and analyzed by DATAQUEST A . R . T . TM sys assessed visually and by SEC - HPLC and RP - HPLC as tem software ( Data Sciences International , St Paul , Minn . ) . 40 described The initial calibration of the glucose sensor is achieved All formulations remain clear and colorless . SEC - HPLC through an intraperitoneal glucose tolerance test ( ipGTT ) 7 and RP - HPLC data are in Table 6 . HMW polymer growth and RP - HPLC data are in Table 6 HMW polymer growth days post - surgery and subsequent calibrations are made does not exceed 0 . 2 % for any formulations . Peak recovery every other day via glucose measurements through tail via glucose measurements through tail by RP - HPLC is within 5 % for all formulations . blood . Beginning on days 9 - 11 post - surgery , test compounds 45 at 10 nmol / kg dose are administered once by subcutaneous TABLE 6 injection in a 20 mM Tris - HCl buffer at pH 8 . 0 , 1 mL / Kg body weight . Blood glucose levels are monitored up to 7 Peptide Formulation % A HMW days . Example 1 T7m Blood glucose data indicate that Examples 1 - 7 each result 50 T7Nm 0 . 05 in a sustained increase in blood glucose levels in a dose T7Tm 0 . 18 dependent manner . Example 2 T7m 
+ T7Nm 0 . 08 
+ T7Tm 0 . 07 Physical and Chemical Characteristics 
+ 55 Solubility and Stability These data indicates that Examples 1 - 6 have acceptable Samples of Examples 1 - 6 are prepared at 5 mg / mL in H20 solubility properties under different buffer conditions . and dialyzed as described into buffers CON ( 10 mM Citrate , Chemical Stability 
+ 100 mM NaCl , pH 6 ) , C7N ( 10 mM Citrate , 100 mM NaCl , Chemical stability for Example 1 is determined in differ 
+ pH 7 ) , H6 . 5N ( 10 mM Histidine , 100 mM NaCl , pH 6 . 5 ) and 60 ent buffers of various pH values . Samples are prepared in H7 . 5N ( 10 mM Histidine , 100 mM NaCl , pH 7 . 5 ) . Samples H , O to a 5 mg / mL concentration , dialyzed using Slide - A 
+ are concentrated to 10 mg / mL peptide as described and held Lyzer Dialysis cassettes , 2000 MWCO ( part number 66203 ) at 4° C . for one week . Samples are assessed visually and by overnight at 4° C . into the buffer of interest , filtered through SEC - HPLC as described . a 0 . 22 um filter ( Millex , SLGV013SL ) then diluted to 1 Examples 1 - 6 in all formulations are clear and colorless 65 mg / mL in respective buffer . Buffer compositions are 10 mM 
+ after one week at 4° C . SEC - HPLC data are provided in Tris - HCl in H2O pH 8 ( T8 ) , 10 mM Tris - HCl in H2O pH 7 Table 5 . No significant growth in high molecular weight ( T7 ) , 10 mM Histidine in H2O pH 7 ( H7 ) , or 10 mM Citrate 0 . 1 
+ 0 . 1 
+29 US 9 , 884 , 093 B2 
+ 30 
+ in H2O pH 6 ( C6 ) . Each 1 mg / mL sample is transferred to identified for Example 1 at pH 8 . Overall , chemical stability three vials . Samples are maintained at 4° C . , 25° C . and 40° for Example 1 indicates excellent stability under buffer C . Samples are assessed every two weeks for a total of four conditions tested . 
+ weeks . Samples are visually assessed for turbidity and phase Physical Stability 
+ separation . Stability of the compound is assessed by ana - 5 Test samples of Example 1 are prepared via dialysis in 17 buffer then formulated at 2 mg / mL peptide in T7m , T7Nm , lytical reverse phase HPLC ( RP - HPLC ) on a Waters Sym and T7Tm as described . Each formulation is transferred to metry Shield RP18 , 3 . 5 um , 4 . 6x100 mm column ( part clean glass vials and stirred at 400 rpm via a Teflon - coated number 18600179 ) heated at 60° C . with an AB ( A = 0 . 1 % magnetic flee at room temperature for 6 hours . Aliquots of 
+ TFA / H , O , B = 0 . 085 % TFA / acetonitrile ) gradient of 10 % B 100 uL are taken for assessment at time 0 , 1 hour , 3 hours 
+ isocratic over 3 min , 30 % B over 3 min , 30 - 60 % B over 30 and 6 hours . Samples are assessed visually and by SEC 
+ min , and 95 % B over 2 min at a flow rate of 0 . 9 ml / min HPLC as before . 
+ ( wavelength of 214 nm ) . Stability is also assessed by size All formulations remain clear and colorless with no 
+ exclusion HPLC ( SEC - HPLC ) on an Insulin HMWP , 7 . 8 % opalescence or precipitation . As shown in Table 8 , the 300 mm column ( part number WAT2015549 ) with a running 16 percentages of peptide in the main peak of SEC - HPLC 
+ buffer of 20 mM Sodium Phosphate , 20 % acetonitrile , pH 15 remains within 5 % for all formulations . Data indicate 
+ 7 . 2 running at a flow rate of 0 . 5 mL / min for 40 min . Example 1 has good physical stability characteristics under 
+ conditions tested . Physical appearance is clear to colorless , with no opales 
+ cence or particles at pH 7 and pH 8 for Example 1 . TABLE 8 RP - HPLC and SEC - HPLC results are summarized in Table 20 - 7 below . Recovery is within 5 % by RP - HPLC and SEC % Main Peak 
+ HPLC which is acceptable . Formulation Time 0 1 hour 3 hours 6 hours 
+ TABLE 7 T7m 95 . 94 96 . 02 96 . 18 95 . 69 
+ T7Nm 95 . 39 95 . 45 95 . 43 95 . 43 Temp T8 T7 H7 06 25 T7Tm 96 . 21 96 . 12 96 . 27 96 . 18 
+ % A main peak by RP at 4 weeks 
+ 4° C . Combination Studies 3 . 13 % 2 . 52 % 1 . 73 % 2 . 01 % 25° C . 4 . 84 % 2 . 92 % 0 . 12 % 3 . 05 % 
+ 40° C . 1 . 41 % 1 . 74 % 8 . 69 % 3 . 61 % 30 Activity in Co - Formulation with GIP - GLP - 1 Co - Agonist or % A main peak by SEC at 4 weeks GLP - 1R Agonist Co - formulations of Examples 1 and 3 with a GIP - GLP - 1 4° C . 0 . 21 % 0 . 6 % 1 . 77 % 0 . 31 % co - agonist of SEQ ID NO : 15 or dulaglutide are prepared as 25° C . 0 . 17 % 0 . 1 % 3 . 1 % 8 . 72 % 
+ 40° C . 0 . 65 % 0 . 97 % 1 . 22 % 1 . 17 % described below in the stability studies , and activities of 
+ 35 individual compounds and co - formulations are measured using the methods described above . Data are shown in Samples in T8 buffer held at 4° C . and 40° C . for four Tables 9 and 10 . A ) qualifier indicates % efficacy did not weeks are also analyzed by liquid chromatography - mass reach 50 % and calculated EC50 is obtained using the highest spectrometry ( LC - MS ) . No major sites of degradation are concentration tested . 
+ TABLE 9 0 
+ 0 
+ EC50 ( average of N = 2 standard deviation , * N = 1 ) 
+ Sample 
+ Conditions Geg Receptor 
+ Assay GLP - 1 Receptor Assay GIP Receptor 
+ Assay Treatment 
+ Example 3 17 - 4 C . - 4 wk 
+ T7 - 40 C . - 4 wk 
+ T7m - 4 C . - 4 wk 
+ T7m - 40 C . - 4 wk 
+ Example 3 + 17 - 4 C . - 4 wk 
+ GIP - GLP - 1 17 - 40 C . - 4 wk 
+ co - agonist T7m - 4 C . - 4 wk 
+ T7m - 40 C . - 4 wk 
+ Example 1 17 - 4 C . - 4 wk 
+ T7 - 40 C . - 4 wk 
+ T7m - 4 C . - 4 wk 
+ T7m - 40 C . - 4 wk 
+ Example 1 + 17 - 4 C . - 4 wk 
+ GIP - GLP - 1 T7 - 40 C . - 4 wk 
+ co - agonist T7m - 4 C . - 4 wk 
+ T7m - 40 C . - 4 wk 
+ GIP - GLP - 1 17 - 4 C . - 4 wk 
+ co - agonist 17 - 40 C . - 4 wk 
+ T7m - 4 C . - 4 wk 
+ T7m - 40 C . - 4 wk 14 . 3 + 3 . 4 PM 
+ 24 . 9 = 2 . 9 PM 
+ 21 . 1 + 4 . 0 PM 21 . 1 1 5 . 1 PM 21 . 3 + 2 . 5 PM 21 . 9 + 0 . 4 PM 
+ 16 . 0 + 3 . 4 PM 24 . 2 0 . 5 PM 
+ 20 . 3 2 . 5 PM 
+ 21 . 7 3 . 4 PM 
+ 23 . 0 + 0 . 3 PM 
+ 19 . 4 + 5 . 0 PM 
+ 23 . 7 + 0 . 7 PM 
+ 19 . 2 - 2 . 4 PM 
+ 16 . 5 1 . 8 PM 
+ 18 . 7 + 0 . 6 PM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ 1 . 47 nM * 
+ 2 . 66 nm * 
+ 3 . 08 nM * 
+ 2 . 61 nM * 
+ > 100 nM 
+ 57 . 53 nM * 
+ 43 . 83 nM * 
+ 49 . 66 nM * 
+ 1 . 78 nm * 
+ 1 . 65 nM * 
+ 1 . 41 nM * 
+ 1 . 21 nM * 
+ 2 . 56 nM * 
+ 2 . 76 nM * 
+ 1 . 61 nM * 
+ 0 . 73 nM * > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ 0 . 65 nM * 
+ 0 . 74 nM * 
+ 0 . 71 nM * 
+ 0 . 40 nM * 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ 0 . 49 + 0 . 16 nM 
+ 0 . 60 + 0 . 21 nM 
+ 0 . 39 + 0 . 06 nM 
+ 0 . 36 + 0 . 34 nM 
+ 0 . 70 nM * 
+ 0 . 41 nM * 
+ 0 . 30 0 . 19 nM 
+ 0 . 15 + 0 . 02 nM 
+US 9 , 884 , 093 B2 
+ 31 
+ TABLE 10 
+ ECso ( average of N = 2 standard deviation 
+ Sample 
+ Conditions Peptide Geg Receptor 
+ Assay GLP - 1 Receptor Assay GIP Receptor Assay 
+ Example 1 C6 . 5 - 4 C . - 4 wk 
+ C6 . 5 - 40 C . - 4 wk 
+ C6 . 5MT - 4 C . - 4 wk 
+ C6 . 5MT - 40 C . - 4 wk Example 3 C6 . 5 - 4 C . - 4 wk 
+ C6 . 5 - 40 C . - 4 wk 
+ C6 . 5MT - 4 C . - 4 wk C6 . 5MT - 40 C . - 4 wk Example 1 + C6 . 5MT - 4 C . - 4 wk Dulaglutide C6 . 5MT - 40 C . - 4 wk Example 3 + C6 . 5MT - 4 C . - 4 wk 
+ Du e C6 . 5MT - 40 C . - 4 wk Dulaglutide C6 . 5 - 4 C . - 4 wk 
+ C6 . 5 - 40 C . - 4 wk 
+ C6 . 5MT - 4 C . - 4 wk C6 . 5MT - 40 C . - 4 wk 17 . 8 + 6 . 8 PM 
+ 24 . 3 + 11 . 1 PM 
+ 18 . 8 + 1 . 8 PM 
+ 14 . 6 + 5 . 0 PM 
+ 36 . 9 29 . 6 PM 25 . 7 6 . 9 PM 
+ 19 . 3 + 1 . 1 PM 
+ 21 . 4 + 3 . 1 PM 14 . 6 + 0 . 8 PM 15 . 2 + 6 . 4 PM 22 . 7 + 5 . 2 PM 
+ 22 . 6 + 2 . 1 PM 
+ 51 . 9 + 68 . 1 nM 
+ > 100 nM 54 . 0 + 65 . 0 nM > 100 nM 41 . 6 5 . 0 nM 
+ 54 . 6 + 46 . 2 nM 
+ 55 . 6 + 9 . 2 nM 
+ 47 . 9 + 5 . 8 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ 0 . 36 + 0 . 01 nM 0 . 37 + 0 . 00 nM 0 . 57 + 0 . 25 nM 
+ 0 . 30 + 0 . 01 nM 
+ 0 . 37 + 0 . 11 nM 
+ 0 . 31 + 0 . 17 nM 0 . 40 + 0 . 14 nM 0 . 29 + 0 . 09 nM > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM 
+ > 100 nM > 100 nM 
+ These data indicate the bioactivity of Examples 1 and 3 is study , animals are sacrificed and livers removed and frozen . maintained under stressed and non - stressed conditions and / Liver triglycerides , determined from homogenates of livers or in combination with a GLP - 1R agonist or GIP - GLP - 1 collected at sacrifice , and plasma cholesterol are measured co - agonist . 25 on an Hitachi Modular P clinical analyzer . Statistical com In Vivo Studies of Combinations with GLP - 1R Agonists or parisons between groups are done using one - way ANOVA GIP - GLP - 1 Co - Agonists followed by Dunnett ' s multiple comparison test . The ED50 Effects of combinations of glucagon receptor agonists of values for weight loss lowering are determined in GraphPad the present invention with long - acting GLP - 1R agonists or Prism using the non - linear fit tool . GIP - GLP - 1 co - agonists are tested in C57 / BL6 dietary 30 induced obese ( DIO ) mice . The GIP - GLP - 1 co - agonist has Weight loss and percent fat mass change data for studies 
+ the structure of SEQ ID NO : 14 , as described above . The conducted as described above are provided below in Tables GLP - 1R agonist is a GLP - 1 - Fc fusion described in 11 ( Example 1 ) and 12 ( Examples 1 and 2 ) . Results in Table 
+ WO2005000892 . Co - formulations are prepared generally as 11 are expressed as Mean : SEM of 5 mice per group results 
+ described below in the co - formulation stability studies . 35 in Table 12 are expressed as Mean + SEM of 6 mice per The C57 / BL6 DIO animals , although not diabetic , display group . insulin resistance , dyslipidemia , and hepatic steatosis , all Combinations of Examples 1 and 2 with either GLP - 1R characteristics of metabolic syndrome , after being placed on agonist or GIP - GLP - 1 co - agonist have synergistic effects on a high fat ( 60 % Kcal from fat ) diet for 12 weeks . Thus , 
+ studies in these animals may be used to investigate the 40 1 or 2 . GLP - 1R agonist or GIP - GLP - 1 co - agonist alone body weight and fat mass compared to effects of Examples 
+ effects of proposed therapeutics ( s ) on parameters such as ( Tables 11 and 12 ) . weight loss , body composition and hepatic steatosis . 20 - 21 weeks old male DIO C57 / B16 male mice weighing TABLE 11 42 - 47 g and having initial fat mass ranging from 11 . 9 g to 
+ 17 . 2 g are used . Animals are individually housed in a 45 % Change from % Change from temperature - controlled ( 24° C . ) facility with a 12 hour Dose Dose starting starting 
+ light / dark cycle ( lights on 22 : 00 ) , and have free access to ( nmol / kg ) body weight fat mass 
+ food and water . After 2 weeks acclimation to the facility , Vehicle - 3 . 72 + 1 . 169 mice are randomized to treatment groups ( n = 5 / group ) based Example 1 - 6 . 07 + 1 . 81 - 9 . 60 + 3 . 35 on body weight so each group has similar starting mean 50 Example 1 - 10 . 56 + 1 . 78 - 18 . 12 + 3 . 40 * 
+ body weight . GLP1 - R agonist - 15 . 54 + 1 . 67 * * - 28 . 32 + 2 . 94 * * * 
+ GLP1 - R 10 + 3 - 26 . 57 + 2 . 05 * * * * Vehicle , test compounds ( dose range 3 to 10 nmol / kg ) , agonist + GLP - 1R agonist ( 10 nmol / kg ) , GIP - GLP - 1 co - agonist ( 10 Example 1 nmol / kg ) or combinations thereof ( dose range 3 to 10 GLP1 - R 10 + 10 - 30 . 78 + 1 . 97 * * * * - 62 . 22 = 4 . 10 * * * * 
+ nmol / kg ) dissolved in vehicle ( 20 mM Tris - HC1 Buffer , pH 55 agonist + Example 1 8 . 0 ) are administered by SC injection to ad libitum fed mice GIP - GLP - 1 10 - 23 . 67 + 1 . 83 * * * * - 48 . 21 + 4 . 67 * * * * 30 - 90 minutes prior to onset of the dark cycle every three co - agonist days for 15 days . SC injections are made on Day 1 , 4 , 7 , 10 , GIP - GLP - 1 10 + 3 - 34 . 83 + 3 . 60 * * * * - 68 . 99 + 4 . 05 * * * * 
+ and 13 . Daily body weight , food intake and glucose are vejoht food intake and glucose are co - agonist + co - agonist + Example 1 measured throughout the study . Absolute changes in body 60 GIA GIP - GLP - 1 10 + 10 - 43 . 06 + 2 . 49 * * * * - 82 . 06 + 1 . 41 * * * * weight are calculated by subtracting the body weight of the co - agonist + 
+ same animal prior to the first injection of molecule . On days Example 1 
+ 0 and 14 , total fat mass is measured by nuclear magnetic * p < 0 . 05 , resonance ( NMR ) using an Echo Medical System ( Houston , * * p < 0 . 01 , 30 01 . Tex . ) instrument . * * * p < 0 . 001 and 
+ * * * * p < 0 . 0001 significant from vehicle control group ( One - Way ANOVA , Dunnett ' s ) . 
+ cometer ( Roche ) from tail vein blood . At the end of the Treatment 
+ - 4 . 39 = 1 . 84 
+ 3 
+ 10 
+ 10 
+ - 49 . 88 + 3 . 87 * * * * 
+ reson 
+ lea 
+US 9 , 884 , 093 B2 
+ 33 34 
+ TABLE 12 TABLE 12 - continued 
+ % Change from starting body weight Dose ( nmol / kg ) % Change from 
+ starting 
+ fat mass % Change from starting body weight Dose ( nmol / kg ) Treatment % Change from 
+ starting 
+ fat mass Treatment 
+ 10 + 10 - 32 . 01 = 3 . 81 * * * * - 65 . 66 + 5 . 92 * * * * 0 10 1 . 14 - 1 . 02 - 10 . 74 + 1 . 42 * 
+ - 17 . 76 + 4 . 52 * * * 3 . 17 1 . 61 
+ - 21 . 52 + 3 . 51 * 
+ - 33 . 30 + 7 . 35 * * * * 
+ 10 + 3 - 15 . 94 + 1 . 20 * * * - 33 . 54 + 3 . 43 * * * * mom - 1 . 77 2 . 08 - 3 . 87 + 1 . 41 
+ - 0 . 85 + 2 . 71 
+ - 5 . 29 + 0 . 84 
+ - 17 . 49 + 2 . 90 * * * - 2 . 08 = 3 . 59 
+ - 6 . 20 + 2 . 90 
+ 0 . 11 + 5 . 11 
+ - 6 . 03 - 1 . 99 
+ - 34 . 41 + 7 . 38 * * * * GIP - GLP agonist + 
+ Example 1 
+ GIP - GLP 
+ agonist + 
+ Example 2 
+ GIP - GLP agonist + Example 2 10 + 10 - 40 . 37 + 4 . 03 * * * * - 76 . 34 + 3 . 11 * * * * 
+ 10 
+ 10 + 3 Vehicle 
+ GLP1 - R agonist 
+ GIP - GLP - 1 co - agonist Example 1 
+ Example 1 Example 2 Example 2 
+ GLP1 - R agonist + Example 1 
+ GLP1 - R agonist + Example 1 
+ GLP1 - R agonist + Example 2 
+ GLP1 - R agonist + Example 2 
+ GIP - GLP agonist + Example 1 10 + 10 - 23 . 49 = 1 . 40 * * * * - 48 . 16 + 4 . 14 * * * * 15 * p < 0 . 05 , 
+ * * p < 0 . 01 , * * * p < 0 . 001 and * * * * p < 0 . 0001 significant from vehicle control group ( One - Way ANOVA , Dunnett ' s ) . 
+ 10 + 3 - 14 . 83 + 2 . 43 * * - 27 . 21 + 6 . 34 * * 
+ 10 + 10 - 30 . 60 + 4 . 33 * * * * - 55 . 55 7 . 93 * * * * Data on effects on blood glucose , plasma cholesterol and liver triglycerides are provided below in tables 13 
+ 20 ( mean : SEM , n = 5 ) and 14 ( mean : SEM , n = 6 ) . Whereas Examples 1 and 2 administered individually increase blood glucose in a dose - dependent manner , combinations of such example glucagon receptor agonists with either GLP - 1R 
+ agonists or GIP - GLP - 1 co - agonists reduce blood glucose , 
+ plasma cholesterol and liver triglycerides . 10 + 3 - 18 . 41 + 1 . 23 * * * * - 39 . 06 + 4 . 13 * * * * 
+ TABLE 13 
+ Dose ( nmol / kg ) Blood Glucose 
+ AUC ( mg / dl / 15 day ) Plasma 
+ Cholesterol ( mg / dl ) Liver Triglycerides 
+ ( mgg tissue ) Treatment 
+ 10 10 
+ 10 + 3 2224 = 78 . 55 2553 + 112 . 5 * 
+ 2607 = 109 . 4 * * 1565 + 26 . 39 * * * * 
+ 1452 + 25 . 48 * * * * 228 . 00 6 . 50 207 . 00 = 6 . 43 
+ 157 . 80 + 15 . 44 * * * * 
+ 153 . 40 + 11 . 64 * * * * 
+ 96 . 20 + 7 . 86 * * * * 200 . 29 = 33 . 67 
+ 68 . 83 + 5 . 82 * * * * 
+ 32 . 94 + 11 . 23 * * * * 
+ 55 . 01 + 12 . 62 * * * * 
+ 20 . 89 + 4 . 39 * * * * 
+ 10 + 10 1388 + 80 . 92 * * * * 86 . 60 + 3 . 47 * * * * 12 . 78 + 1 . 57 * * * * Vehicle Example 1 Example 1 
+ GLP1 - R agonist 
+ GLP1 - R agonist + Example 1 
+ GLP1 - R 
+ agonist + 
+ Example 1 
+ GIP - GLP - 1 
+ co - agonist 
+ GIP - GLP - 1 
+ co - agonist + Example 1 
+ GIP - GLP - 1 co - agonist + Example 1 10 1453 = 27 . 96 * * * * 137 . 80 9 . 05 * * * * 32 . 60 6 . 70 * * * * 
+ 10 + 3 1256 + 111 . 5 * * * * 103 . 00 + 3 . 56 * * * * 35 . 47 + 15 . 78 * * * * 
+ 10 + 10 1044 + 63 . 37 * * * * 77 . 40 + 10 . 10 * * * * 24 . 99 + 13 . 43 * * * * 
+ * p < 0 . 05 , 
+ * * p < 0 . 01 , 
+ * * * p < 0 . 001 from control group ( One - Way ANOVA , Dunnett ' s ) . 
+ TABLE 14 
+ Dose 
+ ( nmol / kg ) Blood Glucose 
+ AUC 
+ ( mg / dl / 15 day ) Plasma 
+ Cholesterol 
+ ( mg / dl ) Liver Triglycerides 
+ ( mg / g tissue ) Treatment 
+ 0 
+ 10 1806 + 52 . 85 
+ 1189 + 28 . 83 * * * 
+ 1137 63 . 27 * * * * 224 . 40 + 5 . 12 
+ 149 . 50 + 12 . 02 * * * * 
+ 135 . 50 + 7 . 11 * * * * 174 . 72 = 26 . 56 
+ 46 . 06 + 12 . 31 * * * * 
+ 48 . 50 + 7 . 18 * * * * 10 Vehicle GLP1 - R agonist 
+ GIP - GLP - 1 co - agonist Example 1 Example 1 Example 2 Example 2 
+ GLP1 - R agonist + Example 1 
+ GLP1 - R 
+ agonist + Example 1 10 
+ 3 
+ 10 
+ 10 + 3 2080 = 103 . 2 
+ 2491 + 110 . 9 * * * * 
+ 2433 + 124 . 7 * * * 
+ 2641 + 186 . 6 * * * * 
+ 1081 + 56 . 68 * * * * 230 . 50 6 . 61 
+ 152 . 83 + 8 . 82 * * * * 
+ 201 . 83 10 . 11 
+ 117 . 67 + 4 . 46 * * * * 
+ 132 . 50 + 19 . 56 * * * * 111 . 87 + 22 . 43 * * 
+ 29 . 42 + 3 . 54 * * * * 
+ 75 . 45 + 12 . 82 * * * * 
+ 16 . 33 + 1 . 53 * * * * 
+ 34 . 34 + 6 . 48 * * * * 
+ 10 + 10 1031 + 61 . 29 * * * * 83 . 33 + 8 . 50 * * * * 25 . 57 + 7 . 27 * * * * 
+US 9 , 884 , 093 B2 
+ 35 36 
+ TABLE 14 - continued 
+ Dose ( nmol / kg ) Blood Glucose 
+ AUC ( mg / dl / 15 day ) Plasma 
+ Cholesterol ( mg / dl ) Liver Triglycerides ( mg / g tissue ) Treatment 
+ 10 + 3 1098 + 52 . 69 * * * * 152 . 00 1 9 . 32 * * * * 38 . 99 + 5 . 96 * * * * 
+ 10 + 10 1008 107 . 2 * * * * 78 . 50 + 6 . 03 * * * * 34 . 42 14 . 36 * * * * 
+ 10 + 3 1142 + 31 . 32 * * * * 131 . 83 + 6 . 42 * * * * 22 . 48 + 3 . 92 * * * * GLP1 - R agonist + Example 2 
+ GLP1 - R 
+ agonist + 
+ Example 2 
+ GIP - GLP - 1 co - agonist + Example 1 
+ GIP - GLP - 1 co - agonist + Example 1 
+ GIP - GLP - 1 co - agonist + Example 2 
+ GIP - GLP - 1 co - agonist + Example 2 10 + 10 916 . 9 + 97 . 73 * * * * 91 . 67 + 4 . 75 * * * * 6 . 99 + 1 . 29 * * * * 
+ 10 + 3 1063 + 20 . 89 * * * * 119 . 33 + 5 . 79 * * * * 22 . 87 + 5 . 94 * * * * 
+ 10 + 10 801 . 8 + 48 . 21 * * * * 90 . 33 + 7 . 89 * * * * 17 . 99 + 9 . 65 * * * * 
+ * p < 0 . 05 , 
+ * * p < 0 . 01 , * * * p < 0 . 001 from control group ( One - Way ANOVA , Dunnett ’ s ) . 
+ Stability in Co - Formulation with GIP - GLP - 1 Co - Agonist 25 co - agonist main peaks as well as all degradation peaks Samples of Examples 1 and 3 are prepared and dialyzed produced by stressing the sample at pH 9 and 40° C . for 3 
+ against T7 as described . Both examples are formulated days . separately at 1 mg / ml , peptide in T7 , T7m , TZN and T7Nm . Total peak recovery for all samples is within 5 % by AGIP - GLP - 1 co - agonist of SEQ ID NO : 15 is also prepared RP - HPLC . All formulations remain clear and colorless with and dialyzed against T7 as described for the example gluca - 30 no opalescence or precipitation . Changes in the percentage 
+ gon receptor agonists . The GIP - GLP - 1 co - agonist is formu - of peptides in their respective main peaks as observed by 
+ lated at 1 mg / mL peptide in T7 , T7m and T7Nm . Co - RP - HPLC after 4 weeks are summarized in Table 15 . Loss formulated samples containing 1 mg / mL Example 1 and 1 in percentage of main peak does not significantly change for mg / mL GIP - GLP - 1 co - agonist or 1 mg / mL Example 3 and Example 1 when formulated as a single agent as compared 
+ 1 mg / mL GIP - GLP - 1 co - agonist are also prepared and 35 to co - formulations with GIP - GLP - 1 co - agonist in all tested 
+ formulated in T7 , T7m , T7N and T7Nm . Each formulated formulations . The GIP - GLP - 1 co - agonist exhibits consistent sample is transferred to three vials . Samples are maintained loss in the percentage of main peak when formulated as a 
+ at 4° C . , 25º C . and 40° C . Samples are assessed every two single agent versus co - formulations with either Example 1 
+ weeks for a total of four weeks . Samples are visually or Example 3 . Data indicate that Examples 1 and 3 have 
+ assessed for turbidity and phase separation . Stability is 40 acceptable stability when formulated as a single agent or 
+ assessed by RP - HPLC as described above for the single co - formulated with a GIP - GLP - 1 co - agonist , and that agent formulation . The described RP - HPLC method gives Examples 1 and 3 do not detrimentally affect GIP - GLP - 1 good separation of Example compound and GIP - GLP - 1 co - agonist stability in co - formulation . 
+ TABLE 15 
+ Change in % Glucagon 
+ Analog Main Peak Change in % GIP - GLP - 1 
+ co - agonist Main Peak 
+ Compound ( s ) Formulation 4° C . 25° C . 40° C . 4° C . 25° C . 40° C . 
+ Example 1 N / A T7 
+ T7m 
+ ??? 
+ T7Nm 
+ T7 
+ T7m 
+ ??? 
+ T7Nm Example 1 + 
+ GIP - GLP - 1 co - agonist - 2 . 91 - 0 . 15 
+ - 1 . 39 
+ - 1 . 71 
+ - 0 . 26 - 0 . 92 
+ - 0 . 89 
+ - 1 . 94 
+ - 7 . 00 
+ 1 . 23 
+ - 6 . 13 - 0 . 37 0 . 54 
+ - 0 . 21 
+ - 0 . 71 - 1 . 23 
+ - 0 . 6 
+ - 0 . 29 
+ - 0 . 38 
+ - 1 . 57 
+ - 1 . 19 
+ - 0 . 25 
+ - 1 . 22 
+ - 2 . 23 
+ 0 . 92 
+ - 1 . 78 
+ 0 . 11 
+ - 0 . 07 
+ - 3 . 17 
+ - 3 . 26 
+ - 2 . 75 - 3 . 35 - 3 . 76 
+ - 4 . 42 - 5 . 50 - 0 . 37 0 . 35 
+ - 0 . 57 
+ - 1 . 07 
+ N / A Example 3 - 4 . 69 
+ - 2 . 36 - 4 . 19 - 3 . 93 - 3 . 59 - 2 . 67 
+ - 2 . 15 - 3 . 78 
+ - 1 . 78 
+ - 0 . 78 
+ - 2 . 15 
+ - 2 . 02 
+ - 0 . 80 
+ - 5 . 08 
+ - 6 . 37 
+ - 3 . 35 T7 
+ T7m 
+ T7? 
+ T7Nm - 0 . 76 LL LL T7 Example 3 + 
+ GIP - GLP - 1 
+ co - agonist T7m 
+ ??? 
+ T7Nm 
+ T7 
+ T7m 
+ T7Nm - 7 . 51 
+ - 4 . 12 
+ - 7 . 50 
+ - 3 . 24 
+ N / A - 0 . 40 
+ - 1 . 23 
+ - 0 . 22 
+ - 0 . 92 
+ - 0 . 59 0 . 10 - 0 . 85 - 0 . 40 
+ - 1 . 23 
+ - 1 . 90 
+ - 0 . 87 
+ - 2 . 12 - 0 . 50 - 1 . 14 - 4 . 14 
+ - 5 . 40 
+ - 6 . 12 
+ - 4 . 73 
+ - 5 . 25 - 4 . 3 - 4 . 66 GIP - GLP - 1 
+ co - agonist 
+38 US 9 , 884 , 093 B2 
+ 37 
+ The samples of Example 1 , the GIP - GLP - 1 co - agonist Example 3 . Each formulated sample is transferred to three 
+ and combinations thereof formulated in T7Nm , and combi vials and maintained at 4° C . , 25° C . and 40° C . Samples are 
+ nations of Example 1 and the GIP - GLP - 1 co - agonist for assessed every two weeks for a total of four weeks . Samples 
+ mulated in T7 , which are incubated at 4° C . and 40° C . for are visually assessed for turbidity and phase separation . 
+ four weeks are also assessed by LC - MS . No major sites of 5 Stability is assessed by RP - HPLC and SEC - HPLC as 
+ described above . Both described HPLC methods give good degradation are identified . For both Example 1 and GIP separation of Example compounds and dulaglutide main GLP - 1 co - agonist , chemical modifications are not signifi peaks as well as all degradation peaks produced by stressing cantly different for single agent formulations versus co the sample at pH 9 and 40° C . for 3 days . formulations . Total peak recovery for all stability samples is within 5 % Stability in Co - Formulation with GLP - 1R Agonist 10 by both RP - HPLC and SEC - HPLC . All formulations remain Examples 1 and 3 are prepared and dialyzed against C6 . 5 clear and colorless with no opalescence or precipitation . ( 10 mM Citrate pH 6 . 5 ) using the same method as described Changes in the percentage of compounds in their respective above for preparation into T7 buffer . Compounds are for - main peaks as observed by SEC - HPLC after four weeks are mulated separately at 1 mg / mL peptide in buffer C6 . 5 , summarized in Table 16 . Examples 1 and 3 are generally C6 . 5M ( 10 mM Citrate , 46 . 4 mg / mL D - mannitol , pH 6 . 5 ) , 15 stable and do not show a significant loss of main peak . C6 . 5T ( 10 mM Citrate , 0 . 02 % polysorbate - 80 , pH 6 . 5 ) , and Example 1 does not exhibit less stability when co - formu 
+ C6 . 5MT ( 10 mM Citrate , 46 . 4 mg / mL D - mannitol , 0 . 02 % lated with dulaglutide as compared to single agent formu polysorbate - 80 , pH 6 . 5 ) . A stock concentration of 46 . 5 lations . Example 3 shows slightly less stability in co mg / mL of dulaglutide in C6 . 5 is used to formulate dula - formulation with dulaglutide as compared to single agent glutide at 3 mg / mL in C6 . 5 and C6 . 5MT . Co - formulations in formulations . GLP - 1R agonist does not exhibit less stability C6 . 5MT are prepared having 3 mg / mL dulaglutide and 1 when co - formulated with either Example 1 or 3 as compared mg / mL Example 1 , or 3 mg / mL dulaglutide and 1 mg / mL to single agent formulations . 
+ TABLE 16 
+ Glucagon analog A % 
+ Main Peak GLP - 1 - Fc A % Main Peak 
+ Compound ( s ) Formulation 4° C . 25° C . 40° C . 4° C . 25° C . 40° C . 
+ Example 1 N / A - 1 . 32 
+ 0 . 70 
+ - 2 . 76 
+ - 1 . 04 
+ 1 . 03 
+ 0 . 49 
+ 0 . 46 1 . 02 C6 . 5 
+ C6 . 5M 
+ C6 . 5T 
+ C6 . 5MT 
+ C6 . 5 
+ C6 . 5M 
+ C6 . 5T 
+ C6 . 5MT 
+ C6 . 5 
+ C6 . 5MT 
+ C6 . 5MT Example 3 - 1 . 99 
+ - 1 . 26 - 3 . 97 
+ - 2 . 65 
+ - 0 . 34 
+ - 0 . 24 
+ 0 . 10 - 0 . 07 
+ N / A - 2 . 35 
+ - 1 . 67 - 1 . 72 
+ - 1 . 40 
+ - 0 . 37 
+ 1 . 08 
+ - 0 . 02 0 . 64 N / A 
+ dulaglutide 0 . 19 
+ 0 . 29 0 . 25 - 0 . 54 
+ - 0 . 87 - 0 . 16 > - 10 
+ - 0 . 83 - 0 . 16 - 0 . 67 - 0 . 75 - 0 . 75 Example 1 + dulaglutide Example 3 + dulaglutide C6 . 5MT C6 . 5MT - 1 . 04 - 1 . 90 - 1 . 90 0 . 21 - 0 . 11 - 0 . 11 - 0 . 11 - 0 . 11 
+ As observed by RP - HPLC , the stability trends are similar to those observed by SEC - HPLC . Changes in the percentage of compounds in their respective main peaks as observed by 45 RP - HPLC after four weeks are summarized in Table 17 . Examples 1 and 3 are generally stable and do not show a significant loss of main peak . Example 1 does not exhibit less stability when co - formulated with the GLP - 1R agonist as compared to single agent formulations . Example 3 shows slightly less stability in co - formulation with GLP - 1R agonist as compared to single agent formulations . GLP - 1R agonist does not exhibit less stability when co - formulated with either Example as compared to single agent formulations . 
+ TABLE 17 
+ Glucagon Analog A % 
+ Main Peak GLP - 1 - Fc A % 
+ Main Peak 
+ Compound ( s ) Formulation 4°C . 25° C . 40° C . 4° C . 25° C . 40° C . 
+ Example 1 N / A C6 . 5 
+ C6 . 5M 
+ C6 . 5T 
+ C6 . 5MT 
+ C6 . 5 
+ C6 . 5M 
+ C6 . 5T 
+ C6 . 5MT - 0 . 06 
+ 0 . 34 
+ 0 . 51 
+ - 0 . 98 
+ 1 . 06 
+ 2 . 43 
+ - 2 . 11 
+ - 1 . 22 - 0 . 47 
+ - 2 . 61 
+ - 0 . 35 
+ - 0 . 69 
+ 0 . 17 
+ 0 . 64 - 3 . 73 
+ - 4 . 47 
+ - 3 . 57 
+ - 4 . 39 
+ 0 . 24 
+ 1 . 86 
+ - 3 . 18 
+ - 0 . 4 Example 3 N / A 
+US 9 , 884 , 093 B2 
+ 39 40 
+ TABLE 17 - continued 
+ Glucagon Analog A % Main Peak GLP - 1 - Fc A % 
+ Main Peak 
+ Compound ( s ) Formulation 
+ GLP - 1R agonist C6 . 5 
+ C6 . 5MT C6 . 5MT 
+ C6 . 5MT 4° C . 25° C . 40°C . 4° C . 25° C . 
+ N / A N / A - 1 . 45 > - 10 - 1 . 45 > - 10 NA - 0 . 46 - 0 . 8 0 . 62 * - 2 . 55 1 . 90 * 40° C . 
+ - 9 . 96 - 9 . 96 
+ - 7 . 47 - 8 . 18 Example 1 + 
+ GLP - 1R agonist 
+ Example 3 + 
+ GLP - 1R agonist C6 . 5MT - 0 . 82 - 2 . 49 - 1 . 390 . 27 - 3 . 05 - 9 . 64 
+ * * Data not available due to instrument error 
+ SEO ID NO : 2 
+ 35 
+ 2 SEQUENCES Glucagon receptor agonist SEQ ID NO : 7 YX QGTFX SDYSKYLDX2KKAX EFVXGWLLEX / X7 
+ Human glucagon wherein : SEO ID NO : 1 
+ HSOGTFTSDYSKYLDSRRAQDFVOWLMNT 20 X , is Aib , 
+ X2 is T ; Human GLP - 1 Xz is Aib ; 
+ HAEGTFTSDVSSYLEGQAAKEFIAWLVKGR X4 is K which is chemically modified through conjugation to the epsilon - amino group of the K side - chain with ( [ 2 - ( 2 Human oxM 25 Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) , - CO ( CH2 ) SEO ID NO : 3 
+ HSQGTFTSDYSKYLDSRRAQDFVQWLMNTKRNRNNIA CO2H wherein a is 2 and b is 18 ; X , is E ; 
+ Human GIP Xo is T ; SEO ID NO : 4 YAEGTFISDYSIAMDKIHOODFVNWLLAQKGKKNDWKHNITO X , is GPSSGAPPPS ; and wherein the C - terminal amino acid is amidated as a Glucagon receptor agonist C - terminal primary amide . SEQ ID NO : 5 YX , QGTFX , SDYSKYLDX3KKAXAEFVXGWLLEXX , 
+ wherein Glucagon receptor agonist 
+ SEQ ID NO : 8 Xi is Aib ; YX , QGTFX , SDYSKYLDX2KKAXAEFVX WLLEXX7 X , is T or L ; wherein : X2 is Aib ; X4 is K which is chemically modified through conjugation to X , is Aib ; 
+ the epsilon - amino group of the K side - chain with ( [ 2 - ( 2 - 40 12 15 . . Amino - ethoxy ) - ethoxyl - acetyl ) - ( yGlu ) , - C0 — ( CH ) , X2 is Aib ; 
+ CO2H , wherein a is 1 or 2 and b is 14 to 24 ; X4 is K which is chemically modified through conjugation to 
+ X , is E or A ; the epsilon - amino group of the K side - chain with ( [ 2 - ( 2 
+ Xo is T or E ; Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) a - C0 — ( CH2 ) . 45 CO2H wherein a is 2 and b is 16 ; X , is either absent , or is a peptide selected from the group X , is E ; consisting of GPSSGAPPPS and GPSSG ; X , is T ; and and the C - terminal amino acid is optionally amidated . X , is GPSSGAPPPS ; and wherein the C - terminal amino acid is amidated as a 50 C - terminal primary amide . Glucagon receptor agonist 
+ SEQ ID NO : 6 YX QGTFX SDYSKYLDX3KKAX4EFVXSWLLEX6X7 Glucagon receptor agonist 
+ wherein SEQ ID NO : 9 YX QGTFX , SDYSKYLDX3KKAX4EFVXSWLLEXX7 X , is Aib ; X , is T ; wherein X is Aib ; 
+ X2 is Aib ; X2 is T ; 
+ X4 is K which is chemically modified through conjugation to X2 is Aib ; 
+ the epsilon - amino group of the K side - chain with ( [ 2 - ( 2 X4 is K which is chemically modified through conjugation to 
+ Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) , - C0 — ( CH2 ) . 60 the epsilon - amino group of the K side - chain with ( [ 2 - ( 2 
+ CO2H wherein ais 2 and b is 16 ; Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) a - C0 — ( CH2 ) . CO , H wherein a is 2 and b is 16 ; X , is E ; Xz is E ; Xo is T ; X , is T ; and X , is GPSSGAPPPS ; 65 X , is GPSSG ; and the C - terminal amino acid is amidated as a C - terminal and the C - terminal amino acid is amidated as a C - terminal primary amide . primary amide . 55 
+US 9 , 884 , 093 B2 41 42 
+ 5 
+ GIP - GLP CO - agonist 
+ 25 amino - ethoxy ) - ethoxy ] - acetyl ) - ( yGlu ) , CO ( CH2 ) . CO2H Glucagon receptor agonist wherein a is 1 or 2 and b is 10 to 20 ; SEO ID NO : 10 YX QGTFX , SDYSKYLDX2KKAXAEFVXGWLLEX6X7 X4 is Phe or 1 - naphthylalanine ( 1 - Nal ) ; 
+ and the C - terminal amino acid is optionally amidated . wherein X , is Aib ; 
+ X2 is T ; GIP - GLP co - agonist X2 is Aib ; SEO ID NO : 14 X4 is K which is chemically modified through conjugation to YX EGTFTSDYSIX LDKIAQX3AXAVQWLIAGGPSSGAPPPS ; 
+ the epsilon - amino group of the K side - chain with ( [ 2 - ( 2 - 10 wherein Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) . - C0 — ( CH2 ) X is Aib ; CO2H wherein a is 2 and b is 18 ; X2 is Aib ; X , is E ; X2 is K which is chemically modified through conjugation to Xo is T ; and the epsilon - amino group of the K side - chain with ( [ 2 - ( 2 15 X , is GPSSG ; amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) , - CO ( CH2 ) . 
+ and the C - terminal amino acid is amidated as a C - terminal COH wherein a is 2 and b is 18 ; 
+ primary amide . X4 is 1 - Nal ; and the C - terminal amino acid is amidated as a C - terminal 20 primary amide . 
+ Glucagon receptor agonist 
+ SEO ID NO : 11 
+ YX QGTFX SDYSKYLDX2KKAX EFVXGWLLEX / X7 SEQ ID NO : 15 wherein YX EGTFTSDYSIX LDKIAQX3AX4VQWLIAGGPSSGAPPPS ; 
+ X , is Aib ; wherein X , is T ; X , is Aib ; X , is Aib ; X2 is Aib ; X4 is K which is chemically modified through conjugation to Xz is K which is chemically modified through conjugation to the epsilon - amino group of the K side - chain with ( 2 - ( 2 - 30 the epsilon - amino group of the K side - chain with ( [ 2 - ( 2 
+ Amino - ethoxy ) - ethoxy ] - acetyl ) - ( yGlu ) . - CO ( CH2 ) amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) . - CO ( CH2 ) COH wherein a is 1 and b is 18 ; CO2H wherein a is 1 and b is 16 ; X2 is Phe ; X , is A ; and the C - terminal amino acid is amidated as a C - terminal Xo is E ; 25 primary amide . 
+ X , is absent ; and 
+ SEQ ID NO : 16 the C - terminal amino acid is C - terminal acid . YX QGTFX SDYSKYLDX3KKAXAEFVXGWLLEXX7 
+ wherein Glucagon receptor agonist 40 X , is Aib ; SEO ID NO : 12 X , is T or L ; YX QGTFX SDYSKYLDX3KKAX4EFVXGWLLEX6X7 X2 is Aib ; 
+ wherein X4 is K which is chemically modified through conjugation to 
+ X , is Aib ; the epsilon - amino group of the K side - chain with ( [ 2 - 2 
+ X2 is T ; 45 Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) . - C0 — ( CH2 ) 6 – 
+ CO H , wherein a is 2 and b is 14 to 24 ; X2 is Aib ; X , is E ; X4 is K which is chemically modified through conjugation to X is T ; the epsilon - amino group of the K side - chain with ( [ 2 - ( 2 X , is a peptide selected from the group consisting of Amino - ethoxy ) - ethoxy ] - acetyl ) - ( yGlu ) , CO ( CH2 ) . 50 GPSSGAPPPS and GPSSG ; and the C - terminal amino acid CO2H wherein a is 1 and b is 18 ; is amidated . 
+ X , is A ; 
+ Xo is E ; Glucagon receptor agonist X , is absent ; and SEQ ID NO : 17 
+ the C - terminal amino acid is C - terminal acid . YX , QGTFX , SDYSKYLDX3KKAX EFVX3WLLEXX , 
+ wherein X , is Aib ; GIP - GLP co - agonist X , is T ; 
+ YX , EGTFTSDYSIX LDKIAQX3AX4VQWLIAGGPSSGAPPPS ; X2 is K which is chemically modified through conjugation to 
+ wherein the epsilon - amino group of the K side - chain with ( [ 2 - ( 2 
+ X , is Aib ; Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( yGlu ) . - C0 — ( CH2 ) b CO H , wherein a is 1 and b is 14 to 24 ; X2 is Aib ; 65 X , is A ; X2 is K which is chemically modified through conjugation to X , is E ; and 
+ the epsilon - amino group of the K side - chain with ( [ 2 - ( 2 - X , is absent . Glucagon receptor agonist 
+ Xot 
+ 55 
+ SEO ID NO : 13 60 x , is Aib ; 
+US 9 , 884 , 093 B2 
+ 43 44 
+ < 160 > NUMBER OF SEQ ID NOS : 17 
+ < 210 > SEQ ID NO 1 < 211 > LENGTH : 29 < 212 > TYPE : PRT 
+ < 213 > ORGANISM : Homo sapiens 
+ < 400 > SEQUENCE : 1 
+ His Ser Gin Gly Thr Phe Thr Ser Asp Tyr Ser Lys Tyr Leu Asp Ser 
+ 15 
+ Arg Arg Ala Gln Asp Phe Val Gin Trp Leu Met Asn Thr 
+ 20 25 
+ < 210 > SEQ ID NO 2 
+ < 211 > LENGTH : 30 < 212 > TYPE : PRT < 213 > ORGANISM : Homo sapiens 
+ < 400 > SEQUENCE : 2 
+ His Ala Glu Gly Thr Phe Thr Ser Asp Val Ser Ser Tyr Leu Glu Gly 
+ 10 ser Tyr Leu cu Gay 15 
+ Gln Ala Ala Lys Glu Phe Ile Ala Trp Leu Val Lys Gly Arg 
+ 20 25 30 
+ < 210 > SEQ ID NO 3 < 211 > LENGTH : 37 < 212 > TYPE : PRT < 213 > ORGANISM : Homo sapiens 
+ < 400 > SEQUENCE : 3 
+ His Ser Gin Gly Thr Phe Thr Ser Asp Tyr Ser Lys Tyr Leu Asp Ser 1 15 10 . integrated Arg Arg Ala Gin Asp Phe Val Gin Trp Leu Met Asn Thr Lys Arg Asn 
+ 20 25 
+ Arg Asn Asn Ile Ala 
+ 35 
+ < 210 > SEQ ID NO 4 
+ < 211 > LENGTH : 42 
+ < 212 > TYPE : PRT < 213 > ORGANISM : Homo sapiens 
+ < 400 > SEQUENCE : 4 
+ Tyr Ala Glu Gly Thr Phe Ile Ser Asp Tyr Ser Ile Ala Met Asp Lys 
+ 15 
+ Ile His Gin Gin Asp Phe Val Asn Trp Leu Leu Ala Gin Lys Gly Lys 
+ 25 20 30 
+ Lys Asn Asp Trp Lys His Asn Ile Thr Gin 
+ 35 40 
+ < 210 > SEQ ID NO 5 
+ < 211 > LENGTH : 30 
+ < 212 > TYPE : PRT < 213 > ORGANISM : Artificial Sequence 
+ < 220 > FEATURE : < 223 > OTHER INFORMATION : synthetic construct < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 2 ) . . ( 2 ) < 223 > OTHER INFORMATION : Xaa at pos . 2 is alpha Aminoisobutyric acid < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE 
+ 22 > LOCATION : ( 7 ) . . ( 7 ) 
+ 23 > OTHER INFORMATION : Xaa at pos . 7 is Thr or Leu 
+ 20 > FEATURE : A 
+ A 
+ A 
+US 9 , 884 , 093 B2 
+ 45 46 
+ - continued 
+ A 
+ A 
+ A < 221 > NAME / KEY : MISC _ FEATURE 
+ 22 > LOCATION : ( 16 ) . . ( 16 ) < 223 > OTHER INFORMATION : Xaa at pos . 16 is alpha Aminoisobutyric acid 
+ FEATURE : 
+ < 221 > NAME / KEY : MOD _ RES 
+ 2 > LOCATION : ( 20 ) . . ( 20 ) < 223 > OTHER INFORMATION : Xaa at pos . 20 is Lys which is chemically modified through conjugation to the epsilon - amino group of the Lys side - chain with ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( gamma - Glu ) a - CO - ( CH2 ) b - C02H , wherein a is 1 or 2 and bis 14 to 24 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 24 ) . . ( 24 ) < 223 > OTHER INFORMATION : Xaa at pos . 24 is Glu or Ala . < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE 
+ < 222 > LOCATION : ( 29 ) . . ( 29 ) 
+ OTHER INFORMATION : Xaa at pos . 29 is Thr or Glu . 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 30 ) . . ( 30 ) < 223 > OTHER INFORMATION : Xaa at pos . 30 is either : absent , or a polypeptide selected from the group consisting of GPSSGAPPPS and 
+ GPSSG , and the C - terminal amino acid is optionally amidated A 
+ < 400 > SEQUENCE : 5 
+ Tyr Xaa Gin Gly Thr Phe Xaa Ser Asp Tyr Ser Lys Tyr Leu Asp Xaa 
+ 10 i 15 
+ Lys Lys Ala Xaa Glu Phe Val Xaa Trp Leu Leu Glu Xaa Xaa 
+ 20 25 30 
+ A . 
+ A 
+ A 
+ A 
+ A 
+ A 
+ A NM OM ONMO NNNNNNNNNNNN NNNNNNNNNNNNNN NM ONM A 
+ A < 210 > SEQ ID NO 6 
+ < 211 > LENGTH : 39 
+ < 212 > TYPE : PRT < 213 > ORGANISM : Artificial Sequence 
+ < 220 > FEATURE : < 223 > OTHER INFORMATION : synthetic construct 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE 
+ < 222 > LOCATION : ( 2 ) . . ( 2 ) < 223 > OTHER INFORMATION : Xaa at pos . 2 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 16 ) . . ( 16 ) 
+ 3 > OTHER INFORMATION : Xaa at pos . 16 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : < 221 > NAME / KEY : MOD _ RES < 222 > LOCATION : ( 20 ) . . ( 20 ) < 223 > OTHER INFORMATION : Xaa at pos . 20 is Lys which is chemically modified through conjugation to the epsilon - amino group of the Lys side - chain with ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( gamma - Glu ) a - CO - ( CH2 ) b - C02H wherein a is 2 and bis 16 . < 220 > FEATURE : < 221 > NAME / KEY : MOD _ RES < 222 > LOCATION : ( 39 ) . . ( 39 ) < 223 > OTHER INFORMATION : Ser at pos . 39 is amidated as a C - terminal primary amide A 
+ A 
+ A 
+ A 
+ A 
+ A 
+ < 400 > SEQUENCE : 6 
+ Tyr Xaa Gin Gly Thr Phe Thr Ser Asp Tyr Ser Lys Tyr Leu Asp Xaa 1 15 15 
+ Lys Lys Ala Xaa Glu Phe Val Glu Trp Leu Leu Glu Thr Gly Pro Ser 
+ 20 25 30 the 
+ Ser Gly Ala Pro Pro Pro Ser 
+ 35 
+ < 210 > SEO ID NO 7 
+ < 211 > LENGTH : 39 < 212 > TYPE : PRT < 213 > ORGANISM : Artificial Sequence 
+ < 220 > FEATURE : 
+ 3 > OTHER INFORMATION : synthetic construct A 
+US 9 , 884 , 093 B2 
+ - continued 
+ A . 
+ A 
+ A 
+ A 
+ A 
+ A 
+ A 
+ A 
+ A < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 2 ) . . ( 2 ) < 223 > OTHER INFORMATION : Xaa at pos . 2 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE 
+ < 222 > LOCATION : ( 16 ) . . ( 16 ) < 223 > OTHER INFORMATION : Xaa at pos . 16 is alpha Aminoisobutyric acid < 220 > FEATURE : < 221 > NAME / KEY : MOD _ RES < 222 > LOCATION : ( 20 ) . . ( 20 ) < 223 > OTHER INFORMATION : Xaa at pos . 20 is Lys which is chemically modified through conjugation to the epsilon - amino group of the Lys side - chain with ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( gamma - Glu ) a - CO - ( CH2 ) b - CO2H wherein a is 2 and bis 18 < 220 > FEATURE : 
+ < 221 > NAME / KEY : MOD _ RES 
+ < 222 > LOCATION : ( 39 ) . . ( 39 ) < 223 > OTHER INFORMATION : Ser at pos . 39 is amidated as a C - terminal primary amide A 
+ A 
+ V 
+ V 
+ V 
+ V 
+ < 400 > SEQUENCE : 7 
+ Tyr Xaa Gin Gly Thr Phe Thr Ser Asp Tyr Ser Lys Tyr Leu Asp Xaa 
+ 10 15 n? Lys Lys Ala Xaa Glu Phe Val Glu Trp Leu Leu Glu Thr Gly Pro Ser 
+ 20 25 30 
+ Ser Gly Ala Pro Pro Pro Ser 
+ 35 
+ A < 210 > SEQ ID NO 8 
+ < 211 > LENGTH : 39 
+ < 212 > TYPE : PRT < 213 > ORGANISM : Artificial Sequence < 220 > FEATURE : < 223 > OTHER INFORMATION : synthetic construct < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 2 ) . . ( 2 ) 
+ OTHER INFORMATION : Xaa at pos . 2 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 16 ) . . ( 16 ) < 223 > OTHER INFORMATION : Xaa at pos . 16 is alpha Aminoisobutyric acid 
+ 20 > FEATURE : 
+ < 221 > NAME / KEY : MOD _ RES 
+ 2 > LOCATION : ( 20 ) . . ( 20 ) < 223 > OTHER INFORMATION : Xaa at pos . 20 is Lys which is chemically modified through conjugation to the epsilon - amino group of the Lys 
+ side - chain with ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( gamma - Glu ) 
+ a - CO - ( CH2 ) b - CO2H wherein ais 2 and bis 16 < 220 > FEATURE : 
+ 1 > NAME / KEY : MOD _ RES 
+ < 222 > LOCATION : ( 39 ) . . ( 39 ) < 223 > OTHER INFORMATION : Ser at pos . 39 is amidated as a C - terminal primary amide A 
+ A 
+ < 400 > SEQUENCE : 8 
+ Tyr Xaa Gin Gly Thr Phe Leu Ser Asp Tyr Ser Lys Tyr Leu Asp Xaa 
+ 10 15 15 . Lys Lys Ala Xaa Glu Phe Val Glu Trp Leu Leu Glu Thr Gly Pro Ser 
+ 20 25 30 var Home 
+ Ser Gly Ala Pro Pro Pro Ser 
+ 35 
+ < 210 > SEQ ID NO 9 
+ < 211 > LENGTH : 34 
+ < 212 > TYPE : PRT < 213 > ORGANISM : Artificial Sequence 
+ < 220 > FEATURE : < 223 > OTHER INFORMATION : synthetic construct 
+ 20 > FEATURE : < 
+US 9 , 884 , 093 B2 
+ 49 50 
+ - continued 
+ A 
+ A 
+ A < 221 > NAME / KEY : MISC _ FEATURE 
+ 22 > LOCATION : ( 2 ) . . ( 2 ) 
+ < 223 > OTHER INFORMATION : Xaa at pos . 2 is alpha Aminoisobutyric acid 
+ FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE 
+ LOCATION : ( 16 ) . . ( 16 ) < 223 > OTHER INFORMATION : Xaa at pos . 16 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 20 ) . . ( 20 ) 
+ 3 > OTHER INFORMATION : Xaa at pos . 20 is Lys which is chemically 
+ modified through conjugation to the epsilon - amino group of the Lys side - chain with ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( gamma - Glu ) a - C - ( CH2 ) b - CO2H wherein ais 2 and bis 16 < 220 > FEATURE : 
+ < 221 > NAME / KEY : MOD _ RES 
+ < 222 > LOCATION : ( 34 ) . . ( 34 ) < 223 > OTHER INFORMATION : The Gly at pos . 34 is amidated as a C - terminal primary amide A 
+ < 400 > SEQUENCE : 9 
+ Tyr Xaa Gin Gly Thr Phe Thr Ser Asp Tyr Ser Lys Tyr Leu Asp Xaa 
+ 10 15 
+ Lys Lys Ala Xaa Glu Phe Val Glu Trp Leu Leu Glu Thr Gly Pro Ser 
+ 20 25 30 
+ Ser Gly 
+ A < 210 > SEQ ID NO 10 
+ < 211 > LENGTH : 34 
+ < 212 > TYPE : PRT 
+ < 213 > ORGANISM : Artificial Sequence 
+ < 220 > FEATURE : < 223 > OTHER INFORMATION : synthetic construct < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 2 ) . . ( 2 ) < 223 > OTHER INFORMATION : Xaa at pos . 2 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE 
+ LOCATION : ( 16 ) . . ( 16 ) 
+ OTHER INFORMATION : Xaa at pos . 16 is alpha Aminoisobutyric acid 
+ FEATURE : 
+ 21 > NAME / KEY : MISC _ FEATURE 
+ 22 > LOCATION : ( 20 ) . . ( 20 ) 
+ 3 > OTHER INFORMATION : Xaa at pos . 20 is Lys which is chemically modified through conjugation to the epsilon - amino group of the Lys side - chain with ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( gamma - Glu ) 
+ a - CO - ( CH2 ) b - CO2H wherein a is 2 and bis 18 < 220 > FEATURE : < 221 > NAME / KEY : MOD _ RES < 222 > LOCATION : ( 34 ) . . ( 34 ) < 223 > OTHER INFORMATION : Gly at pos . 34 is amidated as a C - terminal primary amide A 
+ A 
+ A 
+ A 
+ A 
+ < 400 > SEQUENCE : 10 
+ Tyr Xaa Gin Gly Thr Phe Thr Ser Asp Tyr Ser Lys Tyr Leu Asp Xaa 
+ 10 15 15 
+ Lys Lys Ala Xaa Glu Phe Val Glu Trp Leu Leu Glu Thr Gly Pro Ser 
+ 20 25 30 
+ Ser Gly 
+ N ? < 210 > SEQ ID NO 11 < 211 > LENGTH : 29 
+ < 212 > TYPE : PRT < 213 > ORGANISM : Artificial Sequence 
+ < 220 > FEATURE : 
+ < 223 > OTHER INFORMATION : synthetic construct 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE 
+ < 222 > LOCATION : ( 2 ) . . ( 2 ) < 223 > OTHER INFORMATION : Xaa at pos . 2 is alpha Aminoisobutyric acid ? 
+ ? 
+ ? 
+ ? 
+ ? 
+US 9 , 884 , 093 B2 51 
+ - continued 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 16 ) . . ( 16 ) < 223 > OTHER INFORMATION : Xaa at pos . 16 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 20 ) . . ( 20 ) < 223 > OTHER INFORMATION : Xaa at pos . 20 is Lys which is chemically modified through conjugation to the epsilon - amino group of the Lys side - chain with ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( gamma - Glu ) 
+ a - CO - ( CH2 ) b - CO2H wherein a is 1 and bis 16 
+ < 220 > FEATURE : < 221 > NAME / KEY : MOD _ RES 
+ 22 > LOCATION : ( 29 ) . . ( 29 ) 
+ 23 > OTHER INFORMATION : Glu at pos . 29 is C - terminal acid 
+ < 400 > SEQUENCE : 11 
+ Tyr Xaa Gin Gly Thr Phe Thr Ser Asp Tyr Ser Lys Tyr Leu Asp Xaa 
+ 10 15 er Asp Tyr ser Lys Tyr Leu Aøp Xaa 
+ Lys Lys Ala Xaa Glu Phe Val Ala Trp Leu Leu Glu Glu 
+ 20 25 
+ A 
+ A 
+ A < 210 > SEO ID NO 12 
+ < 211 > LENGTH : 29 
+ < 212 > TYPE : PRT < 213 > ORGANISM : Artificial Sequence 
+ FEATURE : 
+ OTHER INFORMATION : synthetic construct 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 2 ) . . ( 2 ) 
+ 23 > OTHER INFORMATION : Xaa at pos . 2 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 16 ) . . ( 16 ) 23 > OTHER INFORMATION : Xaa at pos . 16 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 20 ) . . ( 20 ) < 223 > OTHER INFORMATION : Xaa at pos . 20 is Lys which is chemically modified through conjugation to the epsilon - amino group of the Lys side - chain with ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( gamma - Glu ) a - Co - ( CH2 ) b - CO2H wherein a is 1 and bis 18 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MOD _ RES 
+ 2 > LOCATION : ( 29 ) . . ( 29 ) < 223 > OTHER INFORMATION : Glu at pos . 29 is C - terminal acid . A 
+ ? 
+ < 400 > SEQUENCE : 12 
+ Tyr Xaa Gin Gly Thr Phe Thr Ser Asp Tyr Ser Lys Tyr Leu Asp Xaa 
+ 10 15 1 
+ Lys Lys Ala Xaa Glu Phe Val Ala Trp Leu Leu Glu Glu 
+ 20 25 
+ A < 210 > SEQ ID NO 13 
+ < 211 > LENGTH : 39 
+ < 212 > TYPE : PRT < 213 > ORGANISM : Artificial Sequence < 220 > FEATURE : < 223 > OTHER INFORMATION : synthetic construct 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE 
+ < 222 > LOCATION : ( 2 ) . . ( 2 ) 
+ 23 > OTHER INFORMATION : Xaa at pos . 2 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE 
+ 22 > LOCATION : ( 13 ) . . ( 13 ) 
+ < 223 > OTHER INFORMATION : Xaa at pos . 13 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE 
+ 222 > LOCATION : ( 20 ) . . ( 20 ) 
+ 23 > OTHER INFORMATION : Xaa at pos . 20 is Lys which is chemically modified through conjugation to the epsilon - amino group of the Lys A 
+ A 
+ A 
+US 9 , 884 , 093 B2 
+ 53 54 
+ - continued 
+ side - chain with ( [ 2 - ( 2 - amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( gamma - Glu ) 
+ a - CO ( CH2 ) b - CO2H wherein a is 1 or 2 and bis 10 to 20 < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 22 ) . . ( 22 ) < 223 > OTHER INFORMATION : Xaa at pos . 22 is Phe or 1 - naphthylalanine 
+ ( 1 - Nal ) 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MOD _ RES < 222 > LOCATION : ( 39 ) . . ( 39 ) 
+ 223 > OTHER INFORMATION : Ser at pos . 39 is optionally amidated A 
+ < 400 > SEQUENCE : 13 
+ Tyr Xaa Glu Gly Thr Phe Thr Ser Asp Tyr Ser Ile Xaa Leu Asp Lys 5 15 15 10 
+ Ile Ala Gin Xaa Ala Xaa Val Gin Trp Leu Ile Ala Gly Gly Pro Ser 
+ 20 25 30 
+ Ser Gly Ala Pro Pro Pro Ser 
+ 35 
+ A 
+ A 
+ A < 210 > SEQ ID NO 14 
+ < 211 > LENGTH : 39 
+ < 212 > TYPE : PRT < 213 > ORGANISM : Artificial Sequence 
+ FEATURE : < 223 > OTHER INFORMATION : synthetic construct 
+ 0 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 2 ) . . ( 2 ) < 223 > OTHER INFORMATION : Xaa at pos . 2 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 13 ) . . ( 13 ) 
+ 23 > OTHER INFORMATION : Xaa at pos . 13 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE 
+ < 222 > LOCATION : ( 20 ) . . ( 20 ) < 223 > OTHER INFORMATION : Xaa at pos . 20 is Lys which is chemically modified through conjugation to the epsilon - amino group of the Lys side - chain with ( [ 2 - ( 2 - amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( gamma - Glu ) 
+ a - co ( CH2 ) b - CO2H wherein ais 2 and bis 18 
+ < 220 > FEATURE : 
+ 21 > NAME / KEY : MISC _ FEATURE 
+ < 222 > LOCATION : ( 22 ) . . ( 22 ) 
+ 3 > OTHER INFORMATION : Xaa at pos . 22 is 1 - Nal 
+ < 220 > FEATURE : < 221 > NAME / KEY : MOD _ RES 
+ 22 > LOCATION : ( 39 ) . . ( 39 ) 
+ < 223 > OTHER INFORMATION : Ser at pos . 39 is amidated as a C - terminal primary amide A 
+ A 
+ A 
+ < 400 > SEQUENCE : 14 
+ Tyr Xaa Glu Gly Thr Phe Thr Ser Asp Tyr Ser Ile Xaa Leu Asp Lys 
+ 10 15 
+ Ile Ala Gin Xaa Ala Xaa Val Gin Trp Leu Ile Ala Gly Gly Pro Ser 
+ 20 25 the peale 
+ Ser Gly Ala Pro Pro Pro Ser 
+ 35 
+ A 
+ A 
+ A 
+ A 
+ A < 210 > SEQ ID NO 15 
+ < 211 > LENGTH : 39 
+ < 212 > TYPE : PRT < 213 > ORGANISM : Artificial Sequence 
+ FEATURE : 
+ < 223 > OTHER INFORMATION : synthetic construct 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 2 ) . . ( 2 ) < 223 > OTHER INFORMATION : Xaa at pos . 2 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE A 
+ A 
+ A 
+ A 
+ A 
+US 9 , 884 , 093 B2 
+ 55 56 
+ - continued 
+ 52 < 222 > LOCATION : ( 13 ) . . ( 13 ) 23 > OTHER INFORMATION : Xaa at pos 13 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 20 ) . . ( 20 ) < 223 > OTHER INFORMATION : Xaa at pos . 20 is Lys which is chemically modified through conjugation to the epsilon - amino group of the Lys 
+ side - chain with ( [ 2 - ( 2 - amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( gamma - Glu ) 
+ a - CO ( CH2 ) b - CO2H wherein ais 1 and bis 18 
+ < 220 > FEATURE : < 221 > NAME / KEY : MOD _ RES < 222 > LOCATION : ( 39 ) . . ( 39 ) < 223 > OTHER INFORMATION : Ser at pos . 29 is amidated as a C - terminal primary amide 
+ < 400 > SEQUENCE : 15 
+ Tyr Xaa Glu Gly Thr Phe Thr Ser Asp Tyr Ser Ile Xaa Leu Asp Lys 
+ 10 15 
+ Ile Ala Gln Xaa Ala Phe Val Gln Trp Leu Ile Ala Gly Gly Pro Ser 
+ 25 20 30 
+ Ser Gly Ala Pro Pro Pro Ser 
+ 35 
+ ? 
+ A 
+ A 
+ A 
+ A < 210 > SEQ ID NO 16 
+ < 211 > LENGTH : 30 
+ < 212 > TYPE : PRT 
+ ORGANISM : Artificial Sequence 
+ FEATURE : 
+ < 223 > OTHER INFORMATION : synthetic construct < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 2 ) . . ( 2 ) 
+ 3 > OTHER INFORMATION : Xaa at pos . 2 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 7 ) . . ( 7 ) 
+ 3 > OTHER INFORMATION : Xaa at pos . 7 is Thr or Leu 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE 
+ LOCATION : ( 16 ) . . ( 16 ) 
+ OTHER INFORMATION : Xaa at pos . 16 is alpha Aminoisobutyric acid 
+ FEATURE : 
+ 21 > NAME / KEY : MOD _ RES 
+ < 222 > LOCATION : ( 20 ) . . ( 20 ) < 223 > OTHER INFORMATION : Xaa as pos . 20 is Lys which is chemically modified through conjugation to the epsilon - amino group of the Lys side - chain with ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( gamma Glu ) 
+ a - CO - ( CH2 ) b - CO2H , wherein ais 2 and bis 14 to 24 < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE 
+ < 222 > LOCATION : ( 24 ) . . ( 24 ) 
+ OTHER INFORMATION : Xaa as pos . 24 is Glu 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE 
+ < 222 > LOCATION : ( 29 ) . . ( 29 ) < 223 > OTHER INFORMATION : Xaa as pos . 29 is Thr < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 30 ) . . ( 30 ) < 223 > OTHER INFORMATION : Xaa as pos . 30 is a peptide selected from the group consisting of GPSSGAPPPS and GPSSG ; and the C - terminal amino 
+ acid is amidated A 
+ A 
+ < 400 > SEQUENCE : 16 
+ Tyr Xaa Gin Gly Thr Phe Xaa Ser Asp Tyr Ser Lys Tyr Leu Asp Xaa 
+ 15 
+ Lys Lys Ala Xaa Glu Phe Val Xaa Trp Leu Leu Glu Xaa Xaa 
+ 20 25 my 30 
+ < 210 > SEQ ID NO 17 
+ < 211 > LENGTH : 30 
+ < 212 > TYPE : PRT 
+US 9 , 884 , 093 B2 
+ 57 58 
+ - continued 
+ A 
+ A 
+ A 
+ A 
+ A < 213 > ORGANISM : Artificial Sequence < 220 > FEATURE : < 223 > OTHER INFORMATION : synthetic construct 
+ 20 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE 
+ LOCATION : ( 2 ) . . ( 2 ) < 223 > OTHER INFORMATION : Xaa at pos . 2 is alpha Aminoisobutyric acid < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE < 222 > LOCATION : ( 7 ) . . ( 7 ) 
+ 3 > OTHER INFORMATION : Xaa at pos . 7 is Thr 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE 
+ 2 > LOCATION : ( 16 ) . . ( 16 ) 
+ 3 > OTHER INFORMATION : Xaa at pos . 16 is alpha Aminoisobutyric acid 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MOD _ RES < 222 > LOCATION : ( 20 ) . . ( 20 ) < 223 > OTHER INFORMATION : Xaa as pos . 20 is Lys which is chemically modified through conjugation to the epsilon - amino group of the K side - chain with ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 - ( gamma 
+ Glu ) a - CO - ( CH2 ) b - CO2H , wherein a is 1 and bis 14 to 24 
+ < 220 > FEATURE : < 221 > NAME / KEY : MISC _ FEATURE 
+ LOCATION : ( 24 ) . . ( 24 ) 
+ < 223 > OTHER INFORMATION : Xaa at pos . 24 is Ala 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE 
+ < 222 > LOCATION : ( 29 ) . . ( 29 ) < 223 > OTHER INFORMATION : Xaa at pos . 29 is Glu 
+ < 220 > FEATURE : 
+ < 221 > NAME / KEY : MISC _ FEATURE 
+ 22 > LOCATION : ( 30 ) . . ( 30 ) 
+ < 223 > OTHER INFORMATION : Xaa at pos . 30 is absent N 
+ N V A 
+ < 400 > SEQUENCE : 17 
+ Tyr Xaa Gin Gly Thr Phe Xaa Ser Asp Tyr Ser Lys Tyr Leu Asp Xaa 
+ 10 15 
+ Lys Lys Ala Xaa Glu Phe Val Xaa Trp Leu Leu Glu Xaa Xaa 
+ 20 25 30 
+ 45 We claim : wherein 1 . A glucagon receptor agonist compound comprising the 40 X is Aib ; 
+ formula : X , is T ; X2 is Aib ; X4 is K which is chemically modified through conju YX QGTFX , SDYSKYLDX2KKAX EFVX WLLEXGX7 gation to the epsilon - amino group of the K side 
+ wherein chain with ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 
+ X , is Aib ; ( yGlu ) , - CO ( CH2 ) . CO , H , wherein a is 2 and b 
+ X2 is T ; is 16 ; 
+ X2 is Aib ; X , is E ; Xo is T ; X4 is K which is chemically modified through conju - 50 X , is GPSSGAPPPS ; gation to the epsilon - amino group of the K side and the C - terminal amino acid is amidated as a C - ter chain with ( [ 2 - ( 2 - Amino - ethoxy ) - ethoxy ] - acetyl ) 2 minal primary amide ( SEQ ID NO : 6 ) ; ( yGlu ) . - CO ( CH2 ) 6 CO2H , wherein a is 2 and b or a pharmaceutically acceptable salt thereof . is 16 ; 55 3 . A method of treating a disease selected from the group X , is E ; consisting of T2DM , obesity , fatty liver disease , NASH , X , is T ; dyslipidemia , metabolic syndrome , hyperinsulinemia and X , is GPSSGAPPPS ; nighttime hypoglycemia , comprising administering to a and the C - terminal amino acid is amidated as a C - ter patient in need thereof , an effective amount of the glucagon minal primary amide ( SEQ ID NO : 6 ) ; 60 receptor agonist of claim 1 . or a pharmaceutically acceptable salt thereof . 4 . The method of claim 3 , further comprising administer 2 . A glucagon receptor agonist compound consisting of ing an effective amount of one or more additional therapeu 
+ the formula : tic agents . 
+ 5 . The method of claim 4 wherein the additional thera 65 peutic agent is a GLP - 1R agonist . 
+ YX QGTFX , SDYSKYLDXzKKAX EFVXGWLLEX , X , 6 . The method of claim 5 wherein the GLP - 1R agonist is dulaglutide . 
+60 US 9 , 884 , 093 B2 
+ 59 
+ 7 . The method of claim 4 wherein the additional thera peutic agent is a GIP - GLP - 1 co - agonist . 
+ 8 . The method of claim 7 wherein the GIP - GLP - 1 co agonist has the structure of SEQ ID NO : 15 . 9 . A pharmaceutical composition comprising the glucagon 5 receptor agonist of claim 1 and a pharmaceutically accept 
+ able carrier , diluent , or excipient . 10 . The pharmaceutical composition of claim 9 , further comprising an additional therapeutic agent . 11 . The pharmaceutical composition of claim 10 , wherein 10 the additional therapeutic agent is a GLP - 1R agonist . 12 . The pharmaceutical composition of claim 11 , wherein the GLP - 1R agonist is dulaglutide . 13 . The pharmaceutical composition of claim 10 , wherein 
+ the additional therapeutic agent is a GIP - GLP - 1 co - agonist . 15 14 . The pharmaceutical composition of claim 13 wherein 
+ the GIP - GLP - 1 co - agonist has the structure of SEQ ID NO : 15 . 15 . The glucagon receptor agonist of claim 1 , wherein the activity of the glucagon receptor agonist at the glucagon 20 receptor is at least 100 - fold higher than the potency of the glucagon receptor agonist at the GLP - 1 receptor . 
+ * * * * * 

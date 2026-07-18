@@ -1,0 +1,9 @@
+streamlit>=1.28.0
+rdflib>=7.0.0
+requests>=2.31.0
+pyvis>=0.3.2
+PyMuPDF>=1.23.0
+sentence-transformers>=2.0.0
+faiss-cpu>=1.7.0
+pandas>=2.0.0
+openpyxl>=3.1.0

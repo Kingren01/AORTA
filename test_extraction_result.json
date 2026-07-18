@@ -1,0 +1,131 @@
+{
+  "document_metadata": {},
+  "entities": [
+    {
+      "text": "DPP-IV",
+      "category": "Target",
+      "normalized_name": "DPPIV",
+      "identifier": "EC:3.4.14.5"
+    },
+    {
+      "text": "Native glucagon",
+      "category": "Compound",
+      "normalized_name": "NativeGlucagon",
+      "identifier": "CHEBI:5391"
+    },
+    {
+      "text": "glucagon",
+      "category": "Compound",
+      "normalized_name": "Glucagon",
+      "identifier": "CHEBI:5391"
+    },
+    {
+      "text": "Pfizer",
+      "category": "Organization",
+      "normalized_name": "Pfizer",
+      "identifier": null
+    },
+    {
+      "text": "Semaglutide",
+      "category": "Compound",
+      "normalized_name": "Semaglutide",
+      "identifier": "CHEBI:167574"
+    },
+    {
+      "text": "Pfizer Inc.",
+      "category": "Organization",
+      "normalized_name": "Pfizer",
+      "identifier": null
+    },
+    {
+      "text": "Pfizer, Inc.",
+      "category": "Organization",
+      "normalized_name": "Pfizer",
+      "identifier": null
+    },
+    {
+      "text": "binding assay",
+      "category": "Assay",
+      "normalized_name": "BindingAssay",
+      "identifier": null
+    },
+    {
+      "text": "test compound",
+      "category": "Compound",
+      "normalized_name": "TestCompound",
+      "identifier": null
+    },
+    {
+      "text": "IC50",
+      "category": "Measurement",
+      "normalized_name": "IC50",
+      "identifier": null
+    },
+    {
+      "text": "Glucagon",
+      "category": "Compound",
+      "normalized_name": "Glucagon",
+      "identifier": "CHEBI:5391"
+    },
+    {
+      "text": "Lilly Research Laboratories",
+      "category": "Organization",
+      "normalized_name": "LillyResearchLaboratories",
+      "identifier": null
+    },
+    {
+      "text": "Eli Lilly and Company",
+      "category": "Organization",
+      "normalized_name": "EliLillyAndCompany",
+      "identifier": null
+    },
+    {
+      "text": "compound X",
+      "category": "Compound",
+      "normalized_name": "CompoundX",
+      "identifier": null
+    }
+  ],
+  "relationships": [
+    {
+      "source": "NativeGlucagon",
+      "predicate": "sameBiologicalEntityAs",
+      "target": "Glucagon"
+    },
+    {
+      "source": "Semaglutide",
+      "predicate": "developedBy",
+      "target": "Pfizer"
+    },
+    {
+      "source": "BindingAssay",
+      "predicate": "testsCompound",
+      "target": "TestCompound",
+      "result": {
+        "value": 15,
+        "unit": "nM",
+        "metricType": "IC50"
+      }
+    },
+    {
+      "source": "BindingAssay",
+      "predicate": "has_assay_endpoint",
+      "target": "IC50"
+    },
+    {
+      "source": "TestCompound",
+      "predicate": "interactsWith",
+      "target": "Glucagon"
+    },
+    {
+      "source": "EliLillyAndCompany",
+      "predicate": "hasSubsidiary",
+      "target": "LillyResearchLaboratories"
+    },
+    {
+      "source": "CompoundX",
+      "predicate": "developedBy",
+      "target": "LillyResearchLaboratories"
+    }
+  ]
+}

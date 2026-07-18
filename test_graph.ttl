@@ -1,0 +1,297 @@
+@prefix ao: <http://ai-ontology.com/assay-ontology/> .
+@prefix bao: <http://www.bioassayontology.org/bao#> .
+@prefix obo: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ai-ontology.com/assay-ontology> a owl:Ontology ;
+    rdfs:label "Assay-Centric Ontology" ;
+    owl:imports <http://www.bioassayontology.org/bao/bao_complete.owl> ;
+    owl:versionInfo "2.0" .
+
+ao:OmicsDataset a owl:Class ;
+    rdfs:label "OmicsDataset" ;
+    rdfs:subClassOf bao:BAO_0003114 .
+
+ao:PMID_12345 a ao:Publication,
+        owl:NamedIndividual ;
+    rdfs:label "PMID:12345" ;
+    ao:extractionMethod "deterministic" ;
+    ao:hasPatentNumber "AU2022231763B2" ;
+    ao:mentionedInDocument ao:Assay_BindingAssay,
+        ao:Compound_CompoundX,
+        ao:Compound_NativeGlucagon,
+        ao:Compound_Semaglutide,
+        ao:Organization_EliLillyAndCompany,
+        ao:Target_DPPIV ;
+    ao:pmid "12345"^^xsd:string ;
+    ao:title "AU2022231763B2-2.pdf"^^xsd:string ;
+    obo:hasDbXref "https://pubmed.ncbi.nlm.nih.gov/12345/"^^xsd:anyURI .
+
+ao:actsAsAgonistFor a owl:ObjectProperty ;
+    rdfs:label "actsAsAgonistFor" ;
+    rdfs:domain ao:Compound ;
+    rdfs:range ao:Target .
+
+ao:bindsToProtein a owl:ObjectProperty ;
+    rdfs:label "bindsToProtein" ;
+    rdfs:domain ao:Compound ;
+    rdfs:range ao:Target .
+
+ao:developedBy a owl:ObjectProperty ;
+    rdfs:label "developedBy" ;
+    rdfs:domain ao:Compound ;
+    rdfs:range ao:Organization .
+
+ao:downregulates a owl:ObjectProperty ;
+    rdfs:label "downregulates" ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf ( ao:Target ao:Compound ) ] ;
+    rdfs:range ao:Pathway .
+
+ao:forCompound a owl:ObjectProperty ;
+    rdfs:label "forCompound" ;
+    rdfs:domain ao:Result ;
+    rdfs:range ao:Compound .
+
+ao:forTarget a owl:ObjectProperty ;
+    rdfs:label "forTarget" ;
+    rdfs:domain ao:Result ;
+    rdfs:range ao:Target .
+
+ao:hasLocalRegistryHandle a owl:DatatypeProperty ;
+    rdfs:label "hasLocalRegistryHandle" .
+
+ao:hasMember a owl:ObjectProperty ;
+    rdfs:label "hasMember" ;
+    rdfs:domain ao:Compound ;
+    rdfs:range ao:Compound .
+
+ao:hasReadoutMolecule a owl:ObjectProperty ;
+    rdfs:label "hasReadoutMolecule" ;
+    rdfs:domain ao:Assay ;
+    rdfs:range ao:Compound .
+
+ao:hasResult a owl:ObjectProperty ;
+    rdfs:label "hasResult" ;
+    rdfs:domain ao:Assay ;
+    rdfs:range ao:Result .
+
+ao:hasSubsidiary a owl:ObjectProperty ;
+    rdfs:label "hasSubsidiary" ;
+    rdfs:domain ao:Organization ;
+    rdfs:range ao:Organization .
+
+ao:has_assay_endpoint a owl:ObjectProperty ;
+    rdfs:label "has_assay_endpoint" ;
+    rdfs:domain ao:Assay ;
+    rdfs:range ao:Measurement .
+
+ao:inhibits a owl:ObjectProperty ;
+    rdfs:label "inhibits" ;
+    rdfs:domain ao:Compound ;
+    rdfs:range ao:Target .
+
+ao:interactsWith a owl:ObjectProperty ;
+    rdfs:label "interactsWith" .
+
+ao:involvesPathway a owl:ObjectProperty ;
+    rdfs:label "involvesPathway" ;
+    rdfs:domain ao:Assay ;
+    rdfs:range ao:Pathway .
+
+ao:licensedFrom a owl:ObjectProperty ;
+    rdfs:label "licensedFrom" ;
+    rdfs:domain ao:Organization ;
+    rdfs:range ao:Organization .
+
+ao:measures a owl:ObjectProperty ;
+    rdfs:label "measures" ;
+    rdfs:domain ao:Measurement .
+
+ao:measuresAnalyte a owl:ObjectProperty ;
+    rdfs:label "measuresAnalyte" ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf ( ao:Measurement ao:AnalyticalMethod ) ] ;
+    rdfs:range ao:Compound .
+
+ao:mentionedInDocument a owl:ObjectProperty ;
+    rdfs:label "mentionedInDocument" ;
+    rdfs:domain ao:Publication .
+
+ao:mentionedInText a owl:DatatypeProperty ;
+    rdfs:label "mentionedInText" .
+
+ao:normalizedName a owl:DatatypeProperty ;
+    rdfs:label "normalizedName" .
+
+ao:pmid a owl:DatatypeProperty ;
+    rdfs:label "pmid" .
+
+ao:relatedToPathway a owl:ObjectProperty ;
+    rdfs:label "relatedToPathway" ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf ( ao:Target ao:Compound ) ] ;
+    rdfs:range ao:Pathway .
+
+ao:sameBiologicalEntityAs a owl:ObjectProperty ;
+    rdfs:label "sameBiologicalEntityAs" .
+
+ao:sponsoredBy a owl:ObjectProperty ;
+    rdfs:label "sponsoredBy" ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf ( ao:Compound ao:Assay ) ] ;
+    rdfs:range ao:Organization .
+
+ao:testsCompound a owl:ObjectProperty ;
+    rdfs:label "testsCompound" ;
+    rdfs:domain ao:Assay ;
+    rdfs:range ao:Compound .
+
+ao:testsTarget a owl:ObjectProperty ;
+    rdfs:label "testsTarget" ;
+    rdfs:domain ao:Assay ;
+    rdfs:range ao:Target .
+
+ao:title a owl:DatatypeProperty ;
+    rdfs:label "title" .
+
+ao:upregulates a owl:ObjectProperty ;
+    rdfs:label "upregulates" ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf ( ao:Target ao:Compound ) ] ;
+    rdfs:range ao:Pathway .
+
+ao:usesChallengeAgent a owl:ObjectProperty ;
+    rdfs:label "usesChallengeAgent" ;
+    rdfs:domain ao:Assay ;
+    rdfs:range ao:Compound .
+
+obo:hasDbXref a owl:DatatypeProperty ;
+    rdfs:label "hasDbXref" .
+
+ao:AnalyticalMethod a owl:Class ;
+    rdfs:label "AnalyticalMethod" .
+
+ao:Assay_BindingAssay a ao:Assay,
+        owl:NamedIndividual ;
+    rdfs:label "BindingAssay" ;
+    ao:hasLocalRegistryHandle "http://ai-ontology.com/assay-ontology/registry/BindingAssay"^^xsd:anyURI ;
+    ao:hasResult ao:Result_1 ;
+    ao:mentionedInText "binding assay" ;
+    ao:normalizedName "BindingAssay" ;
+    ao:testsCompound ao:Compound_TestCompound ;
+    bao:BAO_0000208 ao:Measurement_IC50 .
+
+ao:Compound_CompoundX a ao:Compound,
+        owl:NamedIndividual ;
+    rdfs:label "CompoundX" ;
+    ao:developedBy ao:Organization_LillyResearchLaboratories ;
+    ao:hasLocalRegistryHandle "http://ai-ontology.com/assay-ontology/registry/CompoundX"^^xsd:anyURI ;
+    ao:mentionedInText "compound X" ;
+    ao:normalizedName "CompoundX" .
+
+ao:Compound_Semaglutide a ao:Compound,
+        owl:NamedIndividual ;
+    rdfs:label "Semaglutide" ;
+    ao:developedBy ao:Organization_Pfizer ;
+    ao:mentionedInText "Semaglutide" ;
+    ao:normalizedName "Semaglutide" ;
+    obo:hasDbXref "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:167574"^^xsd:anyURI,
+        "CHEBI:167574" .
+
+ao:Measurement_IC50 a ao:Measurement,
+        owl:NamedIndividual ;
+    rdfs:label "IC50" ;
+    ao:hasLocalRegistryHandle "http://ai-ontology.com/assay-ontology/registry/IC50"^^xsd:anyURI ;
+    ao:mentionedInText "IC50" ;
+    ao:normalizedName "IC50" .
+
+ao:Organization_EliLillyAndCompany a ao:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "EliLillyAndCompany" ;
+    ao:hasLocalRegistryHandle "http://ai-ontology.com/assay-ontology/registry/EliLillyAndCompany"^^xsd:anyURI ;
+    ao:hasSubsidiary ao:Organization_LillyResearchLaboratories ;
+    ao:mentionedInText "Eli Lilly and Company" ;
+    ao:normalizedName "EliLillyAndCompany" .
+
+ao:Organization_Pfizer a ao:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "Pfizer" ;
+    ao:hasLocalRegistryHandle "http://ai-ontology.com/assay-ontology/registry/Pfizer"^^xsd:anyURI ;
+    ao:mentionedInText "Pfizer",
+        "Pfizer Inc.",
+        "Pfizer, Inc." ;
+    ao:normalizedName "Pfizer" .
+
+ao:Result_1 a ao:Result,
+        owl:NamedIndividual ;
+    rdfs:label "Result_1" ;
+    ao:forCompound ao:Compound_TestCompound ;
+    ao:hasMetricType bao:BAO_0000190 ;
+    ao:hasUnit "nM" ;
+    ao:hasValue 15 .
+
+ao:Target_DPPIV a ao:Target,
+        owl:NamedIndividual ;
+    rdfs:label "DPPIV" ;
+    ao:mentionedInText "DPP-IV" ;
+    ao:normalizedName "DPPIV" ;
+    obo:hasDbXref "https://www.uniprot.org/uniprot/A0A0M3HRW7"^^xsd:anyURI,
+        "EC:3.4.14.5" .
+
+ao:Compound_NativeGlucagon a ao:Compound,
+        owl:NamedIndividual ;
+    rdfs:label "NativeGlucagon" ;
+    ao:mentionedInText "Glucagon",
+        "Native glucagon",
+        "glucagon" ;
+    ao:normalizedName "NativeGlucagon" ;
+    obo:hasDbXref "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:5391"^^xsd:anyURI,
+        "CHEBI:5391" .
+
+ao:Compound_TestCompound a ao:Compound,
+        owl:NamedIndividual ;
+    rdfs:label "TestCompound" ;
+    ao:hasLocalRegistryHandle "http://ai-ontology.com/assay-ontology/registry/TestCompound"^^xsd:anyURI ;
+    ao:interactsWith ao:Compound_NativeGlucagon ;
+    ao:mentionedInText "test compound" ;
+    ao:normalizedName "TestCompound" .
+
+ao:Organization_LillyResearchLaboratories a ao:Organization,
+        owl:NamedIndividual ;
+    rdfs:label "LillyResearchLaboratories" ;
+    ao:hasLocalRegistryHandle "http://ai-ontology.com/assay-ontology/registry/LillyResearchLaboratories"^^xsd:anyURI ;
+    ao:mentionedInText "Lilly Research Laboratories" ;
+    ao:normalizedName "LillyResearchLaboratories" .
+
+ao:Publication a owl:Class ;
+    rdfs:label "Publication" .
+
+ao:Measurement a owl:Class ;
+    rdfs:label "Measurement" .
+
+ao:Pathway a owl:Class ;
+    rdfs:label "Pathway" ;
+    rdfs:subClassOf <http://purl.obolibrary.org/obo/GO_0008150> .
+
+ao:Result a owl:Class ;
+    rdfs:label "Result" .
+
+ao:Assay a owl:Class ;
+    rdfs:label "Assay" ;
+    rdfs:subClassOf bao:BAO_0000015 .
+
+ao:Organization a owl:Class ;
+    rdfs:label "Organization" .
+
+ao:Target a owl:Class ;
+    rdfs:label "Target" ;
+    rdfs:subClassOf bao:BAO_0000539 .
+
+ao:Compound a owl:Class ;
+    rdfs:label "Compound" ;
+    rdfs:subClassOf bao:BAO_0000019 .
+

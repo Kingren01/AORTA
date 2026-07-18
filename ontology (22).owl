@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ao="http://ai-ontology.com/assay-ontology/"
+   xmlns:obo="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_4</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.005</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType>Ki</ao:hasMetricType>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample4"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Measurement</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_cAMP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>cAMP</rdfs:label>
+    <ao:normalizedName>cAMP</ao:normalizedName>
+    <obo:hasDbXref>CHEBI:17489</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17489</obo:hasDbXref>
+    <ao:mentionedInText>cAMP</ao:mentionedInText>
+    <ao:hasModality>Small Molecule</ao:hasModality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_BindingAffinityKi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>BindingAffinityKi</rdfs:label>
+    <ao:normalizedName>BindingAffinityKi</ao:normalizedName>
+    <ao:mentionedInText>binding affinity (Ki)</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=BindingAffinityKi</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N079ceead46ee4d1d85761350a16ab01a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nb248ec5cb97c44669ef8db0659ac0ec0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Target_HumanNPY4Receptor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+    <rdfs:label>HumanNPY4Receptor</rdfs:label>
+    <ao:normalizedName>HumanNPY4Receptor</ao:normalizedName>
+    <obo:hasDbXref>UniProt:P50391</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/uniprot/P50391</obo:hasDbXref>
+    <ao:mentionedInText>hNPY4R</ao:mentionedInText>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_2</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.07</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType>Ki</ao:hasMetricType>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample2"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_TripleIncretinReceptorAgonist">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>TripleIncretinReceptorAgonist</rdfs:label>
+    <ao:normalizedName>TripleIncretinReceptorAgonist</ao:normalizedName>
+    <ao:mentionedInText>incretin analog having triple receptor activity</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=TripleIncretinReceptorAgonist</obo:hasDbXref>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_GIPReceptor"/>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_GLP1Receptor"/>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_GlucagonReceptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Assay_HumanNPY2RGTPgammaSAssay">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:label>HumanNPY2RGTPgammaSAssay</rdfs:label>
+    <ao:normalizedName>HumanNPY2RGTPgammaSAssay</ao:normalizedName>
+    <ao:mentionedInText>GTPy[35S] functional assay</ao:mentionedInText>
+    <ao:hasAssayDesign>receptor-mediated activation of G-proteins by non-hydrolyzable GTP analog</ao:hasAssayDesign>
+    <ao:hasDetectionTechnology>SPA</ao:hasDetectionTechnology>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=HumanNPY2RGTPgammaSAssay</obo:hasDbXref>
+    <ao:testsTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+    <ao:hasReadoutMolecule rdf:resource="http://ai-ontology.com/assay-ontology/Compound_GTPgamma35S"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_GProteinActivation"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_EC50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_Purity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>Purity</rdfs:label>
+    <ao:normalizedName>Purity</ao:normalizedName>
+    <ao:mentionedInText>purity</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=Purity</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_GLP1ReceptorAgonistSEQIDNO15">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>GLP1ReceptorAgonistSEQIDNO15</rdfs:label>
+    <ao:normalizedName>GLP1ReceptorAgonistSEQIDNO15</ao:normalizedName>
+    <ao:mentionedInText>GLP-1 receptor agonist (GLP-1 RA; SEQ ID NO:15)</ao:mentionedInText>
+    <ao:hasModality>Biologic</ao:hasModality>
+    <ao:hasDevelopmentCode>SEQ ID NO:15</ao:hasDevelopmentCode>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=GLP1ReceptorAgonistSEQIDNO15</obo:hasDbXref>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_GLP1Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/testsTarget">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>testsTarget</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Assay_HumanNPY2RcAMPAssay">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:label>HumanNPY2RcAMPAssay</rdfs:label>
+    <ao:normalizedName>HumanNPY2RcAMPAssay</ao:normalizedName>
+    <ao:mentionedInText>hNPY2R cAMP assay</ao:mentionedInText>
+    <ao:hasAssayDesign>inhibition of forskolin-induced intracellular cAMP production in HEK 293 cells overexpressing recombinant hNPY2R</ao:hasAssayDesign>
+    <ao:hasDetectionTechnology>HTRF cAMP-Gi Dynamic Kit</ao:hasDetectionTechnology>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=HumanNPY2RcAMPAssay</obo:hasDbXref>
+    <ao:testsTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+    <ao:usesChallengeAgent rdf:resource="http://ai-ontology.com/assay-ontology/Compound_Forskolin"/>
+    <ao:hasReadoutMolecule rdf:resource="http://ai-ontology.com/assay-ontology/Compound_cAMP"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_IntracellularCAMPProduction"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_EC50"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample1"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample2"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample3"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample4"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_Identity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>Identity</rdfs:label>
+    <ao:normalizedName>Identity</ao:normalizedName>
+    <ao:mentionedInText>Identity</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=Identity</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Result</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/licensedFrom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>licensedFrom</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Organization"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3f5b00200b7049908e8171c91c98c4e9">
+    <rdf:first rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+    <rdf:rest rdf:nodeID="N5c3f0e595c634128a8896f14c27a92b6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Assay_DietInducedObeseMouseBodyWeightAssay">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:label>DietInducedObeseMouseBodyWeightAssay</rdfs:label>
+    <ao:normalizedName>DietInducedObeseMouseBodyWeightAssay</ao:normalizedName>
+    <ao:mentionedInText>in vivo effects on food intake and body weights in diet-induced obese mice</ao:mentionedInText>
+    <ao:hasAssayDesign>daily subcutaneous dosing in diet-induced obese C57Bl/6 mice for two weeks</ao:hasAssayDesign>
+    <ao:hasDetectionTechnology>None</ao:hasDetectionTechnology>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=DietInducedObeseMouseBodyWeightAssay</obo:hasDbXref>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample1"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample2"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample3"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample4"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample5"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_GLP1ReceptorAgonistSEQIDNO15"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_BodyWeight"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/normalizedName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>normalizedName</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_7</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.23</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType rdf:resource="http://www.bioassayontology.org/bao#BAO_0000188"/>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample2"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_15">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_15</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.16</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType rdf:resource="http://www.bioassayontology.org/bao#BAO_0000188"/>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample5"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Pathway_Appetite">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Pathway"/>
+    <rdfs:label>Appetite</rdfs:label>
+    <ao:normalizedName>Appetite</ao:normalizedName>
+    <ao:mentionedInText>appetite</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=Appetite</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/forTarget">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>forTarget</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Assay">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Assay</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000015"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/inhibits">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>inhibits</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+    <rdfs:label>NPY2Receptor</rdfs:label>
+    <ao:normalizedName>NPY2Receptor</ao:normalizedName>
+    <obo:hasDbXref>UniProt:P49146</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/uniprot/P49146</obo:hasDbXref>
+    <ao:mentionedInText>NPY2 receptor</ao:mentionedInText>
+    <ao:mentionedInText>human NPY2 receptor</ao:mentionedInText>
+    <ao:mentionedInText>hNPY2R</ao:mentionedInText>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Assay_SDRatPharmacokineticAssay">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:label>SDRatPharmacokineticAssay</rdfs:label>
+    <ao:normalizedName>SDRatPharmacokineticAssay</ao:normalizedName>
+    <ao:mentionedInText>Pharmacokinetics of PYY analogs in SD rats</ao:mentionedInText>
+    <ao:hasAssayDesign>single subcutaneous dose pharmacokinetic evaluation in male Sprague Dawley rats</ao:hasAssayDesign>
+    <ao:hasDetectionTechnology>LC/MS</ao:hasDetectionTechnology>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=SDRatPharmacokineticAssay</obo:hasDbXref>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_HalfLife"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_ArachidicAcid">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>ArachidicAcid</rdfs:label>
+    <ao:normalizedName>ArachidicAcid</ao:normalizedName>
+    <obo:hasDbXref>CHEBI:28822</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28822</obo:hasDbXref>
+    <ao:mentionedInText>arachidic acid</ao:mentionedInText>
+    <ao:mentionedInText>eicosanoic acid</ao:mentionedInText>
+    <ao:hasModality>Small Molecule</ao:hasModality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>PYYAnalogExample4</rdfs:label>
+    <ao:normalizedName>PYYAnalogExample4</ao:normalizedName>
+    <ao:mentionedInText>SEQ ID NO:12</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <ao:hasDevelopmentCode>SEQ ID NO:12</ao:hasDevelopmentCode>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=PYYAnalogExample4</obo:hasDbXref>
+    <ao:bindsToProtein rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Assay_CompetitiveRadioligandBindingSPA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:label>CompetitiveRadioligandBindingSPA</rdfs:label>
+    <ao:normalizedName>CompetitiveRadioligandBindingSPA</ao:normalizedName>
+    <ao:mentionedInText>Competitive radioligand binding assays</ao:mentionedInText>
+    <ao:hasAssayDesign>competitive radioligand binding using membranes from receptor-overexpressing cell lines</ao:hasAssayDesign>
+    <ao:hasDetectionTechnology>scintillation proximity assay</ao:hasDetectionTechnology>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=CompetitiveRadioligandBindingSPA</obo:hasDbXref>
+    <ao:testsTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_HumanNPY1Receptor"/>
+    <ao:testsTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+    <ao:testsTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_HumanNPY4Receptor"/>
+    <ao:testsTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_HumanNPY5Receptor"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_BindingAffinityKi"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample1"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample2"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample3"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample4"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample5"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_1"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_2"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_3"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_4"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_5"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_6"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_7"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_8"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_9"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_10"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_11"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_12"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_13"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_14"/>
+    <ao:hasResult rdf:resource="http://ai-ontology.com/assay-ontology/Result_15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogFormulaI">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>PYYAnalogFormulaI</rdfs:label>
+    <ao:normalizedName>PYYAnalogFormulaI</ao:normalizedName>
+    <ao:mentionedInText>PYY analog comprising an amino acid sequence of: PKPEX 7PX9XioDASPEEX1 7XiRYYX22X 23LRHYLNX 3LTRQRY (Formula I)</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <ao:hasDevelopmentCode>SEQ ID NO:3</ao:hasDevelopmentCode>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=PYYAnalogFormulaI</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N03d6e9992c5942ab9078047ff3c157e6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N57bd988c639f4844a04281be9da74b09"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_PancreaticPolypeptide1_36">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>PancreaticPolypeptide1_36</rdfs:label>
+    <ao:normalizedName>PancreaticPolypeptide1_36</ao:normalizedName>
+    <obo:hasDbXref>UniProt:P01298</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/uniprot/P01298</obo:hasDbXref>
+    <ao:mentionedInText>Pancreatic Polypeptidel.36 (PP1.36; SEQ ID NO:14)</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <ao:hasDevelopmentCode>SEQ ID NO:14</ao:hasDevelopmentCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_GLP1_7_36_Amide">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>GLP1_7_36_Amide</rdfs:label>
+    <ao:normalizedName>GLP1_7_36_Amide</ao:normalizedName>
+    <ao:mentionedInText>GLP-1 (7-36)amide</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=GLP1_7_36_Amide</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Target_NPYReceptor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+    <rdfs:label>NPYReceptor</rdfs:label>
+    <ao:normalizedName>NPYReceptor</ao:normalizedName>
+    <ao:mentionedInText>neuropeptide Y (NPY) receptor</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=NPYReceptor</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Assay_DbDbMouseBodyWeightGlucoseAssay">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:label>DbDbMouseBodyWeightGlucoseAssay</rdfs:label>
+    <ao:normalizedName>DbDbMouseBodyWeightGlucoseAssay</ao:normalizedName>
+    <ao:mentionedInText>in vivo effects on body weight and glucose in diabetic and obese (db/db) mice</ao:mentionedInText>
+    <ao:hasAssayDesign>daily subcutaneous dosing in Leprdb/db mice for ten days</ao:hasAssayDesign>
+    <ao:hasDetectionTechnology>None</ao:hasDetectionTechnology>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=DbDbMouseBodyWeightGlucoseAssay</obo:hasDbXref>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample1"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample2"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample3"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample4"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample5"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_BodyWeight"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_BloodGlucose"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_ThermalStability">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>ThermalStability</rdfs:label>
+    <ao:normalizedName>ThermalStability</ao:normalizedName>
+    <ao:mentionedInText>Thermal Stability</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=ThermalStability</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N57bd988c639f4844a04281be9da74b09">
+    <rdf:first rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+    <rdf:rest rdf:nodeID="Ne4131b45c96b40d88e10a6fc28ee6171"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5acb293adc94487e983b29497332da33">
+    <rdf:first rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdf:rest rdf:nodeID="N3f9121179ca947d4af77f5ea848a4505"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Pathway_InsulinSensitivity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Pathway"/>
+    <rdfs:label>InsulinSensitivity</rdfs:label>
+    <ao:normalizedName>InsulinSensitivity</ao:normalizedName>
+    <ao:mentionedInText>insulin sensitivity</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=InsulinSensitivity</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/forCompound">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>forCompound</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_13</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.06</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType rdf:resource="http://www.bioassayontology.org/bao#BAO_0000188"/>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample3"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/AnalyticalMethod_LCUV">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/AnalyticalMethod"/>
+    <rdfs:label>LCUV</rdfs:label>
+    <ao:normalizedName>LCUV</ao:normalizedName>
+    <ao:mentionedInText>LC/UV</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=LCUV</obo:hasDbXref>
+    <ao:measuresAnalyte rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_Purity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Assay_CynomolgusMonkeyPharmacokineticAssay">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:label>CynomolgusMonkeyPharmacokineticAssay</rdfs:label>
+    <ao:normalizedName>CynomolgusMonkeyPharmacokineticAssay</ao:normalizedName>
+    <ao:mentionedInText>Pharmacokinetics of PYY analogs in cynomolgus monkeys</ao:mentionedInText>
+    <ao:hasAssayDesign>single subcutaneous dose pharmacokinetic evaluation in cynomolgus monkeys</ao:hasAssayDesign>
+    <ao:hasDetectionTechnology>LC/MS</ao:hasDetectionTechnology>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=CynomolgusMonkeyPharmacokineticAssay</obo:hasDbXref>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_HalfLife"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_Glucagon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>Glucagon</rdfs:label>
+    <ao:normalizedName>Glucagon</ao:normalizedName>
+    <obo:hasDbXref>UniProt:P01275</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/uniprot/P01275</obo:hasDbXref>
+    <ao:mentionedInText>glucagon (GCG)</ao:mentionedInText>
+    <ao:mentionedInText>glucagon-like peptide-1 (GLP-1)</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_GLP1Receptor"/>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_GlucagonReceptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_Insulin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>Insulin</rdfs:label>
+    <ao:normalizedName>Insulin</ao:normalizedName>
+    <obo:hasDbXref>UniProt:P01308</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/uniprot/P01308</obo:hasDbXref>
+    <ao:mentionedInText>insulin</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>PYYAnalogExample1</rdfs:label>
+    <ao:normalizedName>PYYAnalogExample1</ao:normalizedName>
+    <ao:mentionedInText>SEQ ID NO:9</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <ao:hasDevelopmentCode>SEQ ID NO:9</ao:hasDevelopmentCode>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=PYYAnalogExample1</obo:hasDbXref>
+    <ao:bindsToProtein rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_10</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.55</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType rdf:resource="http://www.bioassayontology.org/bao#BAO_0000188"/>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample5"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/bindsToProtein">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>bindsToProtein</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/upregulates">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>upregulates</rdfs:label>
+    <rdfs:domain rdf:nodeID="N03d6e9992c5942ab9078047ff3c157e6"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Pathway"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_CL_F">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>CL_F</rdfs:label>
+    <ao:normalizedName>CL_F</ao:normalizedName>
+    <ao:mentionedInText>CL/F</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=CL_F</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Pathway_WeightLoss">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Pathway"/>
+    <rdfs:label>WeightLoss</rdfs:label>
+    <ao:normalizedName>WeightLoss</ao:normalizedName>
+    <ao:mentionedInText>weight loss</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=WeightLoss</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_GLP1_GCGDualAgonist">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>GLP1_GCGDualAgonist</rdfs:label>
+    <ao:normalizedName>GLP1_GCGDualAgonist</ao:normalizedName>
+    <ao:mentionedInText>GLP-1/GCG</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=GLP1_GCGDualAgonist</obo:hasDbXref>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_GLP1Receptor"/>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_GlucagonReceptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Target_IncretinReceptors">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+    <rdfs:label>IncretinReceptors</rdfs:label>
+    <ao:normalizedName>IncretinReceptors</ao:normalizedName>
+    <ao:mentionedInText>GIP, GLP-1 and GCG receptors</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=IncretinReceptors</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Organization_EliLillyAndCompany">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Organization"/>
+    <rdfs:label>EliLillyAndCompany</rdfs:label>
+    <ao:normalizedName>EliLillyAndCompany</ao:normalizedName>
+    <ao:mentionedInText>Eli Lilly and Company</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=EliLillyAndCompany</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/AnalyticalMethod_RPHPLC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/AnalyticalMethod"/>
+    <rdfs:label>RPHPLC</rdfs:label>
+    <ao:normalizedName>RPHPLC</ao:normalizedName>
+    <ao:mentionedInText>RP-HPLC</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=RPHPLC</obo:hasDbXref>
+    <ao:measuresAnalyte rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_Purity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_GProteinActivation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>GProteinActivation</rdfs:label>
+    <ao:normalizedName>GProteinActivation</ao:normalizedName>
+    <ao:mentionedInText>G-proteins</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=GProteinActivation</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>PYYAnalogs</rdfs:label>
+    <ao:normalizedName>PYYAnalogs</ao:normalizedName>
+    <ao:mentionedInText>PYY analogs</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=PYYAnalogs</obo:hasDbXref>
+    <ao:hasMember rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogFormulaI"/>
+    <ao:hasMember rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample1"/>
+    <ao:hasMember rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample2"/>
+    <ao:hasMember rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample3"/>
+    <ao:hasMember rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample4"/>
+    <ao:hasMember rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample5"/>
+    <ao:bindsToProtein rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPYReceptor"/>
+    <ao:relatedToPathway rdf:resource="http://ai-ontology.com/assay-ontology/Pathway_WeightLoss"/>
+    <ao:relatedToPathway rdf:resource="http://ai-ontology.com/assay-ontology/Pathway_GlycemicControl"/>
+    <ao:relatedToPathway rdf:resource="http://ai-ontology.com/assay-ontology/Pathway_InsulinSensitivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/usesChallengeAgent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>usesChallengeAgent</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_Oxyntomodulin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>Oxyntomodulin</rdfs:label>
+    <ao:normalizedName>Oxyntomodulin</ao:normalizedName>
+    <ao:mentionedInText>oxyntomodulin (OXM)</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://pubchem.ncbi.nlm.nih.gov/compound/16144019</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_Dulaglutide">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>Dulaglutide</rdfs:label>
+    <ao:normalizedName>Dulaglutide</ao:normalizedName>
+    <obo:hasDbXref>DrugBank:DB09045</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://identifiers.org/DrugBank:DB09045</obo:hasDbXref>
+    <ao:mentionedInText>dulaglutide</ao:mentionedInText>
+    <ao:hasModality>Biologic</ao:hasModality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/interactsWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>interactsWith</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_1</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.011</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType>Ki</ao:hasMetricType>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample1"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Assay_NormalMouseFoodIntakeBodyWeightAssay">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:label>NormalMouseFoodIntakeBodyWeightAssay</rdfs:label>
+    <ao:normalizedName>NormalMouseFoodIntakeBodyWeightAssay</ao:normalizedName>
+    <ao:mentionedInText>in vivo effects on food intake and body weights in normal mice</ao:mentionedInText>
+    <ao:hasAssayDesign>single subcutaneous injection in male C57Bl/6 mice with daily body weight and food intake measurements</ao:hasAssayDesign>
+    <ao:hasDetectionTechnology>None</ao:hasDetectionTechnology>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=NormalMouseFoodIntakeBodyWeightAssay</obo:hasDbXref>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample1"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample2"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample3"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample4"/>
+    <ao:testsCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample5"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_BodyWeight"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_FoodIntake"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/AnalyticalMethod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>AnalyticalMethod</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_HumanPYY">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>HumanPYY</rdfs:label>
+    <ao:normalizedName>HumanPYY</ao:normalizedName>
+    <obo:hasDbXref>UniProt:P10082</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/uniprot/P10082</obo:hasDbXref>
+    <ao:mentionedInText>native, human PYY</ao:mentionedInText>
+    <ao:mentionedInText>PYY1.36 (SEQ ID NO:1)</ao:mentionedInText>
+    <ao:mentionedInText>PYY3.36 (SEQ ID NO:2)</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <ao:hasDevelopmentCode>SEQ ID NO:1</ao:hasDevelopmentCode>
+    <ao:hasDevelopmentCode>SEQ ID NO:2</ao:hasDevelopmentCode>
+    <ao:bindsToProtein rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+    <ao:relatedToPathway rdf:resource="http://ai-ontology.com/assay-ontology/Pathway_Appetite"/>
+    <ao:relatedToPathway rdf:resource="http://ai-ontology.com/assay-ontology/Pathway_GutMotility"/>
+    <ao:relatedToPathway rdf:resource="http://ai-ontology.com/assay-ontology/Pathway_InsulinSensitivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Target_HumanNPY1Receptor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+    <rdfs:label>HumanNPY1Receptor</rdfs:label>
+    <ao:normalizedName>HumanNPY1Receptor</ao:normalizedName>
+    <obo:hasDbXref>UniProt:P25929</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/uniprot/P25929</obo:hasDbXref>
+    <ao:mentionedInText>hNPY1R</ao:mentionedInText>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_GTPgamma35S">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>GTPgamma35S</rdfs:label>
+    <ao:normalizedName>GTPgamma35S</ao:normalizedName>
+    <ao:mentionedInText>GTPy[35S]</ao:mentionedInText>
+    <ao:hasModality>Small Molecule</ao:hasModality>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=GTPgamma35S</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Document_Manual">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Publication"/>
+    <rdfs:label>Document</rdfs:label>
+    <ao:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AU2022231763B2-2.pdf</ao:title>
+    <ao:extractionMethod>deterministic</ao:extractionMethod>
+    <ao:hasProvenance>Patent</ao:hasProvenance>
+    <ao:hasPatentNumber>AU2022231763B2</ao:hasPatentNumber>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Organization_AustralianPatentOffice"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Organization_EliLillyAndCompany"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Organization_SprusonFerguson"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Organization_LillyResearchLaboratories"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Compound_HumanPYY"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PancreaticPolypeptide1_36"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Compound_Incretin"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Compound_GLP1_7_36_Amide"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Compound_GIP_GLP1DualAgonist"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Compound_GLP1_GCGDualAgonist"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Compound_TripleIncretinReceptorAgonist"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Compound_DPP4Inhibitor"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Compound_Insulin"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PalmiticAcid"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Compound_StearicAcid"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Compound_ArachidicAcid"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Target_IncretinReceptors"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Pathway_FoodIntakeModulation"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Pathway_EnergyExpenditure"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Assay_CompetitiveRadioligandBindingSPA"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Assay_HumanNPY2RcAMPAssay"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Assay_HumanNPY2RGTPgammaSAssay"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Assay_CD1MousePharmacokineticAssay"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Assay_SDRatPharmacokineticAssay"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Assay_CynomolgusMonkeyPharmacokineticAssay"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Assay_NormalMouseFoodIntakeBodyWeightAssay"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Assay_DietInducedObeseMouseBodyWeightAssay"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Assay_DbDbMouseBodyWeightGlucoseAssay"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Assay_VisualSolubilityRangeAssessment"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Assay_ThermalStabilityEvaluation"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_HbA1c"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/AnalyticalMethod_LCMS"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/AnalyticalMethod_NMR"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/AnalyticalMethod_LCUV"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/AnalyticalMethod_RPHPLC"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/AnalyticalMethod_AnalyticalRPHPLC"/>
+    <ao:mentionedInDocument rdf:resource="http://ai-ontology.com/assay-ontology/AnalyticalMethod_SEC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_FoodIntake">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>FoodIntake</rdfs:label>
+    <ao:normalizedName>FoodIntake</ao:normalizedName>
+    <ao:mentionedInText>food intake</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=FoodIntake</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/actsAsAgonistFor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>actsAsAgonistFor</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>PYYAnalogExample3</rdfs:label>
+    <ao:normalizedName>PYYAnalogExample3</ao:normalizedName>
+    <ao:mentionedInText>SEQ ID NO:11</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <ao:hasDevelopmentCode>SEQ ID NO:11</ao:hasDevelopmentCode>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=PYYAnalogExample3</obo:hasDbXref>
+    <ao:bindsToProtein rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_BloodGlucose">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>BloodGlucose</rdfs:label>
+    <ao:normalizedName>BloodGlucose</ao:normalizedName>
+    <ao:mentionedInText>blood glucose</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=BloodGlucose</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_AUCinf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>AUCinf</rdfs:label>
+    <ao:normalizedName>AUCinf</ao:normalizedName>
+    <ao:mentionedInText>AUCinf</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=AUCinf</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_Semaglutide">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>Semaglutide</rdfs:label>
+    <ao:normalizedName>Semaglutide</ao:normalizedName>
+    <obo:hasDbXref>DrugBank:DB13928</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://identifiers.org/DrugBank:DB13928</obo:hasDbXref>
+    <ao:mentionedInText>semaglutide</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_Incretin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>Incretin</rdfs:label>
+    <ao:normalizedName>Incretin</ao:normalizedName>
+    <ao:mentionedInText>incretin</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://pubchem.ncbi.nlm.nih.gov/compound/16140499</obo:hasDbXref>
+    <ao:hasMember rdf:resource="http://ai-ontology.com/assay-ontology/Compound_Glucagon"/>
+    <ao:hasMember rdf:resource="http://ai-ontology.com/assay-ontology/Compound_GIP"/>
+    <ao:hasMember rdf:resource="http://ai-ontology.com/assay-ontology/Compound_Oxyntomodulin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_StearicAcid">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>StearicAcid</rdfs:label>
+    <ao:normalizedName>StearicAcid</ao:normalizedName>
+    <obo:hasDbXref>CHEBI:28842</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28842</obo:hasDbXref>
+    <ao:mentionedInText>stearic acid</ao:mentionedInText>
+    <ao:hasModality>Small Molecule</ao:hasModality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/sponsoredBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>sponsoredBy</rdfs:label>
+    <rdfs:domain rdf:nodeID="N1a738f491b7a413d80d0c2b308422e34"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>databaseLink</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_Forskolin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>Forskolin</rdfs:label>
+    <ao:normalizedName>Forskolin</ao:normalizedName>
+    <obo:hasDbXref>CHEBI:5000</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:5000</obo:hasDbXref>
+    <ao:mentionedInText>forskolin</ao:mentionedInText>
+    <ao:hasModality>Small Molecule</ao:hasModality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_EC50">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>EC50</rdfs:label>
+    <ao:normalizedName>EC50</ao:normalizedName>
+    <ao:mentionedInText>EC5o</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=EC50</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/hasDevelopmentCode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>hasDevelopmentCode</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/sameBiologicalEntityAs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>sameBiologicalEntityAs</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Target_GlucagonReceptor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+    <rdfs:label>GlucagonReceptor</rdfs:label>
+    <ao:normalizedName>GlucagonReceptor</ao:normalizedName>
+    <obo:hasDbXref>UniProt:P47871</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/uniprot/P47871</obo:hasDbXref>
+    <ao:mentionedInText>GCG receptor</ao:mentionedInText>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_9</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.06</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType rdf:resource="http://www.bioassayontology.org/bao#BAO_0000188"/>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample4"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/hasProvenance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>hasProvenance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Target_HumanNPY5Receptor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+    <rdfs:label>HumanNPY5Receptor</rdfs:label>
+    <ao:normalizedName>HumanNPY5Receptor</ao:normalizedName>
+    <obo:hasDbXref>UniProt:Q15761</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/uniprot/Q15761</obo:hasDbXref>
+    <ao:mentionedInText>hNPY5R</ao:mentionedInText>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>PYYAnalogExample5</rdfs:label>
+    <ao:normalizedName>PYYAnalogExample5</ao:normalizedName>
+    <ao:mentionedInText>SEQ ID NO:13</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <ao:hasDevelopmentCode>SEQ ID NO:13</ao:hasDevelopmentCode>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=PYYAnalogExample5</obo:hasDbXref>
+    <ao:bindsToProtein rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_11</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.08</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType rdf:resource="http://www.bioassayontology.org/bao#BAO_0000188"/>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample1"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/relatedToPathway">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>relatedToPathway</rdfs:label>
+    <rdfs:domain rdf:nodeID="N07b2132bd3f44b369d025f9995927d6d"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Pathway"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_5</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType>Ki</ao:hasMetricType>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample5"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_Liraglutide">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>Liraglutide</rdfs:label>
+    <ao:normalizedName>Liraglutide</ao:normalizedName>
+    <obo:hasDbXref>DrugBank:DB06655</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://identifiers.org/DrugBank:DB06655</obo:hasDbXref>
+    <ao:mentionedInText>liraglutide</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Organization_LillyResearchLaboratories">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Organization"/>
+    <rdfs:label>LillyResearchLaboratories</rdfs:label>
+    <ao:normalizedName>LillyResearchLaboratories</ao:normalizedName>
+    <ao:mentionedInText>Lilly Research Laboratories</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=LillyResearchLaboratories</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Organization_AustralianPatentOffice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Organization"/>
+    <rdfs:label>AustralianPatentOffice</rdfs:label>
+    <ao:normalizedName>AustralianPatentOffice</ao:normalizedName>
+    <ao:mentionedInText>AUSTRALIAN PATENT OFFICE</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=AustralianPatentOffice</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_14</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType rdf:resource="http://www.bioassayontology.org/bao#BAO_0000188"/>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample4"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/AnalyticalMethod_LCMS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/AnalyticalMethod"/>
+    <rdfs:label>LCMS</rdfs:label>
+    <ao:normalizedName>LCMS</ao:normalizedName>
+    <ao:mentionedInText>LC-MS</ao:mentionedInText>
+    <ao:mentionedInText>LC/MS</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=LCMS</obo:hasDbXref>
+    <ao:measuresAnalyte rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogs"/>
+    <ao:measuresAnalyte rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_Identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_Solubility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>Solubility</rdfs:label>
+    <ao:normalizedName>Solubility</ao:normalizedName>
+    <ao:mentionedInText>solubility</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=Solubility</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_PalmiticAcid">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>PalmiticAcid</rdfs:label>
+    <ao:normalizedName>PalmiticAcid</ao:normalizedName>
+    <obo:hasDbXref>CHEBI:15756</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15756</obo:hasDbXref>
+    <ao:mentionedInText>palmitic acid</ao:mentionedInText>
+    <ao:hasModality>Small Molecule</ao:hasModality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/hasMember">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>hasMember</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_GIP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>GIP</rdfs:label>
+    <ao:normalizedName>GIP</ao:normalizedName>
+    <obo:hasDbXref>UniProt:P09681</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/uniprot/P09681</obo:hasDbXref>
+    <ao:mentionedInText>gastric inhibitory peptide (GIP)</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_GIPReceptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne4bc140608f9490eae34166959987565">
+    <rdf:first rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Pathway_GutMotility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Pathway"/>
+    <rdfs:label>GutMotility</rdfs:label>
+    <ao:normalizedName>GutMotility</ao:normalizedName>
+    <obo:hasDbXref>GO:0014827</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://amigo.geneontology.org/amigo/term/GO:0014827</obo:hasDbXref>
+    <ao:mentionedInText>gut motility</ao:mentionedInText>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Assay_CD1MousePharmacokineticAssay">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:label>CD1MousePharmacokineticAssay</rdfs:label>
+    <ao:normalizedName>CD1MousePharmacokineticAssay</ao:normalizedName>
+    <ao:mentionedInText>Pharmacokinetics of PYY analogs in CD-i mice</ao:mentionedInText>
+    <ao:hasAssayDesign>single subcutaneous dose pharmacokinetic evaluation in male CD-1 mice</ao:hasAssayDesign>
+    <ao:hasDetectionTechnology>LC/MS</ao:hasDetectionTechnology>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=CD1MousePharmacokineticAssay</obo:hasDbXref>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_HalfLife"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_AUCinf"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_Cmax"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_Tmax"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_CL_F"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Assay_VisualSolubilityRangeAssessment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:label>VisualSolubilityRangeAssessment</rdfs:label>
+    <ao:normalizedName>VisualSolubilityRangeAssessment</ao:normalizedName>
+    <ao:mentionedInText>Visual solubility range assessment</ao:mentionedInText>
+    <ao:hasAssayDesign>pH titration of reconstituted PYY analog powders</ao:hasAssayDesign>
+    <ao:hasDetectionTechnology>None</ao:hasDetectionTechnology>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=VisualSolubilityRangeAssessment</obo:hasDbXref>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_Solubility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Target">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Target</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000539"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Publication">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Publication</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_3</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.009</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType>Ki</ao:hasMetricType>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample3"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>PYYAnalogExample2</rdfs:label>
+    <ao:normalizedName>PYYAnalogExample2</ao:normalizedName>
+    <ao:mentionedInText>SEQ ID NO:10</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <ao:hasDevelopmentCode>SEQ ID NO:10</ao:hasDevelopmentCode>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=PYYAnalogExample2</obo:hasDbXref>
+    <ao:bindsToProtein rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Pathway_EnergyExpenditure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Pathway"/>
+    <rdfs:label>EnergyExpenditure</rdfs:label>
+    <ao:normalizedName>EnergyExpenditure</ao:normalizedName>
+    <ao:mentionedInText>energy expenditure</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=EnergyExpenditure</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_Albiglutide">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>Albiglutide</rdfs:label>
+    <ao:normalizedName>Albiglutide</ao:normalizedName>
+    <obo:hasDbXref>DrugBank:DB09043</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://identifiers.org/DrugBank:DB09043</obo:hasDbXref>
+    <ao:mentionedInText>albiglutide</ao:mentionedInText>
+    <ao:hasModality>Biologic</ao:hasModality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/hasDetectionTechnology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>hasDetectionTechnology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Assay_ThermalStabilityEvaluation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:label>ThermalStabilityEvaluation</rdfs:label>
+    <ao:normalizedName>ThermalStabilityEvaluation</ao:normalizedName>
+    <ao:mentionedInText>Thermal stability evaluation</ao:mentionedInText>
+    <ao:hasAssayDesign>incubation of PYY analog solutions at 4°C and 40°C for 4 weeks</ao:hasAssayDesign>
+    <ao:hasDetectionTechnology>SEC and RP-HPLC</ao:hasDetectionTechnology>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=ThermalStabilityEvaluation</obo:hasDbXref>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_ThermalStability"/>
+    <ao:has_assay_endpoint rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_Purity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne4131b45c96b40d88e10a6fc28ee6171">
+    <rdf:first rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Pathway">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Pathway</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Pathway_FoodIntakeModulation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Pathway"/>
+    <rdfs:label>FoodIntakeModulation</rdfs:label>
+    <ao:normalizedName>FoodIntakeModulation</ao:normalizedName>
+    <obo:hasDbXref>GO:0002021</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://amigo.geneontology.org/amigo/term/GO:0002021</obo:hasDbXref>
+    <ao:mentionedInText>modulating food intake</ao:mentionedInText>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5c3f0e595c634128a8896f14c27a92b6">
+    <rdf:first rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_Tmax">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>Tmax</rdfs:label>
+    <ao:normalizedName>Tmax</ao:normalizedName>
+    <ao:mentionedInText>Tmax</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=Tmax</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_HbA1c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>HbA1c</rdfs:label>
+    <ao:normalizedName>HbA1c</ao:normalizedName>
+    <ao:mentionedInText>hemoglobin Alc (HbAlc)</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=HbA1c</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Target_GIPReceptor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+    <rdfs:label>GIPReceptor</rdfs:label>
+    <ao:normalizedName>GIPReceptor</ao:normalizedName>
+    <obo:hasDbXref>UniProt:P48546</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/uniprot/P48546</obo:hasDbXref>
+    <ao:mentionedInText>GIP receptor</ao:mentionedInText>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/hasReadoutMolecule">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>hasReadoutMolecule</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Target_GLP1Receptor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+    <rdfs:label>GLP1Receptor</rdfs:label>
+    <ao:normalizedName>GLP1Receptor</ao:normalizedName>
+    <obo:hasDbXref>UniProt:P43220</obo:hasDbXref>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/uniprot/P43220</obo:hasDbXref>
+    <ao:mentionedInText>GLP-1 receptor</ao:mentionedInText>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbb942c6d1cd547bcb59e1e7ff016f906">
+    <rdf:first rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdf:rest rdf:nodeID="N4db9f43397414226973e5d06f56e13b8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_GIP_GLP1DualAgonist">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>GIP_GLP1DualAgonist</rdfs:label>
+    <ao:normalizedName>GIP_GLP1DualAgonist</ao:normalizedName>
+    <ao:mentionedInText>GIP/GLP-1</ao:mentionedInText>
+    <ao:hasModality>Peptide</ao:hasModality>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=GIP_GLP1DualAgonist</obo:hasDbXref>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_GIPReceptor"/>
+    <ao:actsAsAgonistFor rdf:resource="http://ai-ontology.com/assay-ontology/Target_GLP1Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/hasDevelopmentStage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>hasDevelopmentStage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound_DPP4Inhibitor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:label>DPP4Inhibitor</rdfs:label>
+    <ao:normalizedName>DPP4Inhibitor</ao:normalizedName>
+    <ao:mentionedInText>DPP-IV inhibitor</ao:mentionedInText>
+    <ao:hasModality>Small Molecule</ao:hasModality>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=DPP4Inhibitor</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Organization_SprusonFerguson">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Organization"/>
+    <rdfs:label>SprusonFerguson</rdfs:label>
+    <ao:normalizedName>SprusonFerguson</ao:normalizedName>
+    <ao:mentionedInText>Spruson &amp; Ferguson</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=SprusonFerguson</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/hasValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>hasValue</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/testsCompound">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>testsCompound</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_HalfLife">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>HalfLife</rdfs:label>
+    <ao:normalizedName>HalfLife</ao:normalizedName>
+    <ao:mentionedInText>half-life</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=HalfLife</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_12</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.83</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType rdf:resource="http://www.bioassayontology.org/bao#BAO_0000188"/>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample2"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/mentionedInText">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>mentionedInText</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/AnalyticalMethod_NMR">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/AnalyticalMethod"/>
+    <rdfs:label>NMR</rdfs:label>
+    <ao:normalizedName>NMR</ao:normalizedName>
+    <ao:mentionedInText>NMR</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=NMR</obo:hasDbXref>
+    <ao:measuresAnalyte rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_Identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/mentionedInDocument">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>mentionedInDocument</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Publication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/hasResult">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>hasResult</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/hasSubsidiary">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>hasSubsidiary</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Organization"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/has_assay_endpoint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>has_assay_endpoint</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb248ec5cb97c44669ef8db0659ac0ec0">
+    <rdf:first rdf:resource="http://ai-ontology.com/assay-ontology/Target"/>
+    <rdf:rest rdf:nodeID="Ne4bc140608f9490eae34166959987565"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Pathway_GlycemicControl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Pathway"/>
+    <rdfs:label>GlycemicControl</rdfs:label>
+    <ao:normalizedName>GlycemicControl</ao:normalizedName>
+    <ao:mentionedInText>glycemic control</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=GlycemicControl</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Compound">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Compound</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0000019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Organization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Organization</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_BodyWeight">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>BodyWeight</rdfs:label>
+    <ao:normalizedName>BodyWeight</ao:normalizedName>
+    <ao:mentionedInText>body weight</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=BodyWeight</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/AnalyticalMethod_SEC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/AnalyticalMethod"/>
+    <rdfs:label>SEC</rdfs:label>
+    <ao:normalizedName>SEC</ao:normalizedName>
+    <ao:mentionedInText>size exclusion chromatography (SEC)</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=SEC</obo:hasDbXref>
+    <ao:measuresAnalyte rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_ThermalStability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:label>Assay-Centric Ontology</rdfs:label>
+    <owl:versionInfo>2.0</owl:versionInfo>
+    <owl:imports rdf:resource="http://www.bioassayontology.org/bao/bao_complete.owl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_8</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType rdf:resource="http://www.bioassayontology.org/bao#BAO_0000188"/>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample3"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/developedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>developedBy</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_IntracellularCAMPProduction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>IntracellularCAMPProduction</rdfs:label>
+    <ao:normalizedName>IntracellularCAMPProduction</ao:normalizedName>
+    <ao:mentionedInText>intracellular cAMP production</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=IntracellularCAMPProduction</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Measurement_Cmax">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+    <rdfs:label>Cmax</rdfs:label>
+    <ao:normalizedName>Cmax</ao:normalizedName>
+    <ao:mentionedInText>Cmax</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=Cmax</obo:hasDbXref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/Result_6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/Result"/>
+    <rdfs:label>Result_6</rdfs:label>
+    <ao:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.07</ao:hasValue>
+    <ao:hasUnit>nM</ao:hasUnit>
+    <ao:hasMetricType rdf:resource="http://www.bioassayontology.org/bao#BAO_0000188"/>
+    <ao:forCompound rdf:resource="http://ai-ontology.com/assay-ontology/Compound_PYYAnalogExample1"/>
+    <ao:forTarget rdf:resource="http://ai-ontology.com/assay-ontology/Target_NPY2Receptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/involvesPathway">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>involvesPathway</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Pathway"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/measures">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>measures</rdfs:label>
+    <rdfs:domain rdf:resource="http://ai-ontology.com/assay-ontology/Measurement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/hasMetricType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>hasMetricType</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/AnalyticalMethod_AnalyticalRPHPLC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://ai-ontology.com/assay-ontology/AnalyticalMethod"/>
+    <rdfs:label>AnalyticalRPHPLC</rdfs:label>
+    <ao:normalizedName>AnalyticalRPHPLC</ao:normalizedName>
+    <ao:mentionedInText>analytical RP-HPLC</ao:mentionedInText>
+    <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/search/all/?term=AnalyticalRPHPLC</obo:hasDbXref>
+    <ao:measuresAnalyte rdf:resource="http://ai-ontology.com/assay-ontology/Measurement_Purity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd7761fb2dae04fdf8c4aec4c53d85270">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nbb942c6d1cd547bcb59e1e7ff016f906"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/downregulates">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>downregulates</rdfs:label>
+    <rdfs:domain rdf:nodeID="N079ceead46ee4d1d85761350a16ab01a"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Pathway"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4db9f43397414226973e5d06f56e13b8">
+    <rdf:first rdf:resource="http://ai-ontology.com/assay-ontology/AnalyticalMethod"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/pmid">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>pmid</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/measuresAnalyte">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>measuresAnalyte</rdfs:label>
+    <rdfs:domain rdf:nodeID="Nd7761fb2dae04fdf8c4aec4c53d85270"/>
+    <rdfs:range rdf:resource="http://ai-ontology.com/assay-ontology/Compound"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/hasModality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>hasModality</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/OmicsDataset">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>OmicsDataset</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.bioassayontology.org/bao#BAO_0003114"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1a738f491b7a413d80d0c2b308422e34">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N5acb293adc94487e983b29497332da33"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3f9121179ca947d4af77f5ea848a4505">
+    <rdf:first rdf:resource="http://ai-ontology.com/assay-ontology/Assay"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/hasAssayDesign">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>hasAssayDesign</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/hasUnit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>hasUnit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N07b2132bd3f44b369d025f9995927d6d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N3f5b00200b7049908e8171c91c98c4e9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ai-ontology.com/assay-ontology/title">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>title</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
