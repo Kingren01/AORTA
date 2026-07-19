@@ -98,19 +98,19 @@ def _call_databricks_chat_with_tools(
     payloads = [
         (
             f"{host}/serving-endpoints/chat/completions",
-            {"model": model, "messages": messages, "max_tokens": max_tokens, "temperature": 0.0},
+            {"model": model, "messages": messages, "max_tokens": max_tokens},
         ),
         (
             f"{host}/serving-endpoints/{model}/invocations",
-            {"messages": messages, "max_tokens": max_tokens, "temperature": 0.0},
+            {"messages": messages, "max_tokens": max_tokens},
         ),
         (
             f"{host}/ai-gateway/openai/v1/chat/completions",
-            {"model": model, "messages": messages, "max_tokens": max_tokens, "temperature": 0.0},
+            {"model": model, "messages": messages, "max_tokens": max_tokens},
         ),
         (
             f"{host}/ai-gateway/mlflow/v1/chat/completions",
-            {"model": model, "messages": messages, "max_tokens": max_tokens, "temperature": 0.0},
+            {"model": model, "messages": messages, "max_tokens": max_tokens},
         ),
     ]
 
