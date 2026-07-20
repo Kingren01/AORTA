@@ -116,7 +116,7 @@ PROPERTY_SIGNATURES = {
     "interactsWith":    (None,         None),
     "sameBiologicalEntityAs": (None,   None),
     "has_assay_endpoint":("Assay",     "Measurement"),
-    "measures":         ("Measurement", None),
+    "measures":         (("Assay", "AnalyticalMethod"), "Measurement"),
     "measuresAnalyte":  (("Measurement", "AnalyticalMethod"), "Compound"),
     "usesChallengeAgent": ("Assay",    "Compound"),
     "hasReadoutMolecule": ("Assay",    "Compound"),
@@ -399,7 +399,18 @@ Return valid JSON ONLY — no markdown, no commentary. Schema:
 }
 
 If no entities are found, return: {"document_metadata": {}, "entities": [], "relationships": []}
-NOTE: Only include "result" objects or optional properties like "modality" if relevant information is present in the text. Do NOT hallucinate quantitative values if the text doesn't state one.
+
+CRITICAL — MANDATORY QUANTITATIVE RESULT EXTRACTION:
+Every assay endpoint with a reported number MUST produce a "result" object on the corresponding relationship. Naming the measurement type via has_assay_endpoint (e.g., "this assay measures Ki") is NOT a substitute for the actual reported value. Both must be present together: the Measurement entity describes the endpoint category; the "result" object carries the specific number from the text.
+
+For every relationship whose source is an Assay (or Compound tested by an Assay) and where the source text reports a specific numeric outcome (e.g., Ki = 15 nM, EC50 = 3.2 nM, half-life = 7.1 h, AUC = 1500 ng·h/mL, body weight change = -12%), you MUST include a "result" object with:
+- "value": the numeric value (as a JSON number, NOT a string)
+- "unit": the unit of measurement (e.g., "nM", "h", "mg/kg", "%")
+- "metricType": the metric name as a plain string (e.g., "Ki", "EC50", "AUC", "Half-life", "Cmax"). Use the human-readable label, NOT a BAO term ID.
+
+Self-check before returning: Count the assays/endpoints in the document that report specific numbers. Count the "result" objects in your output. If the document clearly reports pharmacokinetic parameters (half-life, Cmax, Tmax, AUC, clearance), binding affinities (Ki, IC50, EC50, Kd), or in vivo outcomes (body weight, blood glucose, food intake) as numbers, and your output contains ZERO "result" objects, STOP — you have missed the quantitative data. Go back to the source text for each assay and extract the reported values before returning.
+
+Do NOT hallucinate quantitative values if the text doesn't state one. Only include "result" objects when the text explicitly reports a number. Do NOT include optional properties like "modality" unless relevant information is present in the text.
 
 Extract ONLY entities mentioned in the <document> block below.
 
@@ -708,6 +719,17 @@ def extract_entities(
             )
             result = _parse_extraction_response(raw)
             if result.get("entities"):
+                # Post-extraction validation: check for missing quantitative results
+                rels = result.get("relationships", [])
+                endpoint_count = sum(1 for r in rels if r.get("predicate") == "has_assay_endpoint")
+                result_count = sum(1 for r in rels if isinstance(r.get("result"), dict) and r["result"].get("value") is not None)
+                if endpoint_count > 0 and result_count == 0:
+                    result["_validation_warning"] = (
+                        f"⚠️ Potential missing results: {endpoint_count} assay endpoint(s) "
+                        f"found but 0 quantitative Result objects extracted. "
+                        f"The source document may contain numeric data that was not captured. "
+                        f"Consider re-running extraction or reviewing the source text."
+                    )
                 return result, None
             # Got valid JSON but no entities — might be a weak response, retry
             last_error = "LLM returned valid JSON but extracted 0 entities."
@@ -1060,17 +1082,16 @@ def build_ontology(
                     g.add((res_uri, RDF.type, OWL.NamedIndividual))
                     g.add((res_uri, RDF.type, CLASS_URIS["Result"]))
                     g.add((res_uri, DP_LABEL, Literal(res_slug)))
-                    g.add((res_uri, DP_HAS_VALUE, Literal(res["value"])))
+                    try:
+                        typed_val = Literal(float(res["value"]), datatype=XSD.double)
+                    except (ValueError, TypeError):
+                        typed_val = Literal(res["value"], datatype=XSD.decimal)
+                    g.add((res_uri, DP_HAS_VALUE, typed_val))
                     if res.get("unit"):
-                        g.add((res_uri, DP_HAS_UNIT, Literal(res["unit"])))
+                        g.add((res_uri, DP_HAS_UNIT, Literal(res["unit"], datatype=XSD.string)))
                     if res.get("metricType"):
-                        metric_val = res["metricType"]
-                        if metric_val.upper() == "EC50":
-                            g.add((res_uri, DP_HAS_METRIC_TYPE, BAO["BAO_0000188"]))
-                        elif metric_val.upper() == "IC50":
-                            g.add((res_uri, DP_HAS_METRIC_TYPE, BAO["BAO_0000190"]))
-                        else:
-                            g.add((res_uri, DP_HAS_METRIC_TYPE, Literal(metric_val)))
+                        # hasMetricType is owl:DatatypeProperty — always emit string literal, never a BAO URI
+                        g.add((res_uri, DP_HAS_METRIC_TYPE, Literal(res["metricType"], datatype=XSD.string)))
                         
                     # Ensure hasResult is only attached to Assays
                     if (src_uri, RDF.type, CLASS_URIS["Assay"]) in g:
@@ -1993,6 +2014,10 @@ def main() -> None:
             )
             if err:
                 st.error(err)
+
+            # Surface post-extraction validation warning (zero results despite endpoints)
+            if extraction_data.get("_validation_warning"):
+                st.warning(extraction_data["_validation_warning"])
 
             progress_bar.progress(60, text="Normalizing and deduplicating entities...")
             # Deduplicate similar entities
