@@ -1673,7 +1673,7 @@ def inject_custom_css():
             box-shadow: none !important;
             font-weight: 500 !important;
             height: 36px !important;
-            padding: 0 16px !important;
+            padding: 0 8px !important;
         }
         .stButton button:hover {
             border-color: #94A3B8 !important;
@@ -1817,7 +1817,7 @@ def main() -> None:
     inject_custom_css()
 
     st.title("AORTA")
-    st.markdown("#### Assay Ontology & Retrieval Translation Architect")
+    st.markdown("#### Assay Ontology & Retrieval Translation App")
 
     # ── Load BAO reference (cached) ──
     bao_labels = load_bao_labels()
@@ -1993,7 +1993,7 @@ def main() -> None:
             st.image("logo.png", use_container_width=True)
 
         # ── New Chat button ──
-        if st.button("➕  New Chat", use_container_width=True, key="new_chat_btn"):
+        if st.button("New Chat", use_container_width=True, key="new_chat_btn"):
             new_id = chat_storage.create_conversation("New Conversation")
             st.session_state.conversation_id = new_id
             st.session_state.chat_messages = []
@@ -2069,19 +2069,19 @@ def main() -> None:
                             )
 
                             # Action buttons row
-                            act_col1, act_col2, act_col3 = st.columns([1, 1, 4])
+                            act_col1, act_col2 = st.columns([1, 1])
                             with act_col1:
-                                if st.button("✏️", key=f"rename_btn_{conv_id}", help="Rename"):
+                                if st.button("Rename", key=f"rename_btn_{conv_id}", help="Rename", use_container_width=True):
                                     st.session_state.renaming_chat = True
                                     st.session_state.confirm_delete = False
                                     st.rerun()
                             with act_col2:
                                 if not st.session_state.confirm_delete:
-                                    if st.button("🗑️", key=f"del_btn_{conv_id}", help="Delete"):
+                                    if st.button("Delete", key=f"del_btn_{conv_id}", help="Delete", use_container_width=True):
                                         st.session_state.confirm_delete = True
                                         st.rerun()
                                 else:
-                                    if st.button("⚠️", key=f"del_confirm_{conv_id}", help="Click again to confirm deletion"):
+                                    if st.button("Confirm", key=f"del_confirm_{conv_id}", help="Click again to confirm deletion", use_container_width=True):
                                         chat_storage.delete_conversation(conv_id)
                                         st.session_state.confirm_delete = False
                                         # Select next available conversation or clear
@@ -2091,9 +2091,6 @@ def main() -> None:
                                         else:
                                             _clear_session_state()
                                         st.rerun()
-                            with act_col3:
-                                if st.session_state.confirm_delete:
-                                    st.caption("Click ⚠️ to confirm")
 
                     else:
                         # ── Inactive chat: clickable button ──
