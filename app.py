@@ -24,6 +24,7 @@ import textwrap
 import mimetypes
 from pathlib import Path
 from typing import Any
+from datetime import datetime
 
 # Register custom MIME types to fix Streamlit UUID download bug for unknown extensions
 mimetypes.add_type("application/rdf+xml", ".owl")
@@ -1697,6 +1698,65 @@ def inject_custom_css():
             border-right: 1px solid #E2E8F0;
         }
         
+        /* ── Chat history list ── */
+        .chat-list-item {
+            padding: 10px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            border: 1px solid transparent;
+            margin-bottom: 4px;
+        }
+        .chat-list-item:hover {
+            background-color: #F1F5F9;
+            border-color: #E2E8F0;
+        }
+        .chat-list-item.active {
+            background-color: #EFF6FF;
+            border-color: #BFDBFE;
+        }
+        .chat-title {
+            font-size: 13px;
+            font-weight: 500;
+            color: #1E293B;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 200px;
+            margin: 0;
+            line-height: 1.3;
+        }
+        .chat-meta {
+            font-size: 11px;
+            color: #94A3B8;
+            margin: 2px 0 0 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .chat-badge {
+            background: #E2E8F0;
+            color: #64748B;
+            font-size: 10px;
+            padding: 1px 6px;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+        .chat-group-label {
+            font-size: 11px;
+            font-weight: 600;
+            color: #94A3B8;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 8px 4px 4px;
+            margin-top: 4px;
+        }
+        .chat-search-box input {
+            font-size: 13px !important;
+            padding: 6px 10px !important;
+            border-radius: 8px !important;
+        }
+        
         /* Expander */
         .streamlit-expanderHeader {
             border-radius: 6px !important;
@@ -1785,20 +1845,157 @@ def main() -> None:
         st.session_state.chat_messages = []
     if "chat_tool_traces" not in st.session_state:
         st.session_state.chat_tool_traces = []
+    if "renaming_chat" not in st.session_state:
+        st.session_state.renaming_chat = False
+    if "confirm_delete" not in st.session_state:
+        st.session_state.confirm_delete = False
+
+    # ── Session init: resume most recent conversation, never auto-create ──
     if "conversation_id" not in st.session_state:
-        st.session_state.conversation_id = chat_storage.create_conversation("New Conversation")
+        existing = chat_storage.list_conversations()
+        if existing:
+            most_recent = existing[0]  # already sorted by updated_at DESC
+            st.session_state.conversation_id = most_recent["id"]
+            # Load its state
+            msgs = chat_storage.get_conversation_messages(most_recent["id"])
+            st.session_state.chat_messages = [
+                {"role": m["role"], "content": m["content"], "sources_enabled": m.get("sources_enabled", [])}
+                for m in msgs
+            ]
+            st.session_state.chat_tool_traces = [m["tool_traces"] for m in msgs if m["role"] == "assistant"]
+            run_state = chat_storage.get_conversation_state(most_recent["id"])
+            if run_state and run_state.get("doc"):
+                st.session_state.doc = run_state.get("doc")
+                st.session_state.entities = run_state.get("entities", [])
+                st.session_state.graph_json = run_state.get("graph_json")
+                graph_xml = run_state.get("graph_xml")
+                if graph_xml:
+                    g = Graph()
+                    g.parse(data=graph_xml, format="xml")
+                    st.session_state.graph = g
+                else:
+                    st.session_state.graph = None
+                vector_chunks = run_state.get("vector_chunks")
+                vector_db.set_chunks(vector_chunks if vector_chunks else [])
+            else:
+                st.session_state.doc = None
+                st.session_state.entities = []
+                st.session_state.graph_json = None
+                st.session_state.graph = None
+                vector_db.set_chunks([])
+        else:
+            # No conversations exist — start with no active conversation
+            st.session_state.conversation_id = None
+
+    # ── Helper: load a conversation into session state ──
+    def _load_conversation(conv_id: str) -> None:
+        """Load a conversation's messages and run state into session state."""
+        st.session_state.conversation_id = conv_id
+        msgs = chat_storage.get_conversation_messages(conv_id)
+        st.session_state.chat_messages = [
+            {"role": m["role"], "content": m["content"], "sources_enabled": m.get("sources_enabled", [])}
+            for m in msgs
+        ]
+        st.session_state.chat_tool_traces = [m["tool_traces"] for m in msgs if m["role"] == "assistant"]
+        run_state = chat_storage.get_conversation_state(conv_id)
+        if run_state and run_state.get("doc"):
+            st.session_state.doc = run_state.get("doc")
+            st.session_state.entities = run_state.get("entities", [])
+            st.session_state.graph_json = run_state.get("graph_json")
+            graph_xml = run_state.get("graph_xml")
+            if graph_xml:
+                g = Graph()
+                g.parse(data=graph_xml, format="xml")
+                st.session_state.graph = g
+            else:
+                st.session_state.graph = None
+            vector_chunks = run_state.get("vector_chunks")
+            vector_db.set_chunks(vector_chunks if vector_chunks else [])
+        else:
+            st.session_state.doc = None
+            st.session_state.entities = []
+            st.session_state.graph_json = None
+            st.session_state.graph = None
+            vector_db.set_chunks([])
+        st.session_state.renaming_chat = False
+        st.session_state.confirm_delete = False
+
+    def _clear_session_state() -> None:
+        """Reset session state to empty (no active conversation)."""
+        st.session_state.conversation_id = None
+        st.session_state.chat_messages = []
+        st.session_state.chat_tool_traces = []
+        st.session_state.doc = None
+        st.session_state.entities = []
+        st.session_state.graph_json = None
+        st.session_state.graph = None
+        vector_db.set_chunks([])
+        st.session_state.renaming_chat = False
+        st.session_state.confirm_delete = False
+
+    def _relative_time(timestamp_str: str) -> str:
+        """Convert a timestamp string to a human-readable relative time."""
+        try:
+            if not timestamp_str:
+                return ""
+            # Handle both ISO format and SQLite default format
+            ts_clean = timestamp_str.replace("T", " ").split(".")[0]
+            ts = datetime.strptime(ts_clean, "%Y-%m-%d %H:%M:%S")
+            now = datetime.utcnow()
+            delta = now - ts
+            seconds = int(delta.total_seconds())
+            if seconds < 60:
+                return "Just now"
+            elif seconds < 3600:
+                mins = seconds // 60
+                return f"{mins}m ago"
+            elif seconds < 86400:
+                hours = seconds // 3600
+                return f"{hours}h ago"
+            elif seconds < 172800:
+                return "Yesterday"
+            elif seconds < 604800:
+                days = seconds // 86400
+                return f"{days}d ago"
+            else:
+                return ts.strftime("%b %d")
+        except Exception:
+            return timestamp_str[:10] if timestamp_str else ""
+
+    def _group_conversations(convos: list[dict]) -> dict[str, list[dict]]:
+        """Group conversations by time period."""
+        groups: dict[str, list[dict]] = {}
+        now = datetime.utcnow()
+        for c in convos:
+            try:
+                ts_str = (c.get("updated_at") or c.get("created_at") or "").replace("T", " ").split(".")[0]
+                ts = datetime.strptime(ts_str, "%Y-%m-%d %H:%M:%S")
+                delta = now - ts
+                days = delta.days
+                if days == 0:
+                    group = "Today"
+                elif days == 1:
+                    group = "Yesterday"
+                elif days < 7:
+                    group = "Previous 7 Days"
+                elif days < 30:
+                    group = "This Month"
+                else:
+                    group = "Older"
+            except Exception:
+                group = "Older"
+            groups.setdefault(group, []).append(c)
+        return groups
 
     # ── Sidebar ──
     with st.sidebar:
         if os.path.exists("logo.png"):
             st.image("logo.png", use_container_width=True)
-            
-        st.header("Chat History")
-        conversations = chat_storage.list_conversations()
-        
-        # New chat button
-        if st.button("➕ New Chat", use_container_width=True):
-            st.session_state.conversation_id = chat_storage.create_conversation("New Conversation")
+
+        # ── New Chat button ──
+        if st.button("➕  New Chat", use_container_width=True, key="new_chat_btn"):
+            new_id = chat_storage.create_conversation("New Conversation")
+            st.session_state.conversation_id = new_id
             st.session_state.chat_messages = []
             st.session_state.chat_tool_traces = []
             st.session_state.doc = None
@@ -1806,78 +2003,117 @@ def main() -> None:
             st.session_state.graph_json = None
             st.session_state.graph = None
             vector_db.set_chunks([])
+            st.session_state.renaming_chat = False
+            st.session_state.confirm_delete = False
             st.rerun()
-            
-        # Select conversation
-        if conversations:
-            conv_options = {c["id"]: f"{c['title']} ({c['created_at'][:10]})" for c in conversations}
-            selected_conv = st.selectbox(
-                "Recent conversations",
-                options=list(conv_options.keys()),
-                format_func=lambda x: conv_options[x],
-                index=list(conv_options.keys()).index(st.session_state.conversation_id) 
-                      if st.session_state.conversation_id in conv_options else 0,
-                label_visibility="collapsed"
-            )
-            
-            if selected_conv != st.session_state.conversation_id:
-                st.session_state.conversation_id = selected_conv
-                # Load history for selected
-                msgs = chat_storage.get_conversation_messages(selected_conv)
-                st.session_state.chat_messages = [{"role": m["role"], "content": m["content"], "sources_enabled": m.get("sources_enabled", [])} for m in msgs]
-                # Reconstruct trace parallel array
-                st.session_state.chat_tool_traces = [m["tool_traces"] for m in msgs if m["role"] == "assistant"]
-                
-                # Load run state
-                run_state = chat_storage.get_conversation_state(selected_conv)
-                if run_state and run_state.get("doc"):
-                    st.session_state.doc = run_state.get("doc")
-                    st.session_state.entities = run_state.get("entities", [])
-                    st.session_state.graph_json = run_state.get("graph_json")
-                    
-                    graph_xml = run_state.get("graph_xml")
-                    if graph_xml:
-                        g = Graph()
-                        g.parse(data=graph_xml, format="xml")
-                        st.session_state.graph = g
-                    else:
-                        st.session_state.graph = None
-                        
-                    vector_chunks = run_state.get("vector_chunks")
-                    if vector_chunks:
-                        vector_db.set_chunks(vector_chunks)
-                    else:
-                        vector_db.set_chunks([])
-                else:
-                    st.session_state.doc = None
-                    st.session_state.entities = []
-                    st.session_state.graph_json = None
-                    st.session_state.graph = None
-                    vector_db.set_chunks([])
-                    
-                st.rerun()
 
-            with st.expander("Manage chat"):
-                current_title = next((c["title"] for c in conversations if c["id"] == st.session_state.conversation_id), "New Conversation")
-                new_title = st.text_input("New title", value=current_title, key="rename_chat_input", label_visibility="collapsed")
-                if st.button("Save Name", use_container_width=True, key="rename_chat_btn"):
-                    if new_title.strip() and new_title != current_title:
-                        chat_storage.update_conversation_title(st.session_state.conversation_id, new_title.strip())
-                        st.rerun()
-                        
-                st.markdown("---")
-                if st.button("Delete Chat", type="primary", use_container_width=True, key="delete_chat_btn"):
-                    chat_storage.delete_conversation(st.session_state.conversation_id)
-                    st.session_state.conversation_id = str(uuid.uuid4())
-                    st.session_state.chat_messages = []
-                    st.session_state.chat_tool_traces = []
-                    st.session_state.doc = None
-                    st.session_state.entities = []
-                    st.session_state.graph_json = None
-                    st.session_state.graph = None
-                    vector_db.set_chunks([])
-                    st.rerun()
-                        
+        # ── Search bar ──
+        search_query = st.text_input(
+            "Search chats", placeholder="Search conversations…",
+            key="chat_search", label_visibility="collapsed"
+        )
+
+        # ── Chat list ──
+        if search_query and search_query.strip():
+            conversations = chat_storage.search_conversations(search_query.strip())
+        else:
+            conversations = chat_storage.list_conversations()
+
+        if conversations:
+            grouped = _group_conversations(conversations)
+            group_order = ["Today", "Yesterday", "Previous 7 Days", "This Month", "Older"]
+
+            for group_name in group_order:
+                group_convos = grouped.get(group_name, [])
+                if not group_convos:
+                    continue
+
+                st.markdown(f'<div class="chat-group-label">{group_name}</div>', unsafe_allow_html=True)
+
+                for conv in group_convos:
+                    conv_id = conv["id"]
+                    is_active = conv_id == st.session_state.conversation_id
+                    title = conv.get("title", "New Conversation")
+                    msg_count = conv.get("message_count", 0)
+                    updated = conv.get("updated_at") or conv.get("created_at", "")
+                    rel_time = _relative_time(updated)
+
+                    # Active chat: show inline management controls
+                    if is_active:
+                        # ── Rename mode ──
+                        if st.session_state.renaming_chat:
+                            rename_col1, rename_col2 = st.columns([5, 1])
+                            with rename_col1:
+                                new_title = st.text_input(
+                                    "Rename", value=title,
+                                    key=f"rename_input_{conv_id}",
+                                    label_visibility="collapsed",
+                                    placeholder="Enter new name…"
+                                )
+                            with rename_col2:
+                                if st.button("✓", key=f"rename_save_{conv_id}", help="Save"):
+                                    if new_title.strip() and new_title.strip() != title:
+                                        chat_storage.update_conversation_title(conv_id, new_title.strip())
+                                    st.session_state.renaming_chat = False
+                                    st.rerun()
+                        else:
+                            # ── Active chat display with action icons ──
+                            active_class = "active" if is_active else ""
+                            badge_html = f'<span class="chat-badge">{msg_count}</span>' if msg_count > 0 else ""
+                            st.markdown(
+                                f'<div class="chat-list-item {active_class}">'
+                                f'<p class="chat-title">{title}</p>'
+                                f'<p class="chat-meta">{rel_time} {badge_html}</p>'
+                                f'</div>',
+                                unsafe_allow_html=True
+                            )
+
+                            # Action buttons row
+                            act_col1, act_col2, act_col3 = st.columns([1, 1, 4])
+                            with act_col1:
+                                if st.button("✏️", key=f"rename_btn_{conv_id}", help="Rename"):
+                                    st.session_state.renaming_chat = True
+                                    st.session_state.confirm_delete = False
+                                    st.rerun()
+                            with act_col2:
+                                if not st.session_state.confirm_delete:
+                                    if st.button("🗑️", key=f"del_btn_{conv_id}", help="Delete"):
+                                        st.session_state.confirm_delete = True
+                                        st.rerun()
+                                else:
+                                    if st.button("⚠️", key=f"del_confirm_{conv_id}", help="Click again to confirm deletion"):
+                                        chat_storage.delete_conversation(conv_id)
+                                        st.session_state.confirm_delete = False
+                                        # Select next available conversation or clear
+                                        remaining = chat_storage.list_conversations()
+                                        if remaining:
+                                            _load_conversation(remaining[0]["id"])
+                                        else:
+                                            _clear_session_state()
+                                        st.rerun()
+                            with act_col3:
+                                if st.session_state.confirm_delete:
+                                    st.caption("Click ⚠️ to confirm")
+
+                    else:
+                        # ── Inactive chat: clickable button ──
+                        badge_html = f'<span class="chat-badge">{msg_count}</span>' if msg_count > 0 else ""
+                        st.markdown(
+                            f'<div class="chat-list-item">'
+                            f'<p class="chat-title">{title}</p>'
+                            f'<p class="chat-meta">{rel_time} {badge_html}</p>'
+                            f'</div>',
+                            unsafe_allow_html=True
+                        )
+                        if st.button("Open", key=f"open_{conv_id}", use_container_width=True):
+                            _load_conversation(conv_id)
+                            st.rerun()
+
+        elif search_query:
+            st.caption("No conversations match your search.")
+        else:
+            st.caption("No conversations yet. Click **➕ New Chat** to start.")
+
         st.divider()
         st.header("Input")
 
@@ -2061,18 +2297,47 @@ def main() -> None:
             
             progress_bar.progress(95, text="Saving session state...")
             # Save session run state
-            if hasattr(st.session_state, "conversation_id"):
-                owl_xml_str = g.serialize(format="xml")
-                if isinstance(owl_xml_str, bytes):
-                    owl_xml_str = owl_xml_str.decode("utf-8")
-                chat_storage.update_conversation_run_data(
-                    st.session_state.conversation_id,
-                    doc=st.session_state.doc,
-                    entities=st.session_state.entities,
-                    graph_json=st.session_state.graph_json,
-                    graph_xml=owl_xml_str,
-                    vector_chunks=vector_db.chunks
-                )
+            conv_id = st.session_state.get("conversation_id")
+            # If no active conversation, create one now for the ingested document
+            if not conv_id:
+                conv_id = chat_storage.create_conversation("New Conversation")
+                st.session_state.conversation_id = conv_id
+
+            owl_xml_str = g.serialize(format="xml")
+            if isinstance(owl_xml_str, bytes):
+                owl_xml_str = owl_xml_str.decode("utf-8")
+            chat_storage.update_conversation_run_data(
+                conv_id,
+                doc=st.session_state.doc,
+                entities=st.session_state.entities,
+                graph_json=st.session_state.graph_json,
+                graph_xml=owl_xml_str,
+                vector_chunks=vector_db.chunks
+            )
+
+            # Smart auto-naming: update title from document if still default
+            try:
+                convos = chat_storage.list_conversations()
+                current = next((c for c in convos if c["id"] == conv_id), None)
+                if current and current.get("title") == "New Conversation":
+                    doc_title = doc.get("title", "")
+                    pmid = doc.get("pmid")
+                    if pmid and doc_title:
+                        smart_title = f"PMID {pmid} — {doc_title[:60]}"
+                    elif pmid:
+                        smart_title = f"PMID {pmid}"
+                    elif doc_title and doc_title != "Pasted document":
+                        # Truncate at word boundary
+                        if len(doc_title) > 60:
+                            smart_title = doc_title[:60].rsplit(" ", 1)[0] + "…"
+                        else:
+                            smart_title = doc_title
+                    else:
+                        smart_title = None
+                    if smart_title:
+                        chat_storage.update_conversation_title(conv_id, smart_title)
+            except Exception:
+                pass  # Non-critical, don't block processing
                 
             progress_bar.progress(100, text="Processing complete!")
             time.sleep(0.5)
@@ -2298,6 +2563,9 @@ def main() -> None:
             st.warning("Please enable at least one source to ask a question.")
             st.chat_input("Select a source above...", disabled=True)
         elif user_input := st.chat_input("Ask a question…", key="chatbot_input"):
+            # Auto-create conversation if none is active
+            if not st.session_state.get("conversation_id"):
+                st.session_state.conversation_id = chat_storage.create_conversation("New Conversation")
             # Persist and append user message
             chat_storage.add_message(
                 st.session_state.conversation_id, "user", user_input, None, enabled_sources
